@@ -1,4 +1,4 @@
-Welcome to Enscale Docs GitHub Repo!
+## Welcome to Enscale Docs GitHub Repo!
 
 First of all, thank you for your interest in contributing to our documentation. We appreciate your help in making Enscale not only a better hosting platform but a well-documented one as well.
 
