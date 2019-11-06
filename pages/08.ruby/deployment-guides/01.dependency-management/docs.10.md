@@ -21,7 +21,7 @@ In the Gemfile, you will need to specify a Rubygem repository as a source.
 source "https://rubygems.org"
 ```
 
-If you use a Rubygem repository, which requires credentials, you can include the username and password in your source command:
+If you use a Rubygem repository which requires credentials, you can include the username and password in your source command:
 ```ruby
 source "https://username:password@gems.example.com"
 ```
