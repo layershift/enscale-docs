@@ -1,9 +1,16 @@
 ---
 title: 'Introduction to Enscale'
 media_order: enscale.png
+published: true
 taxonomy:
     category:
         - docs
+external_links:
+    process: true
+    title: true
+    no_follow: true
+    target: _blank
+    mode: active
 visible: true
 ---
 
