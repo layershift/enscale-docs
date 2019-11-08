@@ -161,7 +161,7 @@ You can now find your private key, called _id_rsa_ together with the public one,
 
 !!! If you saved the key in a non-default location, or are working with multiple keys, you can add it to your keychain using the ssh-add command, as simply `ssh-add <path-to-private-key>`, e.g.: `ssh-add "/Users/yourusername/Desktop/SSH Keys/id_rsa"`
 
-The public key is the one you will need to upload to the Enscale dashboard, in order to authenticate your SSH connections. Take a look at the Access your environment via SSH article for more information about how to use your newly generated keys. 
+The public key is the one you will need to upload to the Enscale dashboard, in order to authenticate your SSH connections. Take a look at the [Access your environment via SSH](/../environments/access/access-via-ssh#add-your-ssh-key) article for more information about how to use your newly generated keys. 
 
  
 !! The private key should be kept PRIVATE so please don’t share this with anyone!
