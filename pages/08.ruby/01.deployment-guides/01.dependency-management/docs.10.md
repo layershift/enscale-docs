@@ -8,7 +8,7 @@ visible: true
 
 ### BUNDLER GEMFILE DEPENDENCY MANAGEMENT
 
-Enscale's Ruby runtime nodes come pre-loaded with the most common Ruby gems for the [supported Ruby versions](/overview/servers-and-technologies#ruby) to give you the fastest and easiest deployment experience.
+Enscale's Ruby runtime nodes come pre-loaded with the most common Ruby gems for the [supported Ruby versions](/servers-and-technologies#ruby) to give you the fastest and easiest deployment experience.
 
 Each application is unique, so you're likely to need something we didn't include too. We use the Bundler dependency management tool to handle this for you. Simply include a Gemfile within your deploy files, and Enscale will pass it to Bundler to resolve the missing gems for you.
 
