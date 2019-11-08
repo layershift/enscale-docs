@@ -20,7 +20,7 @@ Enter your environment.
 ![](EnterWPEnv.png)
 
 ##### Step 2
-Got to the Configuration tab of the node to which variables should be added.
+Got to the **Configure** tab of the node to which variables should be added.
 ![](Select-config-tab.png)
 
 !!! Variables are saved to all nodes in the same layer so don't worry if you have multiple nodes of the same type in your environment.
@@ -50,6 +50,7 @@ The variables you newly add will appear on the top of the list temporarily. Once
 Every node you have will have a set of variables pre-defined, however, these are informational only While you may edit these variables to keep the information up to date, the changes you make to these informational variables will not actually change configuration. For example changing MASTER_IP variable will not change the actual IP address of your node. Each node type has a different set of pre-defined variables (mostly informational). To check the list of variables and their function, you can refer to the articles linked below.
 
 [Ruby Apache](/ruby/ruby-environment-variables#ruby-apache-environment-variables)
+
 [Ruby Nginx](/ruby/ruby-environment-variables#ruby-nginx-environment-variables)
 
 
