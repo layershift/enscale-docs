@@ -69,7 +69,7 @@ Select the **GIT tab** from the drop-down menu to provide us with a link to your
 
 ​
 
-**Zero downtime**: this option is available for PHP deployments to ROOT folder. Details are [here](/php/deployments%20guide/zero-downtime-deployment).
+**Zero downtime**: this option is available for PHP deployments to ROOT folder. Details are [here](/php/deployment%20guides/zero-downtime-deployment).
 
 ##### Step 6
 
