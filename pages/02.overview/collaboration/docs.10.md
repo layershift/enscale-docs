@@ -62,7 +62,7 @@ To fully understand what your collaborators will be able to do on your account /
 
 
 ![img alt=float-left](info1.png) 
-​
+
 
 ​
 
