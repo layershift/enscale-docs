@@ -65,13 +65,13 @@ Alternatively from the **Remote URL** tab you just need to enter the link to the
 The following archive types are supported: _.tar_, ._tar.gz_, _.zip_ and _.bzip2_
 ![](PHParchive.png)
 
-!!! The default upload limit is 150MB. If your project archive is larger, please see the section [below](/php/deployments%20guide/zip-or-tar-archive#deploying-a-php-application-from-zip-or-tar-archive-larger-than).
+!!! The default upload limit is 150MB. If your project archive is larger, please see the section [below](/php/deployment%20guides/zip-or-tar-archive#deploying-a-php-application-from-zip-or-tar-archive-larger-than).
 
 ##### Step 7
 
 Enter a description for your file - this comment will be attached to your project and will help you identify it in case you want to deploy the same project to several environments.
 
-**Zero downtime** option is also available for PHP deployments to ROOT folder, toggle on to activate it. Details are [here](/php/deployments%20guide/zero-downtime-deployment).
+**Zero downtime** option is also available for PHP deployments to ROOT folder, toggle on to activate it. Details are [here](/php/deployment%20guides/zero-downtime-deployment).
 
 ##### Step 8
 
