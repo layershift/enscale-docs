@@ -1,9 +1,9 @@
 ---
-title: 'Deployments guide'
-redirect: '/php/deployments%20guide/git'
+title: 'Deployment guides'
 taxonomy:
     category:
         - docs
+redirect: /php/deployment%20guides/git
 visible: true
 ---
 
