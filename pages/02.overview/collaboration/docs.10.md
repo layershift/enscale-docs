@@ -1,4 +1,5 @@
 ---
+title: Collaboration
 media_order: 'invitecollab.JPG,changeaccpermission.png,shareenvs-1.png,shareenvs-2.JPG,envcollabwithinenv.JPG,collabview.png,yes.png,no.png,info1.png'
 taxonomy:
     category:
