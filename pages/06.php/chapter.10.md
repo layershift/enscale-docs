@@ -1,8 +1,8 @@
 ---
 title: PHP
-redirect: /php/deployments%20guide/git
 taxonomy:
     category: docs
+redirect: /php/deployment%20guides/git
 ---
 
 ### Chapter Number
