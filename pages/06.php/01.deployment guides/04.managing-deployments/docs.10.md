@@ -14,9 +14,9 @@ To access your Deployment Manager enter your environment and click **Deploy**.
 ![](Deploy-button.JPG)
 
 Once here, open the dropdown menu to see the available actions for each deployment type.
-* [Git deployments](/php/deployments%20guide/managing-deployments#manage-git-deployments)
-* [SVN deployments](/php/deployments%20guide/managing-deployments#manage-svn-deployments)
-* [Archive deployments](/php/deployments%20guide/managing-deployments#manage-archive-deployments)
+* [Git deployments](/php/deployment%20guides/managing-deployments#manage-git-deployments)
+* [SVN deployments](/php/deployment%20guides/managing-deployments#manage-svn-deployments)
+* [Archive deployments](/php/deployment%20guides/managing-deployments#manage-archive-deployments)
 
 ### Manage Git deployments
 ![](Git-deploy-dropdown.JPG)
