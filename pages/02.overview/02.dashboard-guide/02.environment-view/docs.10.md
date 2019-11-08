@@ -37,7 +37,7 @@ The following articles describe the deployment options applicable for each suppo
 
 [Node.js deployment guides](/nodejs/deployment-guides?)
 
-[PHP deployment guides](/php/deployments-guide?)
+[PHP deployment guides](/php/deployment%20guides?)
 
 [Python deployment guides](/python/deployment-guides?) 
 
