@@ -37,7 +37,7 @@ The following articles describe the deployment options applicable for each suppo
 
 [Node.js deployment guides](/nodejs/deployment-guides?)
 
-[PHP deployment guides](/php/deployment-guides?)
+[PHP deployment guides](/php/deployments-guide?)
 
 [Python deployment guides](/python/deployment-guides?) 
 
@@ -98,7 +98,7 @@ FTP is activated / deactivated for all nodes of the same type in your environmen
 ! FTP connection requires a public IP on the node.
 
 ##### Scaling tab
-Here you can set the resource limits used to scale your application [vertically](/environments/features/vertical-scaling). Below that you can configure automatic [horizontal scaling](//environments/features/horizontal-scaling) triggers to add and remove nodes when resource usage reaches certain thresholds.
+Here you can set the resource limits used to scale your application [vertically](/environments/features/vertical-scaling). Below that you can configure automatic [horizontal scaling](/environments/features/horizontal-scaling) triggers to add and remove nodes when resource usage reaches certain thresholds.
 ![](scaling.jpg)
 
 ##### Configure tab
