@@ -1,9 +1,9 @@
 ---
 title: 'Deployment guides'
-redirect: '/ruby/deployment-guides/dependency-management'
 taxonomy:
     category:
         - docs
+redirect: /ruby/deployment-guides/dependency-management
 visible: true
 ---
 
