@@ -9,7 +9,7 @@ visible: true
 
 Vertical scaling is the process of adjusting the amount of hardware resources (RAM and CPU) available to a server to cope with varying application demands. For example, add resources to deal with a traffic spike, or remove resources to save money at night.
 
-Unlike [horizontal scaling](/overview/horizontal-scaling) (splitting the load across multiple servers), there are no limitations or special requirements for your application code. This makes it the easiest way to scale your application.
+Unlike [horizontal scaling](/environments/features/horizontal-scaling) (splitting the load across multiple servers), there are no limitations or special requirements for your application code. This makes it the easiest way to scale your application.
 
 Vertical scaling at Enscale is a bit different to what you may be used to elsewhere. Instead of setting triggers to resize your instance at certain times or conditions, you only need to set a maximum instance size (vertical scaling resource limit).
 
