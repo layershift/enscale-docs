@@ -19,7 +19,7 @@ Below you can see how to deploy your application and how to set up automatic red
 
 ##### Step 1
 
-Create your Ruby environment with your choice of [Apache or Nginx](/overview/servers-and-technologies#ruby) application runtime node.
+Create your Ruby environment with your choice of [Apache or Nginx](/servers-and-technologies#ruby) application runtime node.
 
 ##### Step 2
 
