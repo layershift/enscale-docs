@@ -41,7 +41,7 @@ Alternatively from the **Remote URL** tab you just need to enter the link to the
 The following archive types are supported: _.tar_, ._tar.gz_, _.zip_ and _.bzip2_
 ![](PHParchive.png)
 
-!!! The default upload limit is 150MB. If your project archive is larger, please see the section [below](python/deployment-guides/archive#deploying-a-python-application-from-and-archive-larger-than-150m).
+!!! The default upload limit is 150MB. If your project archive is larger, please see the section [below](/python/deployment-guides/archive#deploying-a-python-application-from-and-archive-larger-than-150m).
 
 ##### Step 5
 
