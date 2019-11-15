@@ -23,6 +23,6 @@ The environment view provides detailed information about the various nodes withi
 
 Read on for more details about the various options and information presented on each screen.
 
-[Main Dashboard](/overview/dashboard-guide/main-dashboard) 
+[Main Dashboard](/getting-started/dashboard-guide/main-dashboard) 
 
-[Environment view](/overview/dashboard-guide/environment-view)
+[Environment view](/getting-started/dashboard-guide/environment-view)
