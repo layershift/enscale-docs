@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to Enscale'
+title: 'Getting Started'
 media_order: enscale.png
 published: true
 taxonomy:
