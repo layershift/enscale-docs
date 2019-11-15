@@ -8,9 +8,11 @@ visible: true
 
 **In Enscale you are able to select separate nodes that work together in the same environment.**
 
-When setting up your environment you can choose the best [app](/getting-started/servers-and-technologies#runtime-application-node), [database](/getting-started/servers-and-technologies#databases),[load balancer](/getting-started/servers-and-technologies#load-balancer) and [cache](/getting-started/servers-and-technologies#cache) servers to set up the perfect software stack for your application.
+When setting up your environment you can choose the best [app](/getting-started/servers-and-technologies#runtime-application-node), [database](/getting-started/servers-and-technologies#databases), [load balancer](/getting-started/servers-and-technologies#load-balancer) and [cache](/getting-started/servers-and-technologies#cache) servers to set up the perfect software stack for your application.
 
 ### Runtime (Application) node:
+
+This is the server that forms the base of your deployments, in essence consider it as the "home" of your application. Runtime nodes are pre-configured with your option of language pack and version. While the version can be changed later on, the selected language is permament.
 
 ##### Java
 Supported versions: 
@@ -58,6 +60,8 @@ We offer Apache 2.4.37, 2.4.38, 2.4.39 (using the mod_wsgi package) application 
 
 ### Databases
 
+While databases can be installed on the application server too, we also offer the opportunity to add your preferred database as a separate server. Doing so, the server can be specifically optimized for database operations and offers you granular control over your environment. We have a variety of SQL and NoSQL databases you can choose from.
+
 ##### SQL
 * MariaDB 5.5.62, 5.5.63, 5.5.64, 10.1.20, 10.1.22, 10.1.24, 10.2.8, 10.2.12, 10.2.15, 10.3.14, 10.3.15, 10.3.16 
 * MySQL CE 5.6.42, 5.6.43, 5.6.44, 5.7.24, 5.7.25, 5.7.26, 8.0.14, 8.0.14, 8.0.16
@@ -70,12 +74,17 @@ We offer Apache 2.4.37, 2.4.38, 2.4.39 (using the mod_wsgi package) application 
 * Redis 4.0.11, 4.0.9, 5.0.3, 5.0.4, 5.0.5
 
 ###  Load Balancer
+
+A load balancer server comes in handy when you have multiple runtime nodes - it will be set to automatically distribute requests between your servers. While load balancing can be done via other means as well (for example with DNS or a CDN solution), it is highly recommended to add a load balancer in Enscale whenever you turn automatic horizontal scaling on for app nodes so the new server can be utilized immediately for serving the incoming requests to your environment.
+
 * Apache 2.4.37, 2.4.38, 2.4.39
 * Haproxy 1.8.9, 1.8.12, 1.8.14, 1.9.3, 1.9.7, 2.0.0
 * Nginx 1.10.1, 1.10.3, 1.12.2, 1.14.0, 1.14.2, 1.16.0
 * Varnish 4.1.5, 4.1.7, 4.1.8, 5.2.0, 5.2.0, 6.0.0, 6.1.0, 6.1.1, 6.2.0
 
 ###  Cache
+
+Adding a cache node to your environments provides a single larger memory pool to be used by all your servers within the environment for storing and retrieving data. We offer Memcached, which is an open-source, high-performance distributed memory cahce service which can also be used for session replication.
 
 Memcached 1.4.24, 1.5.14, 1.5.15, 1.5.16
 
