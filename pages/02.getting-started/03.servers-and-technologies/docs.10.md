@@ -60,7 +60,7 @@ We offer Apache 2.4.37, 2.4.38, 2.4.39 (using the mod_wsgi package) application 
 
 ### Databases
 
-While databases can be installed on the application server too, we also offer the opportunity to add your preferred database as a separate server. Doing so, the server can be specifically optimized for database operations and offers you granular control over your environment. We have a variety of SQL and NoSQL databases you can choose from.
+In a previous era, database engines were often installed together on the same node as your application code. However, that's now considered a bad practice for a whole myriad of reasons, ranging from security to performance. Therefore we provide your preferred database as its own separate server. Doing so, the server can be specifically optimized for database operations and offers you granular control over your environment. We have a variety of SQL and NoSQL databases you can choose from.
 
 ##### SQL
 * MariaDB 5.5.62, 5.5.63, 5.5.64, 10.1.20, 10.1.22, 10.1.24, 10.2.8, 10.2.12, 10.2.15, 10.3.14, 10.3.15, 10.3.16 
