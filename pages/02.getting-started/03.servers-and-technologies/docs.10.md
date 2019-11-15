@@ -8,7 +8,7 @@ visible: true
 
 **In Enscale you are able to select separate nodes that work together in the same environment.**
 
-When setting up your environment you can choose the best app, database and load balancer servers to set up the perfect software stack for your application.
+When setting up your environment you can choose the best [app](/getting-started/servers-and-technologies#runtime-application-node), [database](/getting-started/servers-and-technologies#databases),[load balancer](/getting-started/servers-and-technologies#load-balancer) and [cache](/getting-started/servers-and-technologies#cache) servers to set up the perfect software stack for your application.
 
 ### Runtime (Application) node:
 
