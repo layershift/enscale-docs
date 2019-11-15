@@ -84,7 +84,7 @@ A load balancer server comes in handy when you have multiple runtime nodes - it 
 
 ###  Cache
 
-Adding a cache node to your environments provides a single larger memory pool to be used by all your servers within the environment for storing and retrieving data. We offer Memcached, which is an open-source, high-performance distributed memory cahce service which can also be used for session replication.
+Adding a cache node to your environments provides a single larger memory pool to be used by all your servers within the environment for storing and retrieving data. We offer Memcached, which is an open-source, high-performance distributed memory cache service which can also be used for session replication.
 
 Memcached 1.4.24, 1.5.14, 1.5.15, 1.5.16
 
