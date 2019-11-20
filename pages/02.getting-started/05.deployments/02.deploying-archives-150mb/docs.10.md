@@ -20,9 +20,7 @@ Connect to your node via SSH.
 ##### Step 4
 Locate your uploaded file and extract it via the approproate command.
 
-**zip archives**:
-
-`apache@node124718-cool-waterfall-59 ~/webroot/ROOT/wp $ unzip wp.zip`
+**zip archives**:`apache@node124718-cool-waterfall-59 ~/webroot/ROOT/wp $ unzip wp.zip`
 
 **.tar archives**:`apache@node124718-cool-waterfall-59 ~/webroot/ROOT/wp $ tar -xfv wp.tar`
 
