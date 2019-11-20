@@ -17,14 +17,14 @@ Enter your environment.
 Click the Deploy button to get to the Deployment manager.
 
 ##### Step 3*
-!!!! * this step is skipped on very first deployment
+!!! \*this step is skipped on very first deployment
 
 Click New deployment.
 
 ##### Step 4*
 The default setting deploys to the ROOT folder, which corresponds to the default DocumentRoot in the web server configuration. If you would like to deploy to a different location, just specify a directory name (new or existing) in the Deploy to box.
 
-!!!! * depending on your environment ROOT may be the only allowed location, if this is the case the step is skipped.
+!!!! \*depending on your environment ROOT may be the only allowed location, if this is the case the step is skipped.
 
 ##### Step 5
 This screen presents you with a list of deployed projects, any archive you upload via the dashbaord will be saved and can be selected from here in future.
