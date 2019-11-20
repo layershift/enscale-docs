@@ -18,3 +18,4 @@ In this section you will find information about the following:
 1. [What Enscale is and how it could help You](/getting-started/introduction-to-enscale)
 2. [Terminology used in the articles as well as throughout the Enscale dashboard](/getting-started/key-terms)
 3. [Available server roles, their types and available versions](/getting-started/servers-and-technologies)
+4. [Dashboard guide - what are all the buttons and what do they do?](/getting-started/dashboard-guide)
