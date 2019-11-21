@@ -11,7 +11,7 @@ visible: true
 
 With Enscale you have the possibility to add your custom domain name to your environment for quick and easy access whether you have a public IP address enabled or not.
 
-If you have a production environment, we strongly recommend that you enable public IP. To see how to do this, check out the following [article](/environments/features/ip-addresses).
+If you have a production environment, we strongly recommend that you enable public IP. To see how to do this, check out the following [article](/features/ip-addresses).
 
 ### With Public IP
 
