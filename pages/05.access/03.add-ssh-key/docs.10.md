@@ -9,7 +9,7 @@ visible: true
 
 ### Add your SSH key
 
-If you need any help with generating your SSH key, please see [this article](/environments/access/generate-ssh-key) for a quick walk-through.
+If you need any help with generating your SSH key, please see [this article](/access/generate-ssh-key) for a quick walk-through.
 
 ##### Step 1
 Log in to your Enscale dashboard.
