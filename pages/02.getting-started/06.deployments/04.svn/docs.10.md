@@ -1,5 +1,5 @@
 ---
-title: Svn
+title: SVN
 media_order: 'Deploy-button.JPG,New-deployment.JPG,Deploy-to.JPG,PHPSvn-new.jpg,PHPSvn-4.png'
 taxonomy:
     category:
