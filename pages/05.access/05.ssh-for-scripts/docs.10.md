@@ -8,7 +8,7 @@ visible: true
 
 ### NON-INTERACTIVE SSH ACCESS
 
-SSH access is a great thing as it enables you to use CLI tools and other commands. If you would like to manually access SSH to perform some simple one-time task, you can see the following [article](/environments/access/access-via-ssh) on detailed steps you need to take.
+SSH access is a great thing as it enables you to use CLI tools and other commands. If you would like to manually access SSH to perform some simple one-time task, you can see the following [article](/access/connect-with-ssh) on detailed steps you need to take.
 
 Some tasks, however, are better automated via scripts. Scripts don't care for niceties like our interactive menu system. They require a slightly different approach. Enscale has a solution for this too, so you can easily provide SSH access to your CI tools, and other scripts using scp, rsync, or SFTP.
 
@@ -16,7 +16,7 @@ To provide SSH access to your script you must define the node that you wish to c
 
 ##### Step 1: Add your SSH key to the repository
 
-You can generate your SSH key via [PuTTYgen](/../environments/access/generate-ssh-key#for-windows-clients) if you are a Windows user, or [ssh-keygen](/../environments/access/generate-ssh-key#for-linux-mac-os-users) if you use Mac OS or Linux. You can find detailed instructions in our Generate SSH Key article.
+You can generate your SSH key via [PuTTYgen](/access/generate-ssh-key#for-windows-clients) if you are a Windows user, or [ssh-keygen](/access/generate-ssh-key#for-linux-mac-os-users) if you use Mac OS or Linux. You can find detailed instructions in our Generate SSH Key article.
 
 Add the public part of the SSH key to your key repository: username > **Manage SSH Keys**.
 
