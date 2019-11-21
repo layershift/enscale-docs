@@ -7,8 +7,6 @@ taxonomy:
 visible: true
 ---
 
-
-
 If you need any help with generating your SSH key, please see [this article](/access/generate-ssh-key) for a quick walk-through.
 
 ##### Step 1
