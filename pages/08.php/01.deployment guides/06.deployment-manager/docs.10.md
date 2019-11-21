@@ -1,5 +1,5 @@
 ---
-title: 'Managing deployments 2'
+title: 'Deployment Manager'
 media_order: 'Deploy-button.JPG,Git-deploy-dropdown.JPG,SVN-deploy-dropdown.JPG,Archive-deploy-dropdown.JPG'
 taxonomy:
     category:
@@ -7,9 +7,7 @@ taxonomy:
 visible: true
 ---
 
-Whether your deployment is from git, SVN or you uploaded an archive, all deployments made via the Enscale dashboard can be managed in your Deployment Manager.
-
-To access your Deployment Manager enter your environment and click **Deploy**.
+Whether your deployment is from git, SVN or you uploaded an archive, all deployments made via the Enscale dashboard can be managed in your Deployment Manager. The deployment manager is accessible from within your environment by clicking the **Deploy** button.
 
 ![](Deploy-button.JPG)
 
