@@ -26,7 +26,7 @@ Click on **New deployment**
 !!! * if this is your first deployment on the environment, this step is skipped automatically.
 ![](New-deployment.JPG)
 
-##### Step 4
+##### Step 3
 
 The default setting deploys to the ROOT folder, which corresponds to the default DocumentRoot in the web server configuration. If you would like to deploy to a different location, just specify a directory name (new or existing) in the **Deploy to** box.**
 ![](Deploy-to.JPG)
@@ -37,7 +37,7 @@ If your environment has multiple applications deployed, you can configure name b
 
 !!! ** Not all runtime nodes allow deployments to folders other than ROOT, check out the language specific articles for further information.
 
-##### Step 5
+##### Step 4
 
 Select the **GIT tab** to provide us with a link to your repository.
 ![image alt=float-right](PHPGit-4.png)
@@ -64,7 +64,7 @@ Select the **GIT tab** to provide us with a link to your repository.
 
 **Zero downtime**: this option is available for PHP deployments to ROOT folder. Details are [here](/php/deployment%20guides/zero-downtime-deployment).
 
-##### Step 6
+##### Step 5
 
 Click **Deploy**.
 
