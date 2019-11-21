@@ -21,14 +21,12 @@ Within the header, you can see and manage your account collaborators: colleagues
 
 ##### Create environments
 
-Click the **Add new environment** box at the start of your environments list:
-![](addnewEnvBTn.jpg)
-
-This will open the **New environment** wizard. Name your environment (we auto-generate a suggestion for you), and click **Add new node** to add each node type required by your application.
+The **Add new environment** box at the start of your environments list. This will open the **New environment** wizard. Name your environment (we auto-generate a suggestion for you), and click **Add new node** to add each node type required by your application.
 ![](demoenvironment.JPG)
 
-
 Click **Create** when you're finished, and the new environment will be created and added to your list of environments within a few minutes.
+
+Detailed steps and additional explanations can be found [here](/getting-started/create-environment).
 
 
 ##### The environment list
