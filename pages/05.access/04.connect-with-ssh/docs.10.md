@@ -9,6 +9,8 @@ visible: true
 
 Enscale offers two possible options to SSH. The firs option is to connect to the SSH gateway. This will present you with a list of all your environments and you can connect to either one for them, once in an environment you can connect to any node of your choice. If you'd like to bypass the gateway, you can establish a connection to a specific node directly.
 
+!!! Prerequisit to establishing a connection is to [have your public key added](/access/add-ssh-key) to the Enscale dashboard.
+
 ##### Connect to the SSH gateway
 
 ![](SSH-connection-details.png)
