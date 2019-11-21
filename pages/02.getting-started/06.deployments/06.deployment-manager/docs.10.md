@@ -12,9 +12,9 @@ Whether your deployment is from git, SVN or you uploaded an archive, all deploym
 ![](Deploy-button.JPG)
 
 Once here, open the dropdown menu to see the available actions for each deployment type.
-* [Git deployments](/php/deployment%20guides/managing-deployments#manage-git-deployments)
-* [SVN deployments](/php/deployment%20guides/managing-deployments#manage-svn-deployments)
-* [Archive deployments](/php/deployment%20guides/managing-deployments#manage-archive-deployments)
+* [Git deployments](/getting-started/deployments/deployment-manager#manage-git-deployments)
+* [SVN deployments](/getting-started/deployments/deployment-manager#manage-svn-deployments)
+* [Archive deployments](/getting-started/deployments/deployment-manager#manage-archive-deployments)
 
 ### Manage Git deployments
 ![](Git-deploy-dropdown.JPG)
@@ -100,6 +100,8 @@ As the name suggests, this will remove your deployment completely from your envi
 
 ### Manage archive deployments
 ![](Archive-deploy-dropdown.JPG)
+
+!!! Only archives deployed directly from the Enscale dashboard will show up here.
 
 ##### Move
 
