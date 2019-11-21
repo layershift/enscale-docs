@@ -9,7 +9,7 @@ visible: true
 
 ### SSL CERTIFICATE SUPPORT
 
-As the number of hackers, identity thieves and phishing attacks is constantly increasing, it’s very important to keep the information path between you and your customers’ computers safe and private. With Enscale you can make sure you’ve got this covered by enabling the SSL feature. You can choose between the [Shared (free) Enscale SSL](/environments/features/ssl-certificates#enscale-shared-ssl), your own [custom SSL](/environments/features/ssl-certificates#custom-ssl-certificate) certificate or [Let's Encrypt](/environments/features/ssl-certificates#lets-encrypt-ssl-certificate).
+As the number of hackers, identity thieves and phishing attacks is constantly increasing, it’s very important to keep the information path between you and your customers’ computers safe and private. With Enscale you can make sure you’ve got this covered by enabling the SSL feature. You can choose between the [Shared (free) Enscale SSL](/features/ssl-certificates#enscale-shared-ssl), your own [custom SSL](/features/ssl-certificates#custom-ssl-certificate) certificate or [Let's Encrypt](/features/ssl-certificates#lets-encrypt-ssl-certificate).
 
 Although the Shared SSL is a quick and free solution it’s designed only for testing purposes. For all other cases (e.g. production websites, public demos, anything business critical) we strongly recommend using a Custom SSL or the Let's Encrypt option to ensure your users see your own domain in the URL without Enscale branding. A shared SSL certificate might raise suspicions. If you try forcing your domain name in the secure connection you will end up getting browser warnings, which will only affect your credibility even more.
 
@@ -19,7 +19,7 @@ Shared SSL is intended to be used for start-up projects, staging / development w
 
 \*.uk.enscaled.com Wildcard SSL certificate is installed on our shared load balancers and it will make your environments accessible securely on their respective links only (not custom domain name) ie. https://your-environment-name.uk.enscaled.com
 
-!!! Enscale Shared SSL can only be used for environments without a [public IP](/../environments/features/ip-addresses#steps-to-enable-a-public-ip-address).
+!!! Enscale Shared SSL can only be used for environments without a [public IP](/features/ip-addresses#steps-to-enable-a-public-ip-address).
 
 To enable Shared SSL follow the steps below:
 
@@ -81,7 +81,7 @@ You can edit the existing SSL anytime by opening the **Manage SSL** menu, or del
 
 ### Let's Encrypt SSL certificate
 
-Let's Encrypt SSL certificate is available free of charge and can be enabled on environments with a [public IP](/environments/features/ip-addresses#using-a-public-ip-address) address. It can be used to secure both your environment name, nodes and custom domains with a single certificate.
+Let's Encrypt SSL certificate is available free of charge and can be enabled on environments with a [public IP](/features/ip-addresses#using-a-public-ip-address) address. It can be used to secure both your environment name, nodes and custom domains with a single certificate.
 
 While Let's Encrypt SSLs have a shorter certificate lifetime than custom SSLs you can purchase, in Enscale they are set to renew automatically by default 30 days in advance, so you needen't worry about expiration. Should the automatic renewal fail, you will receive an email and you will have plenty of time to renew the SSL manually.
 
