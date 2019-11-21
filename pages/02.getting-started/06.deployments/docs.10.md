@@ -18,11 +18,7 @@ Once your application is deployed, you will see it in your Deployment manager, f
 
 Depending on the application language, there are different deployment options available, so while the articles in this section give you a wide overview of the deployment process, I suggest you take a look at the language-specific articles as well here:
 
-| | |
-|---|---|
-|![](java-tile.png)|[Java deployment guides](/java/deployment-guides)|
-|![](Nodejs-tile.png)|[Node.js deployment guides](/nodejs/deployment-guides)|
-|![](php-tile.png)|[PHP deployment guides](/php/deployment%20guides)|
-|![](Python-tile.png)|[Python deployment guides](/python/deployment-guides)|
-|![](Ruby-tile.png)|[Ruby deployment guides](/ruby/deployment-guides)|
-
+| | | | | |
+|---|---|---|---|---|
+|![](java-tile.png)|![](Nodejs-tile.png)|![](php-tile.png)|![](Python-tile.png)|![](Ruby-tile.png)|
+|[Java deployment guides](/java/deployment-guides)|[Node.js deployment guides](/nodejs/deployment-guides)|[PHP deployment guides](/php/deployment%20guides)|[Python deployment guides](/python/deployment-guides)|[Ruby deployment guides](/ruby/deployment-guides)|
