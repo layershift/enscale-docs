@@ -17,36 +17,29 @@ Enscale’s mission is to make life really easy for developers, so we give you t
 
 ##### Step 1
 
-Log in to your Enscale dashboard and create a PHP environment if you haven’t already.
-
-##### Step 2
-
 Enter your environment and click **Deploy**.
 ![](Deploy-button.JPG)
 
-##### Step 3
+##### Step 2*
 
-Click on **New deployment** (if this is your first deployment on the environment, this step is skipped automatically).
+Click on **New deployment** 
+!!! * if this is your first deployment on the environment, this step is skipped automatically.
 ![](New-deployment.JPG)
 
 ##### Step 4
 
-The default setting deploys to the ROOT folder, which corresponds to the default DocumentRoot in the web server configuration. If you would like to deploy to a different location, just specify a directory name (new or existing) in the **Deploy to** box.
+The default setting deploys to the ROOT folder, which corresponds to the default DocumentRoot in the web server configuration. If you would like to deploy to a different location, just specify a directory name (new or existing) in the **Deploy to** box.**
 ![](Deploy-to.JPG)
 
-The ROOT folder is the one the web server is preconfigured to serve content to when accessing your environment. If you deploy your application to a subfolder, you will need to set a different DocumentRoot in your httpd.conf file if you are using Apache and a different location root in nginx.conf if you have an Nginx application node.
+The ROOT folder is the one the web server is preconfigured to serve content to when accessing your environment. If you deploy your application to a subfolder, you will need to set a different DocumentRoot in your configuration file. Without these modifications, your application will be accessible by including the subfolder in the URL, ex. http://cool-waterfall-59.uk.enscaled.com/wordpress.
 
-**Apache:** `DocumentRoot "/var/www/webroot/ROOT/wordpress"`
+If your environment has multiple applications deployed, you can configure name based virtual hosts to specify different application roots per domain.
 
-**Nginx:** `Location / {Root /var/www/webroot/ROOT/wordpress;…}`
-
-Unless you make the modifications mentioned above, your application will be accessible by including the subfolder in the URL, ex. http://cool-waterfall-59.uk.enscaled.com/wordpress.
-
-If your environment has multiple applications you can configure name based virtual hosts to specify different application roots per domain.
+!!! ** Not all runtime nodes allow deployments to folders other than ROOT, check out the language specific articles for further information.
 
 ##### Step 5
 
-Select the **GIT tab** from the drop-down menu to provide us with a link to your repository.
+Select the **GIT tab** to provide us with a link to your repository.
 ![image alt=float-right](PHPGit-4.png)
 
 **URL**: the URL of your git repository
