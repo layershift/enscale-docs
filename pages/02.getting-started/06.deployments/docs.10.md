@@ -13,7 +13,7 @@ We also offer a variety of deployment methods from the dashboard:
 - [deploy from your git repository](/getting-started/deployments/git) 
 - [deploy from SVN](/getting-started/deployments/svn)
 
-Once your application is deployed, you will see it in your Deployment manager, from where you can control any of the deployment settings or do a git pull for example. You can find details about the options here.
+Once your application is deployed, you will see it in your Deployment manager, from where you can control any of the deployment settings or do a git pull for example. You can find details about the options in the [Deployment Manager article](/getting-started/deployments/deployment-manager).
 
 Depending on the application language, there are different deployment options available, so while the articles in this section give you a wide overview of the deployment process, I suggest you take a look at the language-specific articles as well here:
 
