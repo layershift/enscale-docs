@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-With Enscale you can gain [SSH access](/environments/access/access-via-ssh) from outside of the platform via our SSH gateway, which provides an interactive menu to navigate between all your environments or nodes. Alternatively, you can set up [SSH access to a node directly](/environments/access/ssh-for-scripts) if you need it for scripts or CLI tools.
+With Enscale you can gain [SSH access](/access/connect-with-ssh) from outside of the platform via our SSH gateway, which provides an interactive menu to navigate between all your environments or nodes. Alternatively, you can set up [SSH access to a node directly](/access/ssh-for-scripts) if you need it for scripts or CLI tools.
 
 However, in some cases you might need to create an SSH connection between two Enscale nodes. The methods above do not help here. For example if you would like to copy files or backups from one node to another, or sync files between nodes, you need a direct SSH connection between the nodes: passing through the SSH gateway is not required and not suitable.
 
@@ -14,7 +14,7 @@ However, in some cases you might need to create an SSH connection between two En
 
 ##### Step 1: Enter the source node
 
-Enter your source node via SSH, you can find detailed instructions [here](/environments/access/ssh-for-scripts) and go to the home directory.
+Enter your source node via SSH, you can find detailed instructions [here](/access/connect-with-ssh#connect-to-a-specific-node-directly) and go to the home directory.
 ```bash
 apache@node136553-crimson-dust-8 ~ $ cd ~
 apache@node136553-crimson-dust-8 ~ $ pwd
