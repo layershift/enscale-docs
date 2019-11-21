@@ -10,6 +10,8 @@ Enscale is all about helping you get your app online quickly, so we tried to mak
 
 We also offer a variety of deployment methods from the dashboard: 
 - you can upload your project archive to deploy your project (file or URL)
+* [Archives smaller than 150MB](/getting-started/deployments/deploy-from-archive)
+* [Archives larger than 150MB](/getting-started/deployments/deploying-archives-150mb)
 - connect to your git repository 
 - deploy from SVN any tool you use
 
