@@ -1,5 +1,5 @@
 ---
-title: 'Git 2'
+title: Git
 media_order: 'Deploy-button.JPG,New-deployment.JPG,Deploy-to.JPG,PHPGit-4.png'
 taxonomy:
     category:
