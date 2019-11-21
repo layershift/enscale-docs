@@ -7,12 +7,13 @@ taxonomy:
 visible: true
 ---
 
-### ACCESS YOUR ENVIRONMENT NODES VIA SFTP
+
 In some cases, you will need to manually connect to your application node via SFTP for uploading files to make small changes in your application or to use in scripts. Enscale allows you to do this easily with any SFTP client.
 
-In order to connect via SFTP, you will need to [create an SSH key pair](/environments/access/generate-ssh-key) and [upload your public key](/../environments/access/access-via-ssh#add-your-ssh-key) to the Enscale dashboard.
+In order to connect via SFTP, you will need to [create an SSH key pair](/access/generate-ssh-key) and [upload your public key](/access/add-ssh-key) to the Enscale dashboard.
 
-Connect to your node using SFTP
+##### Connect to your node using SFTP
+
 In this example, we will be using Filezilla, however your connection details are the same regardless of what client you are using.
 
 ##### Step 1
