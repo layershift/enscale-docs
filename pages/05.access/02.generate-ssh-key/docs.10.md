@@ -9,8 +9,8 @@ visible: true
 
 To connect to the gateway (or to your node) via SSH, you will need a private and public SSH key.The private key will be stored on your local machine, while the public key has to be uploaded in your dashboard. When creating the SSH connection, your session loaded with your private key will generate a signature which will be authenticated by the server using the matching public key. Below you will find steps to generate your key pair based on the client you are using.
 
-* [For Windows clients](/../environments/access/generate-ssh-key#for-windows-clients) 
-* [For Linux / Mac OS users](/../environments/access/generate-ssh-key#for-linux-mac-os-users)
+* [For Windows clients](access/generate-ssh-key#for-windows-clients) 
+* [For Linux / Mac OS users](/access/generate-ssh-key#for-linux-mac-os-users)
 
 ### For Windows clients 
 
@@ -50,7 +50,7 @@ In the next screen you will see the following:
 
 **Your Public Key**
 
-* You can copy and paste this key directly to your Enscale dashboard. To see how to add your public key to Enscale, please see: [Access your environment via SSH](/../environments/access/access-via-ssh#add-your-ssh-key).
+* You can copy and paste this key directly to your Enscale dashboard. Read [Add your SSH key](/access/add-ssh-key) for detailed steps.
 
 **Your Key Fingerprint**
 
@@ -161,7 +161,7 @@ You can now find your private key, called _id_rsa_ together with the public one,
 
 !!! If you saved the key in a non-default location, or are working with multiple keys, you can add it to your keychain using the ssh-add command, as simply `ssh-add <path-to-private-key>`, e.g.: `ssh-add "/Users/yourusername/Desktop/SSH Keys/id_rsa"`
 
-The public key is the one you will need to upload to the Enscale dashboard, in order to authenticate your SSH connections. Take a look at the [Access your environment via SSH](/../environments/access/access-via-ssh#add-your-ssh-key) article for more information about how to use your newly generated keys. 
+The public key is the one you will need to upload to the Enscale dashboard, in order to authenticate your SSH connections. Take a look at the [Add your SSH key](/access/add-ssh-key) article for more information about how to use your newly generated keys. 
 
  
 !! The private key should be kept PRIVATE so please don’t share this with anyone!
