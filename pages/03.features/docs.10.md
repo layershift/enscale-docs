@@ -15,4 +15,5 @@ As the chapter title suggests, in this section you can learn about all the diffe
 * [IP addresses (types and uses)](/features/ip-addresses)
 * [Using your own domain name](/features/add-domain-name)
 * [SSL certificate options](/features/ssl-certificates)
+* [Managing files from the dashboard](/features/file-manager)
 * [Environment variables](/features/environment-variables)
