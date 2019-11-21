@@ -1,9 +1,8 @@
 ---
-title: Overview
+title: 'Account & Billing'
 taxonomy:
     category:
         - docs
-redirect: /overview/dashboard-guide
 child_type: docs
 visible: true
 textsize:
@@ -84,3 +83,7 @@ presentation:
         styles: ''
 ---
 
+This chapter is dediated to your account settings, as well as learning about how billing and payments work in Enscale.
+
+
+As the Enscale Beta programme is completely free, billing articles will be added closer to the public launch date.
