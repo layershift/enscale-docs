@@ -1,5 +1,5 @@
 ---
-title: 'Access via SSH'
+title: 'SSH in Enscale'
 media_order: 'SSHmodal.png,addnewPubKey.png,addingSSHKey.png,deleteSSHKey.png,Account-dropdown-3.jpg'
 taxonomy:
     category:
@@ -40,41 +40,8 @@ SSH connection settings
  				- RSA (92:ba:3c:8e:69:90:e5:a7:cf:17:40:ed:fb:be:d7:26)
                 - DSA (26:2d:93:72:38:8c:72:28:63:a2:32:d7:1c:aa:78:53)
                 
-### Add your SSH key
 
-If you need any help with generating your SSH key, please see [this article](/environments/access/generate-ssh-key) for a quick walk-through.
 
-##### Step 1
-Log in to your Enscale dashboard.
-
-##### Step 2
-Select **Manage SSH Keys** from the drop-down menu under your account email address.
-![](Account-dropdown-3.jpg)
-
-##### Step 3
-Click **Add new public key**.
-![](addnewPubKey.png)
-
-##### Step 4
-Enter a title to help you identify your key, add your public key and click **Add Key**.
-![](addingSSHKey.png)
-##### Step 5
-You can delete your public key anytime clicking the **Delete** icon
-![](deleteSSHKey.png)
-
-### Connect to the SSH gateway
-
-![](SSHmodal.png)
-
-If you’re a Linux or Mac user, you can just click on the connect button of your node in your dashboard and it’ll open up a terminal ssh session with those details on your behalf.
-
-If you are using a GUI based client, like PuTTY or SecPanel, you will probably need to manually configure the session details. You will find all this information in your dashboard under **Manage your SSH keys**.
-
-* SSH user: 25880 (this will be unique for you, so please check your own dashboard) 
-* Hostname: ssh.enscale.com 
-* Port: 3022
-
-!!! The default port number for SSH is 22. You must change your SSH client settings to use port 3022 for this connection or it will not work!
 
 ### User permissions
 
