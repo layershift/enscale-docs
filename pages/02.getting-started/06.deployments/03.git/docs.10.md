@@ -1,5 +1,5 @@
 ---
-title: Git
+title: 'Deploy from git'
 media_order: 'Deploy-button.JPG,New-deployment.JPG,Deploy-to.JPG,PHPGit-4.png'
 taxonomy:
     category:
@@ -7,7 +7,6 @@ taxonomy:
 visible: true
 ---
 
-### DEPLOY FROM GIT
 
 There are very few developers nowadays who don’t use some sort of source control management tool. Your repository can be anywhere on the Internet - as long as you are using git as a source control management tool, we've got you covered!
 
