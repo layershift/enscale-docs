@@ -1,5 +1,5 @@
 ---
-title: SVN
+title: 'Deploy from SVN'
 media_order: 'Deploy-button.JPG,New-deployment.JPG,Deploy-to.JPG,PHPSvn-new.jpg,PHPSvn-4.png'
 taxonomy:
     category:
@@ -7,7 +7,7 @@ taxonomy:
 visible: true
 ---
 
-### DEPLOY FROM SVN
+
 
 There are very few developers nowadays who don’t use some sort of version control system.
 
