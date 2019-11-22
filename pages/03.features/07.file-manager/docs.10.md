@@ -9,7 +9,7 @@ visible: true
 
 ### MANAGE YOUR APPLICATION’S FILES IN THE DASHBOARD
 
-We strongly recommend using **[SSH](/environments/access/access-via-ssh)** and **[SFTP](/environments/access/access-via-sftp)** to make file additions / edits, but sometimes it can be more convenient to make a simple change directly from the comfort of your browser. For example if you're installing Wordpress, you need to rename / edit the _wp-config-sample.php_ to _wp-config.php_ for the application to work.
+We strongly recommend using **[SSH](/access/access-via-ssh)** and **[SFTP](/access/access-via-sftp)** to make file additions / edits, but sometimes it can be more convenient to make a simple change directly from the comfort of your browser. For example if you're installing Wordpress, you need to rename / edit the _wp-config-sample.php_ to _wp-config.php_ for the application to work.
 
 Enscale makes this very easy:
 
