@@ -1,6 +1,5 @@
 ---
 title: 'Log files'
-media_order: 'horizontal_scaling_1.jpg,fileManagerBtn.png,FilemanagerLog.png,Deploy-log.png,Deploy-button.JPG,audit log.png,auditlog1.png'
 taxonomy:
     category:
         - docs
