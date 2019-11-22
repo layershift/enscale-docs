@@ -1,6 +1,6 @@
 ---
 title: 'Environment view'
-media_order: 'EnvironmentHeader.JPG,actions-dropdown.JPG,change-runtime.JPG,open-deployment-manager.png,nodeView.jpg,nodeHead.jpg,nodeChart.jpg,ConnectTab.jpg,scaling.jpg,Configure-tab.JPG'
+media_order: 'EnvironmentHeader.JPG,actions-dropdown.JPG,change-runtime.JPG,open-deployment-manager.png,nodeView.jpg,nodeHead.jpg,nodeChart.jpg,ConnectTab.jpg,scaling.jpg,Configure-tab.JPG,java-tile.png,Nodejs-tile.png,php-tile.png,Ruby-tile.png,Python-tile.png'
 taxonomy:
     category:
         - docs
@@ -33,15 +33,11 @@ Enscale provides several ways to to deploy your application, available from the 
 ![](open-deployment-manager.png)
 The following articles describe the deployment options applicable for each supported application runtime language:
 
-[Java deployment guides](/java/deployment-guides?)
 
-[Node.js deployment guides](/nodejs/deployment-guides?)
-
-[PHP deployment guides](/php/deployment%20guides?)
-
-[Python deployment guides](/python/deployment-guides?) 
-
-[Ruby deployment guides](/ruby/deployment-guides?) 
+| |Language |Specific |Articles | |
+|:---:|:---:|:---:|:---:|:---:|
+|![](java-tile.png)|![](Nodejs-tile.png)|![](php-tile.png)|![](Python-tile.png)|![](Ruby-tile.png)|
+|[Java deployment guides](/java/deployment-guides)|[Node.js deployment guides](/nodejs/deployment-guides)|[PHP deployment guides](/php/deployment%20guides)|[Python deployment guides](/python/deployment-guides)|[Ruby deployment guides](/ruby/deployment-guides)|
 
 ### Node specific information
 The environment view provides additional information about each of your nodes.
@@ -62,7 +58,7 @@ In the overview tab gives fast access to the most commonly used actions. The low
 
 In the overview tab you will also find the following buttons, from left to right:
 
-**File Manager**: browser based access to the node's file system including log file access.
+**[File Manager](/features/file-manager)**: browser based access to the node's file system including log file access.
 
 **Restart node**: restart this individual node (e.g. to activate a configuration change)
 
@@ -81,24 +77,24 @@ View your Memory and CPU usage, Traffic activity, and Storage used / free. The g
 
 **IP address **
 
-Add (or view) a public IP address to the node. View the node’s private IP address. [Learn more about Enscale IP addresses](/environments/features/ip-addresses).
+Add (or view) a public IP address to the node. View the node’s private IP address. [Learn more about Enscale IP addresses](/features/ip-addresses).
 
 **SSH/SFTP**
 
-[SSH](/environments/access/access-via-ssh) and [SFTP](/environments/access/access-via-sftp) connection details for direct connection to the node. The connect button will launch your SSH client (if ssh:// handler is registered in your OS). The manage SSH keys button provides a shortcut to your SSH key management area.
+[SSH](/access/access-via-ssh) and [SFTP](access/access-via-sftp) connection details for direct connection to the node. The connect button will launch your SSH client (if ssh:// handler is registered in your OS). The manage SSH keys button provides a shortcut to your [SSH key management](/access/add-ssh-key) area.
 
 SSH keys must be managed separately per Enscale dashboard user; collaborators access nodes via their own keys managed from their own Enscale dashboard.
 
 **FTP/FTPS**
 
-Add the optional FTP feature to the node to activate [FTP / FTPS functionality](/environments/access/ftpftps). Once installed you login details are sent via email, this area updates to contain the FTP connection string, password reset, and the option to remove the FTP feature.
+Add the optional FTP feature to the node to activate [FTP / FTPS functionality](/access/ftpftps). Once installed you login details are sent via email, this area updates to contain the FTP connection string, password reset, and the option to remove the FTP feature.
 
 FTP is activated / deactivated for all nodes of the same type in your environment simultaneously.
 
 ! FTP connection requires a public IP on the node.
 
 ##### Scaling tab
-Here you can set the resource limits used to scale your application [vertically](/environments/features/vertical-scaling). Below that you can configure automatic [horizontal scaling](/environments/features/horizontal-scaling) triggers to add and remove nodes when resource usage reaches certain thresholds.
+Here you can set the resource limits used to scale your application [vertically](/features/vertical-scaling). Below that you can configure automatic [horizontal scaling](/features/horizontal-scaling) triggers to add and remove nodes when resource usage reaches certain thresholds.
 ![](scaling.jpg)
 
 ##### Configure tab
