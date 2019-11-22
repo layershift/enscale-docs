@@ -1,6 +1,6 @@
 ---
 title: 'SSH in Enscale'
-media_order: 'SSHmodal.png,addnewPubKey.png,addingSSHKey.png,deleteSSHKey.png,Account-dropdown-3.jpg'
+media_order: 'SSHmodal.png,addingSSHKey.png,deleteSSHKey.png,Account-dropdown-3.jpg'
 taxonomy:
     category:
         - docs
