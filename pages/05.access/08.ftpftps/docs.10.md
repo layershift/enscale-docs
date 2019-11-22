@@ -13,7 +13,7 @@ You can easily access your application or database nodes via FTP to upload or do
 
 You can connect using plain FTP, or FTP secured with SSL (FTPS) which encrypts both your login details (username and password) and content, for higher security.
 
-FTP connection requires a [public IP](/../environments/features/ip-addresses#using-a-public-ip-address) address on the node that you wish to connect to. If your node doesn’t have one already, it will be added automatically when you activate FTP.
+FTP connection requires a [public IP](/features/ip-addresses#using-a-public-ip-address) address on the node that you wish to connect to. If your node doesn’t have one already, it will be added automatically when you activate FTP.
 
 ### Install FTP on your nodes
 
