@@ -15,7 +15,7 @@ You can access your account information easily by clicking on your email address
 
 ##### Account collaborators
 
-Within the header, you can see and manage your account collaborators: colleagues that you have granted dashboard access to for one or more of your environments.
+Within the header, you can see and manage your [account collaborators](/features/collaboration): colleagues that you have granted dashboard access to for one or more of your environments.
 
 ![](Collab-button.jpg)
 
