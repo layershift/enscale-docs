@@ -15,7 +15,7 @@ Alternatively, if you need to make a JAR library available to all apps across th
 
 ##### Step 1
 
-Connect to your application node via [SFTP](/environments/access/access-via-sftp).
+Connect to your application node via [SFTP](/access/access-via-sftp).
 
 ##### Step 2
 Navigate to the _/opt/shared/lib_ folder.
