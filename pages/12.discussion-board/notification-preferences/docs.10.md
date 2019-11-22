@@ -7,7 +7,7 @@ taxonomy:
 visible: true
 ---
 
-The Enscale Discussion board has two types of notifications - Email and Popup. By default we try to minimise email allerts, so emails are sent in the following situations:
+The Enscale Discussion board has two types of notifications - **Email** and **Popup**. By default we try to minimise email allerts, so emails are sent in the following situations:
 
 * Private messages
 * Comments on any discussions you've bookmarked
