@@ -1,6 +1,6 @@
 ---
 title: 'View log files'
-media_order: 'horizontal_scaling_1.jpg,fileManagerBtn.png,FilemanagerLog.png,Deploy-button.JPG,audit log.png,auditlog1.png'
+media_order: 'horizontal_scaling_1.jpg,fileManagerBtn.png,FilemanagerLog.png'
 taxonomy:
     category:
         - docs
