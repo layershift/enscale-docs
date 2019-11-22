@@ -7,8 +7,6 @@ taxonomy:
 visible: true
 ---
 
-
-
 There are very few developers nowadays who don’t use some sort of version control system.
 
 You can store your repository anywhere on the Internet or on your home server, as long as you are using Subversion as a source control management tool, we've got you covered!
@@ -76,5 +74,5 @@ If you need to make any changes or additions directly to your Enscale environmen
 
 To protect you from unexpected data loss, Enscale does not automatically force a deployment if edits / additions made to your environment result in a merge conflict.
 
-If you find that an updated code revision is not deployed as expected, you should review the [SVN logs](/environments/access/log-files) to identify and resolve the root cause of a merge conflict. Then try the deploy once again.
+If you find that an updated code revision is not deployed as expected, you should review the [SVN logs](/troubleshooting/log-files/gitsvn-logs) to identify and resolve the root cause of a merge conflict. Then try the deploy once again.
 
