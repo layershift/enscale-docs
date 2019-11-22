@@ -80,5 +80,5 @@ If you need to make any changes or additions directly to your Enscale environmen
 
 To protect you from unexpected data loss, Enscale does not automatically force a deployment if edits / additions made to your environment result in a merge conflict.
 
-If you find that an updated code revision is not deployed as expected, you should review the Maven logs to identify and resolve the root cause of a merge conflict, then try the deploy once again.
+If you find that an updated code revision is not deployed as expected, you should review the [Maven logs](/java/deployment-guides/maven-build-node#logs) to identify and resolve the root cause of a merge conflict, then try the deploy once again.
 
