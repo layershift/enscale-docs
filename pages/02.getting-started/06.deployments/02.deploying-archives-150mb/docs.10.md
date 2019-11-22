@@ -9,13 +9,13 @@ visible: true
 To deploy from archives larger than 150MB, generally you would need to connect to your application server via SFTP/SSH to upload and extract the files. The steps below can generally used for any node type, for Java we recommend checking the [Java specific article](/java/deployment-guides/war-or-ear-deployment#deploying-java-application-war-or-ear-larger-than-150mb) for additional options.
 
 ##### Step 1
-Set up your SSH and SFTP connection. If you need any assistance with this, you can see our articles [Access via SSH](/environments/access/access-via-ssh) and [Access via SFTP](/environments/access/access-via-sftp) for detailed instructions.
+Set up your SSH and SFTP connection. If you need any assistance with this, you can see our articles [Access via SSH](/access/access-via-ssh) and [Access via SFTP](/access/access-via-sftp) for detailed instructions.
 
 ##### Step 2
 Connect to your node via SFTP and upload your archive.
 
 ##### Step 3
-Connect to your node via SSH.
+[Connect](/access/connect-with-ssh) to your node via SSH.
 
 ##### Step 4
 Locate your uploaded file and extract it via the approproate command.
