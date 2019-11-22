@@ -9,7 +9,7 @@ visible: true
 
 ### HOW TO DEPLOY FROM WAR OR EAR
 
-You can deploy your Java application directly by uploading your WAR or EAR file either through the Enscale dashboard (or via SFTP if larger than 150 MB). Upload your archive and let Enscale take care of the rest.
+You can deploy your Java application directly by uploading your WAR or EAR file either through the Enscale dashboard (or via SFTP if [larger than 150 MB](/java/deployment-guides/war-or-ear-deployment#deploying-java-application-war-or-ear-larger-than-150mb)). Upload your archive and let Enscale take care of the rest.
 
 ### Deploying Java application WAR or EAR up to 150MB
 
@@ -56,7 +56,7 @@ Enter a description for your file - this comment will be attached to your projec
 ##### Step 8
 Click **Deploy**
 
-!!!! Now that your code is deployed, you may wish to [configure the DNS](/environments/features/add-domain-name) for your domain.
+!!!! Now that your code is deployed, you may wish to [configure the DNS](/features/add-domain-name) for your domain.
 
 ### Deploying Java application WAR or EAR larger than 150MB
 
@@ -72,7 +72,7 @@ To access the admin console, go to the node's **Configure** tab and click **Go t
 
 ##### Step 1
 
-Set up your SSH and SFTP connection. If you need any assistance with this, you can see our articles [Access your environment via SSH](/environments/access/access-via-ssh) or [Access your environment via SFTP](/environments/access/access-via-sftp).
+Set up your SSH and SFTP connection. If you need any assistance with this, you can see our articles [Access your environment via SSH](/access/access-via-ssh) or [Access your environment via SFTP](/access/access-via-sftp).
 
 ##### Step 2
 
