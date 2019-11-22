@@ -46,7 +46,7 @@ Environment sharing is possible from within the environment too, in this case th
 Your collaborator will be able to see the shared environments the same way you do in your dashboard, but under the **Environments owned by ...** header. The **Add new environment** option under this header only appears if they have an **Admin** role on your account.
 ![](collabview.png)
 
-You will be able to keep track of actions performed by your collaborators by viewing the **[Audit log](/environments/access/log-files#audit-log)**.
+You will be able to keep track of actions performed by your collaborators by viewing the **[Audit log](/troubleshooting/log-files/audit-log)**.
 
 ### Sharing permissions
 
