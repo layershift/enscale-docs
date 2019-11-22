@@ -1,6 +1,6 @@
 ---
 title: 'Environment view'
-media_order: 'EnvironmentHeader.JPG,actions-dropdown.JPG,change-runtime.JPG,open-deployment-manager.png,nodeView.jpg,nodeHead.jpg,nodeChart.jpg,ConnectTab.jpg,scaling.jpg,Configure-tab.JPG,java-tile.png,Nodejs-tile.png,php-tile.png,Ruby-tile.png,Python-tile.png'
+media_order: 'EnvironmentHeader.JPG,actions-dropdown.JPG,change-runtime.JPG,open-deployment-manager.png,nodeView.jpg,nodeHead.jpg,nodeChart.jpg,ConnectTab.jpg,scaling.jpg,java-tile.png,Nodejs-tile.png,php-tile.png,Ruby-tile.png,Python-tile.png,Configure-tab.JPG'
 taxonomy:
     category:
         - docs
@@ -100,4 +100,6 @@ Here you can set the resource limits used to scale your application [vertically]
 ##### Configure tab
 
 In the configure tab you will find the current version of your specific node and are able to change it for that specific node only. Additonally for database nodes you will find connection details and admin panel access under this tab.
+
 ![](Configure-tab.JPG)
+Use the **Variables** button to set environment variables for the node that you can reference in your application code.
