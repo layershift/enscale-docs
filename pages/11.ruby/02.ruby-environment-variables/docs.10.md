@@ -10,7 +10,7 @@ Pre-defined environment variables on Ruby nodes, most of these are informational
 
 In the tables below you can find the pre-defined environment variables as well as see which are the informational ones.
 
-To add your own environment variables follow the steps outlined in our feature description article: [Environment Variables](/environments/features/environment-variables).
+To add your own environment variables follow the steps outlined in our feature description article: [Environment Variables](/features/environment-variables).
 
 ### Ruby Apache Environment Variables
 |ENV VAR|Value (example)|Description|Informational only|
@@ -51,7 +51,7 @@ To add your own environment variables follow the steps outlined in our feature d
 
 ##### Setting environment variables for Nginx - Passenger
 
-You can also set the environment variables in the in _nginx-passenger.conf_ file accessible from the [File manager](/environments/access/file-manager) of your application node.
+You can also set the environment variables in the in _nginx-passenger.conf_ file accessible from the [File manager](/features/file-manager) of your application node.
 
 Each variable should be added as a new line in the following format:
 
