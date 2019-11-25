@@ -77,13 +77,13 @@ Enter a description for your file - this comment will be attached to your projec
 
 Click **Deploy**.
 
-!!!! Now that your code is deployed, you may wish to [configure the DNS](/environments/features/add-domain-name) for your domain.
+!!!! Now that your code is deployed, you may wish to [configure the DNS](features/add-domain-name) for your domain.
 
 ### Deploying a PHP application from ZIP or TAR archive larger than 150MB
 
 ##### Step 1
 
-Set up your SSH and SFTP connection. If you need any assistance with this, you can see our articles [Access via SSH](/environments/access/access-via-ssh) and [Access via SFTP](/environments/access/access-via-sftp) for detailed instructions.
+Set up your SSH and SFTP connection. If you need any assistance with this, you can see our articles in the [Accessing environments](/access) section for detailed instructions.
 
 ##### Step 2
 Connect to your node via SFTP and upload your archive. You can upload the following archive types: _.tar_, _.tar.gz_, _.zip_ and _.bzip2_
@@ -112,4 +112,4 @@ Locate your uploaded file and use the `unzip` or `tar` command to extract your f
 
 `apache@node124718-cool-waterfall-59 ~/webroot/ROOT/wp $ tar -xjfv wp.bzip2`
 
-!!!! Now that your code is deployed, you may wish to [configure the DNS](/environments/features/add-domain-name) for your domain.
+!!!! Now that your code is deployed, you may wish to [configure the DNS](/features/add-domain-name) for your domain.
