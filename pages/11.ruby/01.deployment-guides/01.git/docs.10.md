@@ -19,7 +19,7 @@ Below you can see how to deploy your application and how to set up automatic red
 
 ##### Step 1
 
-Create your Ruby environment with your choice of [Apache or Nginx](/servers-and-technologies#ruby) application runtime node.
+Create your Ruby environment with your choice of [Apache or Nginx](/getting-started/servers-and-technologies#ruby) application runtime node.
 
 ##### Step 2
 
@@ -63,7 +63,7 @@ Click **Deploy**.
 
 
 
-!!! The _rake\_deploy_ file is deleted after successful execution. You can see the results of your rake tasks in the [_rake\_deploy.log_](/environments/access/log-files) file.
+!!! The _rake\_deploy_ file is deleted after successful execution. You can see the results of your rake tasks in the [_rake\_deploy.log_](/troubleshooting/log-files/view-log-files) file.
 
-!!!! Now that your code is deployed, you may wish to [configure the DNS](/environments/features/add-domain-name) for your domain.
+!!!! Now that your code is deployed, you may wish to [configure the DNS](/features/add-domain-name) for your domain.
 
