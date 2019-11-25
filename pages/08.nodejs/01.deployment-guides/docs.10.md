@@ -3,8 +3,10 @@ title: 'Deployment guides'
 taxonomy:
     category:
         - docs
-redirect: /nodejs/deployment-guides/git
 visible: true
 ---
 
-Your page content goes here.
+How can you deploy your application to your Node.js environment?
+
+1. [Using git](/nodejs/deployment-guides/git)
+2. Using [SVN](/nodejs/deployment-guides/svn)
