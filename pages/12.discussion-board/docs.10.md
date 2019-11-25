@@ -1,7 +1,8 @@
 ---
 title: 'Discussion Board'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 # Enscale Discussion Board
