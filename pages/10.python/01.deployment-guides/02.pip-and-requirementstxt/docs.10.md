@@ -18,7 +18,7 @@ To be able to install Python packages you should first make use of Python’s ow
 
 ##### Step 1
 
- Connect to your Apache application node via [SSH](/environments/access/access-via-ssh). 
+ Connect to your Apache application node via [SSH](/access/connect-with-ssh). 
 
 ##### Step 2
 
@@ -62,7 +62,7 @@ If your application already has a list of packages and corresponding version num
 
 ##### Step 1
 
-Connect to your Apache application node via [SSH](/environments/access/access-via-ssh) and create your virtual environment.
+Connect to your Apache application node via [SSH](/access/connect-with-ssh) and create your virtual environment.
 ```apache
 virtualenv venv
 ```
@@ -95,5 +95,5 @@ cd ROOT
 pip install -r requirements.txt
 ```
 
-You need to make sure that your _requirements.txt_ file is properly formatted. Please refer to the following [guide](https://pip.readthedocs.io/en/1.1/requirements.html) for creating your requirements file.
+You need to make sure that your _requirements.txt_ file is properly formatted. Please refer to the following [guide](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) for creating your requirements file.
 
