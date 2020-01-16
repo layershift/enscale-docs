@@ -3,7 +3,6 @@ title: 'Enscale Beta'
 taxonomy:
     category:
         - docs
-visible: true
 ---
 
 ### What is Enscale Beta?
