@@ -1,8 +1,10 @@
 ---
 title: 'Enscale Beta'
+published: false
 taxonomy:
     category:
         - docs
+visible: true
 ---
 
 ### What is Enscale Beta?
