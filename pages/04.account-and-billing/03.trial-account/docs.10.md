@@ -10,4 +10,3 @@ Trial terms
 
 Trial account limitations
 
-Get the most out of your trial
