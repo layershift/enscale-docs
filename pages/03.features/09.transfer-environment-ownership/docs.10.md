@@ -28,7 +28,7 @@ Once the request is approved, the environment will be removed from your account 
 
 If someone wants to transfer an environment to your account, you will receive an email requesting approval to proceed with the transfer.
 
-!!! Always make sure the request is from someone trusted! When you accept an environment to be transferred to your account, you assume responsibility for said environment contents as well agree to be charged for its resource requirements.
+! Always make sure the request is from someone trusted! When you accept an environment to be transferred to your account, you assume responsibility for said environment contents as well agree to be charged for its resource requirements.
 
 Once you accept the request, the environment will immediately be transferred to your account in the same state (stopped/started) and without any configuration changes.
 
