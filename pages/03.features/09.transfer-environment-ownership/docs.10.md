@@ -14,8 +14,10 @@ Transferring an environment will leave all environment configurations in place a
 
 To transfer environment ownership, all you need to do is Enter the environment, select **Transfer environment** from the **Actions** drop-down menu.
 []
+
 Enter the email address of the user you want to transfer to.
 []
+
 !!!The receiving party will need to have an upgraded Enscale account, else the transfer will fail.
 
 While the request is pending, you will see a **Transferring** icon next to the environment name. You can click it to see details of your transfer request or to cancel the request.
