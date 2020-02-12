@@ -10,7 +10,7 @@ Enscale allows for the possibility of environments to be transferred between pai
 
 Transferring an environment will leave all environment configurations in place and there is absolutely no downtime. 
 
-#### Transfer to a different user
+### Transfer to a different user
 
 To transfer environment ownership, all you need to do is Enter the environment, select **Transfer environment** from the **Actions** drop-down menu.
 []
@@ -22,7 +22,7 @@ While the request is pending, you will see a **Transferring** icon next to the e
 
 Once the request is approved, the environment will be removed from your account and all collaboration on the specific environment will be cancelled.
 
-#### Accept an incoming transfer
+### Accept an incoming transfer
 
 If someone wants to transfer an environment to your account, you will receive an email requesting approval to proceed with the transfer.
 
