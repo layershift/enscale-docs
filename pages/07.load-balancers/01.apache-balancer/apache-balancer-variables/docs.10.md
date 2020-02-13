@@ -14,7 +14,7 @@ To add your own environment variables follow the steps outlined in our feature d
 |-----------|-----------|-----------|----------|
 |APACHE_VERSION|2.4.41|Current template version for Apache.|Yes|
 |DOCKER_EXPOSED_PORT|22,25,443,7979,80,8080,21|List of ports opened via container firewall during environment creation.|Yes|
-|MASTER_IP|10.10.127.16|Apache load balancer's master node's IP.|Yes|
+|MASTER_IP|10.10.127.16|Apache load balancer master node's IP.|Yes|
 |MASTER_ID|217691|ID of the Apache load balancer master node|Yes|
 |MASTER_HOST|node217691|Short hostname for the Apache load balancer master node.|Yes|
 |PATH|/usr/local/sbin:/usr/local/bin|List of paths for directories with executable program files, default shell variable.|Yes|
