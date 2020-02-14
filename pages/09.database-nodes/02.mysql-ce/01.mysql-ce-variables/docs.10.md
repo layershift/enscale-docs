@@ -20,3 +20,6 @@ To add your own environment variables follow the steps outlined in our feature d
 |STACK_VERSION|8.0.19|Version of the current stack.|Yes|
 |ADMINPANEL_ENABLED|true|Allow (true) or disable use (false) of PHPMyAdmin admin panel.|No|
 |ON_ENV_INSTALL|https://example.com/script.jps|A script (or link to it) to be executed after environment creation.|Yes|
+|MASTER_IP|10.10.127.16|MySQL CE master node's IP.|Yes|
+|MASTER_ID|217691|ID of the MySQL CE master node|Yes|
+|MASTER_HOST|node217691|Short hostname for the MySQL CE master node.|Yes|
