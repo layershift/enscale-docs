@@ -19,4 +19,4 @@ To add your own environment variables follow the steps outlined in our feature d
 |STACK_USER|mysql|The name of the stack’s default user.|Yes|
 |STACK_VERSION|5.7.27|Version of the current stack.|Yes|
 |ADMINPANEL_ENABLED|true|Allow (true) or disable use (false) of PHPMyAdmin admin panel.|No|
-|JELASTIC_EXPOSE|FALSE|Define a port where incoming traffic should be redirected to (any value from 1-65535) or disable auto-redirect (false).|Yes|
+|JELASTIC_EXPOSE|FALSE|Define a port where incoming traffic should be redirected to (any value from 1-65535) or disable auto-redirect (false).|No|
