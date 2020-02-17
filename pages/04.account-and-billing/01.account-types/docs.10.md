@@ -18,7 +18,7 @@ Billing accounts are the full-blown accounts users have with Enscale after submi
 
 ### Collaborator account
 
-These accounts are created by sending an invitation from your Enscale dashboard to people you'd like to give access to to your environments. A collaborator account is completely free, however users with this type of account cannot create their own environments. (Collaboration is possible with billing account owners as well - in that case the account will be still considered a billign account for all intents and purposes of this article.)
+These accounts are created by sending an invitation from your Enscale dashboard to people you'd like to give access to to your environments. A collaborator account is completely free, however users with this type of account cannot create their own environments. (Collaboration is possible with billing account owners as well - in that case the account will be still considered a billign account for all intents and purposes of this article.) To learn more about the collaboration feature, read our [feature description article](/features/collaboration).
 
 Now that we discussed the type of accounts, let's see their limitations:
 
@@ -27,7 +27,7 @@ Now that we discussed the type of accounts, let's see their limitations:
 |Number of environments|4|1000|0|
 |Maximum nodes per environment|16|48|N/A|
 |Maximum same type nodes per environment|3|16|N/A|
-|Disk space per node|10GB|200GB|N/A|
+|Disk space per node|20GB|200GB|N/A|
 |Cloudlets per node|64|256|N/A|
 |Public IPv4|No|Yes|N/A|
 |Public IPv6|No|Yes|N/A|
