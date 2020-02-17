@@ -12,7 +12,7 @@ Enscale offers a variety of database nodes (servers) you can easily install from
 When your database node is created, you will receive an email with access URL, login and password for the database admin panel. Keep in mind that the login and password you receive has admin permissions, so for connecting the database to your application it is strongly recommended to create a second user with less privileges.
 
 Read more about your chosen database in the corresponding subsections:
-
-
-|![](mariadb.png)|![](mysql.png)|![](percona.png)|![](postgresql.png)|![](couchbase.png)|![](mongodb.png)|![](redis.png)|
+|   |   |   |   | |   |   |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[![](mariadb.png)](/database-nodes/mariadb)|[![](mysql.png)](/database-nodes/mysql-ce)|[![](percona.png)](/database-nodes/percona)|[![](postgresql.png)](/database-nodes/postgresql)|[![](couchbase.png)](/database-nodes/couchbase-ce)|[![](mongodb.png)](/database-nodes/mongodb)|[![](redis.png)](/database-nodes/redis)|
 
