@@ -13,7 +13,6 @@ When your database node is created, you will receive an email with access URL, l
 
 Read more about your chosen database in the corresponding subsections:
 
-| || || |||
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+
 |![](mariadb.png)|![](mysql.png)|![](percona.png)|![](postgresql.png)|![](couchbase.png)|![](mongodb.png)|![](redis.png)|
 
