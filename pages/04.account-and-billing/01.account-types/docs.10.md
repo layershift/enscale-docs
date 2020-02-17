@@ -6,4 +6,40 @@ taxonomy:
 visible: true
 ---
 
-Your page content goes here.
+There are three basic account types with Enscale: trial, billing and collaborator accounts with their own set of permissions and limitations. 
+
+### Trial account
+
+This is the type of account you are most likely to have when diving into Enscale PaaS. While trial accounts have a lot of the features available during the trial period, there are of course some limitations to prevent abuse. Should you require a less restrictive trial, don't hesitate to email us with more details about your project and requirements for it - we are know to be flexible ;)
+
+### Billing account
+
+Billing accounts are the full-blown accounts users have with Enscale after submitting their first payment (see [upgrade](/account-and-billing/trial-account/upgrade)). All of the Enscale features are unlocked, however there are reasonable limitations to certain resources. These limitations are in place mostly because going above the resources is unlikely to be the best solution for your application. If you hit any of these limits, just send us an email and together work out the optimal way to move forward (be that increasing the resources or a different option).
+
+### Collaborator account
+
+These accounts are created by sending an invitation from your Enscale dashboard to people you'd like to give access to to your environments. A collaborator account is completely free, however users with this type of account cannot create their own environments. (Collaboration is possible with billing account owners as well - in that case the account will be still considered a billign account for all intents and purposes of this article.)
+
+Now that we discussed the type of accounts, let's see their limitations:
+
+|Feature|Trial|Billing|Collaborator|
+|---|---|---|---|
+|Number of environments|4|1000|0|
+|Maximum nodes per environment|16|48|N/A|
+|Maximum same type nodes per environment|3|16|N/A|
+|Disk space per node|10GB|200GB|N/A|
+|Cloudlets per node|64|256|N/A|
+|Public IPv4|No|Yes|N/A|
+|Public IPv6|No|Yes|N/A|
+|Shared SSL|Yes|Yes|N/A|
+|Custom SSL/Let's Encrypt|No|Yes|N/A|
+|SSH access|Yes|Yes|Owner defined permission|
+|FTP access|Yes|Yes|Owner defined permission|
+
+
+
+
+
+
+
+
