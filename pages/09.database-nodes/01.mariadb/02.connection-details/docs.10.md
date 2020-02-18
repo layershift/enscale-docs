@@ -17,7 +17,7 @@ If you prefer, you can also use the hostname or private IP address of your datab
 
 !!!! We recommend using the private IP address (either directly or via the variable), as it provides a direct connection vs host name where DNS resolution is also required.
 
-
+We also strongly advise that for your security you should [set up a new user](/database-nodes/mariadb/user-creation) for your application with limited privileges.
 
 It is also recommended to set up a new user for your application with limited permissions, instead of using the default admin user. You can set one up in phpMyAdmin. 
 
