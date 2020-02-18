@@ -7,11 +7,17 @@ taxonomy:
 visible: true
 ---
 
-When you create your MariaDB database node, you're emailed the connection details along with your root username and password to log in to phpMyAdmin.
+When a database node is added to your environment, Enscale automatically transfers its environment variables to the application node, so the easiest is to use the `MARIADB_HOST` variable. This is the private IP address of your master MariaDB node.
 
-To connect the database to your application you should use the hostname or private IP address of your database node. They can be found in the **Connect** and **Configure** tabs respectively.
+The advantage of using variables is that the values update automatically as you change your environment, so you don't have to change anything in your code.
+
+If you prefer, you can also use the hostname or private IP address of your database node. They can be found in the **Connect** and **Configure** tabs respectively.
 
 ![](DB-connection-details.png)
+
+!!!! We recommend using the private IP address (either directly or via the variable), as it provides a direct connection vs host name where DNS resolution is also required.
+
+
 
 It is also recommended to set up a new user for your application with limited permissions, instead of using the default admin user. You can set one up in phpMyAdmin. 
 
