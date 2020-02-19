@@ -9,7 +9,7 @@ visible: true
 Let's start by defining a few important terms.
 
 ##### Node:
-In Enscale, a node is a single-purpose VPS container. Different types of nodes are available and can be combined to run different parts of your application. For example a WordPress app requires a minimum of an application runtime node (e.g. Apache or Nginx PHP) and a database node (e.g. MySQL or MariaDB). Multiple nodes of the same type can be added ([horizontal scaling](/features/horizontal-scaling)) behind a load balancer node for increased availability (HA) and scalability (processing more traffic).
+In Enscale, a node is a single-purpose VPS container. Different types of nodes are available and can be combined to run different parts of your application. For example a blog app likely requires an application runtime node (e.g. Apache or Nginx) and a database node (e.g. MySQL or MariaDB). Multiple nodes of the same type can be added ([horizontal scaling](/features/horizontal-scaling)) behind a load balancer node for increased availability (HA) and scalability (processing more traffic).
 
 ##### Environment:
 An environment is simply a logical group of nodes, working together to power your application. Nodes within an environment may benefit from special auto-configuration to ease your work: e.g. a load balancer is automatically configured to direct traffic to application runtime nodes within the same environment. Whilst in most cases an environment contains the whole application or microservice, some advanced application topologies may span multiple environments (so don't take it as a strict metaphor).
