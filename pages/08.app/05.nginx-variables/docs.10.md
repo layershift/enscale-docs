@@ -21,7 +21,7 @@ To add your own environment variables follow the steps outlined in our feature d
 |GEM_PATH|/usr/local/rvm/gems/ruby-2.6.3:/usr/local/rvm/gems/ruby-2.6.3|Gem location(s)|Yes|
 |IRBRC|/usr/local/rvm/rubies/ruby-2.6.3/.irbrc|IRB config file path|Yes|
 |MY_RUBY_HOME|/usr/local/rvm/rubies/ruby-2.6.3|Path to Ruby Engine home directory|Yes|
-|NGINX_VERSION|1.16.0|Current template version for Apache.|Yes|
+|NGINX_VERSION|1.16.0|Current template version for Nginx.|Yes|
 |PATH|/usr/local/sbin:/usr/local/bin|List of paths for directories with executable program files, default shell variable. |Yes|
 |RUBY_VERSION|2.6.3|Current version of Ruby.|Yes|
 |rvm_bin_path|/usr/local/rvm/bin|Path to Ruby Version Manager binaries.|Yes|
