@@ -12,7 +12,7 @@ We offer four load balancer server types for you to choose from:
 
 [Apahce load balancer](https://enscale.com/docs/10/load-balancers/apache-balancer/)
 [HAProxy load balancer](https://enscale.com/docs/10/load-balancers/haproxy)
-[Ngnix load balancer](https://enscale.com/docs/10/load-balancers/nginx-balancer)
+[Nginx load balancer](https://enscale.com/docs/10/load-balancers/nginx-balancer)
 [Varnis balancer](https://enscale.com/docs/10/load-balancers/varnish)
 
 
