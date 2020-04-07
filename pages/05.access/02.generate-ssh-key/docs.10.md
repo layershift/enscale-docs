@@ -30,7 +30,7 @@ Open PuTTYgen.
 
 Select these parameters:
 
-* Enscale requires an SSH-2 RSA (recommended) or SSH-2 DSA key
+* Enscale requires an SSH-2 RSA
 * The number of bits can be either **2048** or **4096** (recommended). This defines the strength of the key and its resistance to brute-force attacks.
 
 ##### Step 3
