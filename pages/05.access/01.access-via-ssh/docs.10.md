@@ -38,7 +38,6 @@ SSH connection settings
 * Port - 3022
 * SSH fingerprint
  				- RSA (92:ba:3c:8e:69:90:e5:a7:cf:17:40:ed:fb:be:d7:26)
-                - DSA (26:2d:93:72:38:8c:72:28:63:a2:32:d7:1c:aa:78:53)
                 
 
 
