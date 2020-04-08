@@ -20,6 +20,8 @@ Select **Manage SSH Keys** from the drop-down menu under your account email addr
 Click **Add new public key**.
 ![](addnewPubKey.png)
 
+!!! Key type must be RSA (DSA and Elliptic Curve keys such as ed25519 are not currently supported).
+
 ##### Step 4
 Enter a title to help you identify your key, add your public key and click **Add Key**.
 ![](addingSSHKey.png)
