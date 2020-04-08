@@ -25,6 +25,8 @@ Use the **Add new public key** button under the Public Keys tab.
 
 Note that each key you add here has full access to all environments owned by your account, and any other environments shared with you with the Admin permission level.
 
+!!! Key type must be RSA (DSA and Elliptic Curve keys such as ed25519 are not currently supported).
+
 ##### Step 2: Locate your connection details
 
 Enter your environment and select the **Connect** tab for the node you would like to access.
