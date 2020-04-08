@@ -40,7 +40,7 @@ SSH connection settings
  				- RSA (92:ba:3c:8e:69:90:e5:a7:cf:17:40:ed:fb:be:d7:26)
                 
 
-
+!!! Key type must be RSA (DSA and Elliptic Curve keys such as ed25519 are not currently supported).
 
 ### User permissions
 
