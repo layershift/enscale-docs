@@ -7,10 +7,9 @@ taxonomy:
 visible: true
 ---
 
-
 In some cases, you will need to manually connect to your application node via SFTP for uploading files to make small changes in your application or to use in scripts. Enscale allows you to do this easily with any SFTP client.
 
-In order to connect via SFTP, you will need to [create an SSH key pair](/access/generate-ssh-key) and [upload your public key](/access/add-ssh-key) to the Enscale dashboard.
+In order to connect via SFTP, you will need to [create an SSH key pair](/access/generate-ssh-key) and [upload your public key](/access/add-ssh-key) to the Enscale dashboard. Key type must be RSA (DSA and Elliptic Curve keys such as ed25519 are not currently supported).
 
 ##### Connect to your node using SFTP
 
