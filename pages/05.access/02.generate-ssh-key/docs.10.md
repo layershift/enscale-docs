@@ -12,6 +12,9 @@ To connect to the gateway (or to your node) via SSH, you will need a private and
 * [For Windows clients](access/generate-ssh-key#for-windows-clients) 
 * [For Linux / Mac OS users](/access/generate-ssh-key#for-linux-mac-os-users)
 
+!!! Key type must be RSA (DSA and Elliptic Curve keys such as ed25519 are not currently supported).
+
+
 ### For Windows clients 
 
 We will use **PuTTYgen** to show you how to generate the SSH key pairs (public and private key) that are used by PuTTY to connect to your server from a Windows client. 
