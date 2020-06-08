@@ -19,7 +19,7 @@ To upgrade you need to perform the following steps:
 First and Last name
 Company name / Account name* 
 Country
-Street
+Address
 City 
 Postcode (or ZIP)
 Phone number
