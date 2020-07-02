@@ -88,4 +88,3 @@ This chapter is dediated to your account settings, as well as learning about how
 * [Account wide-settings that are good to know](/account-and-billing/your-account)
 * [Forgot password or need to reset it](/account-and-billing/reset-password)
 
-As the [Enscale Beta](https://enscale.com/docs/10) programme is completely free, billing articles will be added closer to the public launch date.
