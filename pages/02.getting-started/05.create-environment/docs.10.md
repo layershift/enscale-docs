@@ -44,7 +44,7 @@ For each server type we offer a variety of options. Select your preferred one us
 
 **Cache** - Adding a cache node to your environments provides a single larger memory pool to be used by all your servers within the environment for storing and retrieving data.
 
-The latest available version of each server is added by defaul, but don't worry, you can change it later if required. Multiple servers of the same type can also be added later with [horizontal scaling](/features/horizontal-scaling).
+!!! The latest available version of each server is added by defaul, but don't worry, you can change it later if required. Multiple servers of the same type can also be added later with [horizontal scaling](/features/horizontal-scaling).
 
 
 ##### Step 4 - Create your environment
