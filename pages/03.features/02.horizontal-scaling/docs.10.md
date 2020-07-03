@@ -15,7 +15,7 @@ This can be summarised as ensuring that any asset or resource uploaded, generate
 
 There are 2 main strategies to achieve this:
 
-* Centralise the data to a specific shared location. E.g. if you're using PHP, you might use memcached as a session storage location. 
+* Centralise the data to a specific shared location. E.g. you might use Memcached or Redis as a session storage location. 
 * Replicate the data across all servers, so each has its own copy.
 
 The appropriate strategy for your case, and its implementation, is outside the scope of this article, but you are welcome to contact our support team ([support@enscale.com](mailto:support@enscale.com)) for additional guidance on this issue.
@@ -26,26 +26,18 @@ If your application has irregular spikes, you can set triggers for automatic hor
 
 When using multiple runtime nodes, you should also add a load balancer to distribute your incoming requests between them. Enscale automatically configures the load balancer to distribute your traffic across your runtime nodes when added, and will automatically add/remove runtime nodes from its configuration as they're added/removed from your environment, or if they're detected as offline.
 
-!!! An automated data replication option will be available for runtime nodes in the near future. 
-
 ### Manual horizontal scaling
-You can add multiple nodes of the same type manually when creating your environment, and deploy your application simultaneously to all of them at once. Alternatively you can add additional nodes later on, by [cloning](#cloning-existing-nodes) an existing node, in which case all data and configurations of the source node are replicated onto the new one as a point in time snapshot (thereafter the data / configuration is independent for each node).
+You can add multiple nodes of the same type right after you've created your environment, and deploy your application simultaneously to all of them at once. Alternatively you can add additional nodes later on, by [cloning](#cloning-existing-nodes) an existing node, in which case all data and configurations of the source node are replicated onto the new one as a point in time snapshot (thereafter the data / configuration is independent for each node).
+
+!!! If you change files in the Enscale file manager, you have the option to save the changes to all nodes of the same type.
 
 ### Adding new nodes
-Adding a new node will always result in an empty node, preconfigured to run an application based on the selected node type and language. You will always need to deploy your application after adding a new node.
-
-! Deployment affects all runtime nodes in the environment. If you don’t want to re-deploy the application on a pre-existing runtime node, you should [clone](#cloning-existing-nodes) your application node instead.
-
-You can create your environment with multiple nodes of the same type from the start, or add additional nodes at any later time.
+Adding a new node will always result in an empty node, as such we allow this for non-runtime nodes only. You will always need to make sure new nodes are configured properly.
 
 ##### Step 1
 
 Add multiple nodes to your environment with the **Add New Node** button. 
 ![](AddnewNode.png)
-
-When [creating your environment](/getting-started/create-environment) this is available in the environment creation screen.
-
-If your environment is already created, the option to add additional nodes is available once you enter your environment.
 
 ##### Step 2 
 
