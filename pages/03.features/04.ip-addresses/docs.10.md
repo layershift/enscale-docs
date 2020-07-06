@@ -1,6 +1,6 @@
 ---
 title: 'IP addresses'
-media_order: 'AddPubIPBtn.png,ConectTAB.png,horizontal_scaling_1.jpg,addIpModal.png'
+media_order: 'Enter-environment.png,Connect-tab.png,Add-IP.JPG,add-ip-confirm.JPG'
 taxonomy:
     category:
         - docs
@@ -20,12 +20,12 @@ Private IP addresses are assigned to each of your Enscale nodes by default.
 ### Externally facing nodes
 If your externally facing node (load balancer if you have one, or runtime if not) only has a private IP address, we map your environment name to the public IP addresses of our HTTP Routers.
 
-The HTTP Routers are shared proxy servers, forming part of Enscale's core infrastructure. In a similar way to a NAT gateway, they accept requests on a common public IP, and translate those HTTP requests from the internet to the private addresses of your nodes. In this way you can still serve your application to the internet, even without your own dedicated public IP.
+The HTTP Routers are shared proxy servers, forming part of Enscale's core infrastructure. In a similar way to a NAT gateway, they accept requests on a common public IP, and translate those HTTP requests from the internet to the private addresses of your nodes. This way you can still serve your application to the internet, even without your own dedicated public IP.
 
 ##### Limitations:
 * HTTP Routers only support standard HTTP or HTTPS traffic on the standard ports (80 / 443) 
 * SSL certificate presented for HTTPS traffic only covers the default environment domain 
-* HTTP Router performs SSL offloading for HTTPS traffic; requests are passed to your environment as plain HTTP (see X-Forwarded-Proto header) 
+* HTTP Router performs SSL offloading for HTTPS traffic; requests are passed to your environment as plain HTTP (see [X-Forwarded-Proto header](https://www.geeksforgeeks.org/http-headers-x-forwarded-proto/)) 
 * Traffic is rate-limited (bandwidth and concurrent connections) to ensure fair QoS for all customers 
 * Undefined public IP for outgoing requests originated from your application (e.g. API requests)
 
@@ -65,7 +65,7 @@ Requests to a public IP address go directly to your node, not via the HTTP Route
 
 A public IP address can be configured separately for each node within your Enscale environment.
 
-!!! You will be billed for each public IP address on an hourly basis, regardless of environment state (running or stopped). *Does not apply to BETA users*
+!!! You will be billed for each public IP address on an hourly basis, regardless of environment state (running or stopped).
 
 It's strongly recommended to enable a public IP address for each of your externally facing node(s). This is normally either your load balancer, if you have one, or your application runtime node, if not.
 
@@ -81,12 +81,14 @@ It's strongly recommended to enable a public IP address for each of your externa
 ##### Step 1
 
 Create your environment and enter it.
-![](horizontal_scaling_1.jpg)
+![](Enter-environment.png)
 
 ##### Step 2
 
 Select the **Connect** tab on your desired node.
-![](ConectTAB.png)
+
+![](Connect-tab.png)
+
 
 ##### Step 3
 
@@ -95,8 +97,8 @@ Click **Add Public IP**.
 
 ##### Step 4
 
-Click **Add IP** to confirm that you understand network traffic will be briefly interrupted.
-![](addIpModal.png)
+Click **OK** to confirm that you understand network traffic will be briefly interrupted.
+![](add-ip-confirm.JPG)
 
 The newly assigned public IP will be shown in the **Connect** tab of your node.
 
