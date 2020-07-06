@@ -1,6 +1,6 @@
 ---
 title: Collaboration
-media_order: 'invitecollab.JPG,changeaccpermission.png,shareenvs-1.png,shareenvs-2.JPG,envcollabwithinenv.JPG,collabview.png,yes.png,no.png,info1.png'
+media_order: 'yes.png,no.png,info1.png,Manage-collaborators-invite.JPG,Collaborator-permissions.png,Share-environments.png,environment-permissions.png,sharedwithme.JPG'
 taxonomy:
     category:
         - docs
@@ -13,7 +13,7 @@ With the collaboration feature in Enscale, multiple users can work on the same e
 
 To invite someone to collaborate on your account, simply click the **Collaborator** button on your main dashboard, enter their email address and click **Invite**.
 
-![](invitecollab.JPG)
+![](Manage-collaborators-invite.JPG)
 
 The invitation is sent via email and contains a link to accept the collaboration. Clicking on the link sends the user to a page to set their Enscale password. Once this is done, their account is created and the collaboration status is established. You will receive an email notification immediately and can log in to the dashboard to share environments.
 
@@ -21,7 +21,7 @@ The invitation is sent via email and contains a link to accept the collaboration
 
 On the account level a collaborator can either be viewer or admin. This permission defines whether the user is allowed to create environments on your behalf or not. By default all collaborators are added as viewers. To change this setting, click on the arrow to expand the dropdown. Select the desired permission to set it and click **Save**.
 
-![](changeaccpermission.png)
+![](Collaborator-permissions.png)
 
 ##### Step 3 - Sharing environments
 
@@ -29,23 +29,17 @@ Your collaborators will have access to their own Enscale dashboard, so they will
 
 To share environments with a collaborator, from the **Collaborators** menu click on **Environments** next to the collaborator.
 
-![](shareenvs-1.png)
+![](Share-environments.png)
 
 This will open up a list of all your environments. Use the arrow to expand and collapse permissions for any specific environment. You can change permission to multiple environments at the same time, just don't forget to **save** your changes at the end.
 
-![](shareenvs-2.JPG)
-
-!!! If no changes are made to the collaborator's role, just **close** the **Add collaborators** modal when done.
-
-Environment sharing is possible from within the environment too, in this case the **Collaborators** button will open a list of all your collaborators and you can set different permissions for them for the specific environment only.
-
-![](envcollabwithinenv.JPG)
+![](environment-permissions.png)
 
 !!!! Your collaborator will receive an email for each shared environment.
 
 Your collaborator will be able to see the shared environments the same way you do in your dashboard, but under the **Environments owned by ...** header. The **Add new environment** option under this header only appears if they have an **Admin** role on your account.
-![](collabview.png)
 
+![](sharedwithme.JPG)
 You will be able to keep track of actions performed by your collaborators by viewing the **[Audit log](/troubleshooting/log-files/audit-log)**.
 
 ### Sharing permissions
