@@ -1,6 +1,6 @@
 ---
 title: 'SSH in Enscale'
-media_order: 'SSHmodal.png,addingSSHKey.png,deleteSSHKey.png,Account-dropdown-3.jpg'
+media_order: 'addingSSHKey.png,deleteSSHKey.png,Account-dropdown-3.jpg,Manage-SSH-dd.png,SSH-access.png'
 taxonomy:
     category:
         - docs
@@ -11,9 +11,7 @@ visible: true
 
 Enscale does all the server admin tasks for you, but we know how a lot of times SSH access can be important.
 
-SSH access enables you to install and run your own CLI code or custom git or svn commands, you might need. You can, for example run Composer or other PHP dependency managers, as well as access asadmin and similar application server level CLI tools.
-
-Maybe you would like to push code changes from your environment back to your repository or you need to run commands for conflict resolution. 
+SSH access enables you to install and run your own CLI code or custom git or svn commands. Or maybe you would like to push code changes from your environment back to your repository or you need to run commands for conflict resolution. 
 
 Having SSH access also give you power to import or export large .sql databases without worrying about php script upload/timeout limitations imposed by phpMyAdmin/phpPgAdmin.
 
@@ -28,23 +26,22 @@ We use an intermediary SSH Gateway to provide SSH access in Enscale, so your ind
 ### Your SSH connection settings
 
 You can find your SSH connection settings by clicking on your email address in the top right-had corner and clicking **Manage SSH keys**.
-![](SSHmodal.png)
+![](Manage-SSH-dd.png)
 
-SSH connection settings
+Your SSH connection settings show in the following modal in the **Public Keys** tab
 
-* Username - SSH user (ex. 25880 - this is unique for you, so please check your dahsboard)
+![](SSH-access.png)
+
+* Username - SSH user (ex. 21296 - this is unique for you, so please check your dahsboard)
 * Authentication - SSH key
 * Host - ssh.enscale.com
 * Port - 3022
-* SSH fingerprint
- 				- RSA (92:ba:3c:8e:69:90:e5:a7:cf:17:40:ed:fb:be:d7:26)
-                
 
-!!! Key type must be RSA (DSA and Elliptic Curve keys such as ed25519 are not currently supported).
+To connect via the above details, you need to [add your own public key](/access/add-ssh-key) to Enscale.
 
 ### User permissions
 
-You are logged in as the primary system user for the service on each node. On an Apache node this would mean you are logged in as the apache system user, while on a MySQL node you will be logged in as the mysql system user and so on. This is generally preferable for running certain application utilities (ex drush) and it also simplifies file ownership and access issues.
+You are logged in as the primary system user for the service on each node. On an Apache node this would mean you are logged in as the apache system user, while on a MySQL node you will be logged in as the mysql system user and so on. This is generally preferable for running certain application utilities (ex `rake`) and it also simplifies file ownership and access issues.
 
 Please keep in mind that since Enscale is a PaaS, you will not have root level access, so you will not be able to - or need to - install or update system rpm’s.However, you do have limited sudo permission to run selected commands, such as `sudo service httpd restart`:
 
