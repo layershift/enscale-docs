@@ -1,6 +1,6 @@
 ---
 title: 'Generate SSH Key'
-media_order: 'GenerateSSHKeygeneratedkey.png,GenerateSSHKeystep2.png,GenerateSSHKeystep4.png,GenerateSSHKeystep2CJelastic.png,GenerateSSHKeyLoad.png,GenerateSSHKeyLoad2.png'
+media_order: GenerateSSHKeygeneratedkey.png
 taxonomy:
     category:
         - docs
