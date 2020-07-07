@@ -1,6 +1,6 @@
 ---
 title: 'Generate SSH Key'
-media_order: GenerateSSHKeygeneratedkey.png
+media_order: 'GenerateSSHKeygeneratedkey.png,GenerateSSHKey-1.png,GenerateSSHKey-2.png,GenerateSSHKeystep3.png,GenerateSSHKeyLoad-1.png,GenerateSSHKeyLoad-2.png'
 taxonomy:
     category:
         - docs
@@ -39,12 +39,12 @@ Select these parameters:
 ##### Step 3
 
 Click the **Generate** button.
-![](GenerateSSHKeystep2.png)
+![](GenerateSSHKey-1.png)
 
 ##### Step 4
 
 Move your mouse randomly within the empty area to generate your key until the progress bar fills up.
-![](GenerateSSHKeystep4.png)
+![](GenerateSSHKey-2.png)
 
 ##### Step 5
 
@@ -74,7 +74,7 @@ In the next screen you will see the following:
 You can either copy and paste your public key into the Enscale dashboard, or you can click the **Save public key** button to save the file on your computer. You can open it with a simple text editor, like Notepad.
 
 You should save the private key on your computer as a .ppk (PuTTY Private Key) file.
-![](GenerateSSHKeystep2CJelastic.png)
+![](GenerateSSHKeystep3.png)
 
 ### Load a previous SSH key
 
@@ -87,8 +87,8 @@ Open PuTTYgen.
 ##### Step 2
 
 Click **Load**.
+![](GenerateSSHKeyLoad-1.png)
 
-![](GenerateSSHKeyLoad.png)
 ##### Step 3
 
 Select your SSH Private Key file.
@@ -96,7 +96,7 @@ Select your SSH Private Key file.
 ##### Step 4
 
 Enter your passphrase if prompted and click **OK**.
-![](GenerateSSHKeyLoad2.png)
+![](GenerateSSHKeyLoad-2.png)
 
 ##### Step 5
 
