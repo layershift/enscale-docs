@@ -1,6 +1,6 @@
 ---
 title: 'Connect with SSH'
-media_order: 'SSH-connection-details.png,ssh-connection-settings-node.PNG'
+media_order: 'ssh-connection-settings-node.PNG,SSH-access.png'
 taxonomy:
     category:
         - docs
@@ -14,9 +14,9 @@ Enscale offers two possible options to SSH. The firs option is to connect to the
 
 ##### Connect to the SSH gateway
 
-![](SSH-connection-details.png)
+![](SSH-access.png)
 
-If you’re a Linux or Mac user, you can just click on the **Connect to gateway** button of your node in your dashboard and it’ll open up a terminal ssh session with those details on your behalf.
+If you’re a Linux or Mac user, you can just click on the **Connect** button of your node in your dashboard and it’ll open up a terminal ssh session with those details on your behalf.
 
 If you are using a GUI based client, like PuTTY or SecPanel, you will probably need to manually configure the session details. You will find all this information in your dashboard under **Manage your SSH keys**.
 
