@@ -1,6 +1,6 @@
 ---
 title: 'Add your SSH key'
-media_order: 'SSHmodal.png,addnewPubKey.png,addingSSHKey.png,deleteSSHKey.png,Account-dropdown-3.jpg'
+media_order: 'Manage-SSH-dd.png,SSH-add-public-key.png,SSH-add-public-key-2.png,Delete-SSH-key.png'
 taxonomy:
     category:
         - docs
@@ -14,21 +14,22 @@ Log in to your Enscale dashboard.
 
 ##### Step 2
 Select **Manage SSH Keys** from the drop-down menu under your account email address.
-![](Account-dropdown-3.jpg)
+![](Manage-SSH-dd.png)
 
 ##### Step 3
-Click **Add new public key**.
-![](addnewPubKey.png)
+Switch to the tab for the type of key you'd like to add *Public* or *Private* and click **Add new public key**.
 
+![](SSH-add-public-key.png)
 !!! Key type must be RSA (DSA and Elliptic Curve keys such as ed25519 are not currently supported).
 
 ##### Step 4
 Enter a title to help you identify your key, add your public key and click **Add Key**.
-![](addingSSHKey.png)
+![](SSH-add-public-key-2.png)
+
 ##### Step 5
 You can delete your public key anytime clicking the **Delete** icon
-![](deleteSSHKey.png)
 
+![](Delete-SSH-key.png)
 
 
 
