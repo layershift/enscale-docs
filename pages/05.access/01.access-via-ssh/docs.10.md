@@ -1,6 +1,6 @@
 ---
 title: 'SSH in Enscale'
-media_order: 'addingSSHKey.png,deleteSSHKey.png,Account-dropdown-3.jpg,Manage-SSH-dd.png,SSH-access.png'
+media_order: 'Manage-SSH-dd.png,SSH-modal-mac-public-key-connection-details.png'
 taxonomy:
     category:
         - docs
@@ -30,7 +30,7 @@ You can find your SSH connection settings by clicking on your email address in t
 
 Your SSH connection settings show in the following modal in the **Public Keys** tab
 
-![](SSH-access.png)
+![](SSH-modal-mac-public-key-connection-details.png)
 
 * Username - SSH user (ex. 21296 - this is unique for you, so please check your dahsboard)
 * Authentication - SSH key
@@ -38,6 +38,8 @@ Your SSH connection settings show in the following modal in the **Public Keys** 
 * Port - 3022
 
 To connect via the above details, you need to [add your own public key](/access/add-ssh-key) to Enscale.
+
+!!! The **Connect** button is a shortcut available for Mac and Linux users only. Windows users will need to manually configure their SSH connection in their preferred client.
 
 ### User permissions
 
