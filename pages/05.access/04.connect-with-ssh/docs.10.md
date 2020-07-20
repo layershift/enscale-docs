@@ -1,6 +1,6 @@
 ---
 title: 'Connect with SSH'
-media_order: 'ssh-connection-settings-node.PNG,SSH-access.png'
+media_order: 'ssh-connection-settings-node.PNG,SSH-modal-mac-public-key-connection-details.png'
 taxonomy:
     category:
         - docs
@@ -14,7 +14,7 @@ Enscale offers two possible options to SSH. The firs option is to connect to the
 
 ##### Connect to the SSH gateway
 
-![](SSH-access.png)
+![](SSH-modal-mac-public-key-connection-details.png)
 
 If you’re a Linux or Mac user, you can just click on the **Connect** button of your node in your dashboard and it’ll open up a terminal ssh session with those details on your behalf.
 
