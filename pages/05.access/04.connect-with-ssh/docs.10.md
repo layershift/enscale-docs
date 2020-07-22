@@ -1,6 +1,6 @@
 ---
 title: 'Connect with SSH'
-media_order: 'ssh-connection-settings-node.PNG,SSH-modal-mac-public-key-connection-details.png'
+media_order: 'SSH-modal-mac-public-key-connection-details.png,SSH-Node-Connect.png'
 taxonomy:
     category:
         - docs
@@ -20,7 +20,7 @@ If you’re a Linux or Mac user, you can just click on the **Connect** button of
 
 If you are using a GUI based client, like PuTTY or SecPanel, you will probably need to manually configure the session details. You will find all this information in your dashboard under **Manage your SSH keys**.
 
-* SSH user: 0106 (this will be unique for you, so please check your own dashboard) 
+* SSH user: 21296 (this will be unique for you, so please check your own dashboard) 
 * Hostname: ssh.enscale.com 
 * Port: 3022
 
@@ -30,13 +30,13 @@ If you are using a GUI based client, like PuTTY or SecPanel, you will probably n
 
 The direct node connection details can be found in the **Connect** tab of each of your nodes.
 
-![](ssh-connection-settings-node.PNG)
+![](SSH-Node-Connect.png)
 
-* SSH user: 218733-20106 (this will be unique for you for each node, so please check your own dashboard) 
+* SSH user: 227028-21296 (this will be unique for you for each node, so please check your own dashboard) 
 * Hostname: ssh.enscale.com 
 * Port: 3022
 
 !!! The default port number for SSH is 22. You must change your SSH client settings to use port 3022 for this connection or it will not work!
 
-If you’re a Linux or Mac user, you can just click on the **Connect to node** button of your node in your dashboard and it’ll open up a terminal ssh session with those details on your behalf. If you are using a GUI based client, like PuTTY or SecPanel, you will probably need to manually configure the session details. 
+If you’re a Linux or Mac user, you can just click on the **Connect** button of your node in your dashboard and it’ll open up a terminal ssh session with those details on your behalf. If you are using a GUI based client, like PuTTY or SecPanel, you will probably need to manually configure the session details. 
 
