@@ -1,5 +1,6 @@
 ---
 title: 'SSH for scripts'
+media_order: 'Manage-SSH-dd.png,SSH-add-public-key.png,SSH-Node-Connect.png'
 taxonomy:
     category:
         - docs
@@ -16,12 +17,14 @@ To provide SSH access to your script you must define the node that you wish to c
 
 ##### Step 1: Add your SSH key to the repository
 
-You can generate your SSH key via [PuTTYgen](/access/generate-ssh-key#for-windows-clients) if you are a Windows user, or [ssh-keygen](/access/generate-ssh-key#for-linux-mac-os-users) if you use Mac OS or Linux. You can find detailed instructions in our Generate SSH Key article.
+You can generate your SSH key via [PuTTYgen](/access/generate-ssh-key#for-windows-clients) if you are a Windows user, or [ssh-keygen](/access/generate-ssh-key#for-linux-mac-os-users) if you use Mac OS or Linux. You can find detailed instructions in our [Generate SSH Key](/access/generate-ssh-key) article.
 
-Add the public part of the SSH key to your key repository: username > **Manage SSH Keys**.
+Add the public part of the SSH key to your key repository: your email address > **Manage SSH Keys**.
+
+![](Manage-SSH-dd.png)
 
 Use the **Add new public key** button under the Public Keys tab.
-![](addnewPubKey.png)
+![](SSH-add-public-key.png)
 
 Note that each key you add here has full access to all environments owned by your account, and any other environments shared with you with the Admin permission level.
 
@@ -32,9 +35,10 @@ Note that each key you add here has full access to all environments owned by you
 Enter your environment and select the **Connect** tab for the node you would like to access.
 
 The user information to connect directly to this node can be found below the node's IP addresses:
-![](SFTP.png)
 
-* SSH user: 211174-25880 (This will be different for you, please check the SSH User in your node’s Connect tab.)
+![](SSH-Node-Connect.png)
+
+* SSH user: 227028-21296 (This will be different for you, please check the SSH User in your node’s **Connect** tab.)
 * Hostname: ssh.enscale.com
 * Port: 3022
 
@@ -46,7 +50,7 @@ Use the connection command line in your script to establish direct SSH access to
 
 For the above example, the command line would be:
 
-`ssh 130938-20106@ssh.enscale.com -p 3022`
+`ssh 227028-21296@ssh.enscale.com -p 3022`
 
 !!! Your environment nodes are secured in a private network. SSH connection and authentication continues to be performed by the SSH gateway, even if using this “direct access” method. If authentication is successful the connection is transparently routed to the required server via the private network.
 
