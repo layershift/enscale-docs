@@ -1,6 +1,6 @@
 ---
 title: 'Access via SFTP'
-media_order: 'ConnectviaSFTPStep3.png,ConnectviaSFTPStep1.png,SFTP.png'
+media_order: 'ConnectviaSFTPStep3.png,ConnectviaSFTPStep1.png,SSH-Node-Connect.png'
 taxonomy:
     category:
         - docs
@@ -27,7 +27,7 @@ Configure the site.
 For this you will need the connection details from the specific node you would like to access. You will find this in the **Connect** tab.
 
 
-![image alt float-left](SFTP.png?resize=300,300)
+![image alt float-left](![](SSH-Node-Connect.png)?resize=300,300)
 &nbsp;
 
 &nbsp;
