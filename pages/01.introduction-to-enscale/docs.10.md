@@ -11,7 +11,7 @@ visible: true
 
 **Enscale is the product of years of listening to customers and incorporating their needs into an advanced PaaS.**
 
-It was carefully crafted by our expert engineers to bring you a powerful and flexible solution to host your applications in the Cloud. Built on top of Jelastic PaaS, the highly reliable functionality is paired with an easy to understand UI for a smooth experience. While initially it was intended to suppot multiple languages, we decided to narrow our focus down to one: Ruby. This way Ruby developers and their needs have our full and undivided attention and we can really work together to create a great hosting platform and community.
+It was carefully crafted by our expert engineers to bring you a powerful and flexible solution to host your applications in the Cloud. Built on top of Jelastic PaaS, the highly reliable functionality is paired with an easy to understand UI for a smooth experience. While initially intended to support multiple languages, we narrowed our focus down to one: Ruby. This way Ruby developers and their needs have our full and undivided attention and we can really work together to create a great hosting platform and community.
 
 
 
