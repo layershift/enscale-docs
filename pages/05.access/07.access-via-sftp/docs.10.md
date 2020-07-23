@@ -1,6 +1,6 @@
 ---
 title: 'Access via SFTP'
-media_order: 'ConnectviaSFTPStep3.png,ConnectviaSFTPStep1.png,SSH-Node-Connect.png'
+media_order: 'SSH-Node-Connect.png,SFTP-new.png'
 taxonomy:
     category:
         - docs
@@ -54,9 +54,9 @@ Set up your connection details
 ##### Step 3
 Load the saved site to connect.
 
+![](SFTP-Connect.png)
 
 
-![](ConnectviaSFTPStep3.png)
 
 ##### Step 4
 Enter your Key passphrase and click **OK**.
