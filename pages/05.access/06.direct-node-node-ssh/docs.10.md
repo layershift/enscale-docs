@@ -1,5 +1,6 @@
 ---
 title: 'Direct node - node SSH'
+media_order: PrivateIP.JPG
 taxonomy:
     category:
         - docs
@@ -117,13 +118,10 @@ BuMWlGvXZgAP8tznh8GV+CYIA8sp97X8TBYyX5vIziuWIrzkjYZMkwLkajkRr0P3Vw1uPEW4wEcPxemA
 KRBSw3LmC5Z/rDZ9Lzu4MdIqaGCVLBKr7YtGu5bw== node136553-crimson-dust-8.enscaled.com" >> ~/.ssh/authorized_keys
 ```
 
-##### Step 5: Verify your source node IP
-You can do this either in the Enscale dashboard in the **Connect** tab of your node:
-Or you can use the `hostname -I` command via SSH while in your source node:
-```bash
-apache@node136553-crimson-dust-8 ~ $ hostname -I
-127.0.0.1 10.10.125.232
-```
+##### Step 5: Verify your source node's Private IP
+You can see this in the Enscale dashboard in the **Connect** tab of your node:
+
+![](PrivateIP.JPG)
 
 ##### Step 6: Edit your target node firewall
 Once you connect to your target node via SSH, you can use the following
@@ -139,7 +137,7 @@ You should add the following lines:
 :INPUT DROP [0:0]
 :FORWARD DROP [0:0]
 :OUTPUT ACCEPT [0:0]
--I INPUT -p tcp -s <**SOURCE_NODE_IP_ADDRESS**> --dport 22 -j ACCEPT
+-I INPUT -p tcp -s <SOURCE_NODE_IP_ADDRESS> --dport 22 -j ACCEPT
 COMMIT
 ```
 
@@ -163,12 +161,14 @@ Use `sudo /usr/bin/jem firewall list filter -vn` to display the active firewall 
 nginx@node144490-env-3344147 ~ $ sudo /usr/bin/jem firewall list filter -vn
 Chain INPUT (policy DROP 0 packets, 0 bytes)
 pkts bytes target     prot opt in     out     source               destination
-   0     0 ACCEPT     tcp  --  *      *       10.10.125.232        0.0.0.0/0            tcp dpt:22
+   0     0 ACCEPT     tcp  --  *      *       10.10.129.154        0.0.0.0/0            tcp dpt:22
 ```
 
 ##### Step 9: Connect to target node via SSH
 
 Now from your source node you can enter the target node via SSH using the following command: `ssh jelastic@<TARGET_NODE_IP_ADDRESS>`
+
+ssh jelastic@10.10.129.156
 
 The username will always be _jelastic_.
 ```shell
