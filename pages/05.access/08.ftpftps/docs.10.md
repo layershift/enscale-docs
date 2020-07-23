@@ -1,6 +1,6 @@
 ---
 title: FTP/FTPS
-media_order: 'horizontal_scaling_1.jpg,FTPNewSite.png,ConectTAB.png,RemoveFtp.png,addFtpModal.png,ResetPassFTP.png,FTPNewSiteDetails.png,FTPorFTPS.png'
+media_order: 'FTPNewSite.png,RemoveFtp.png,addFtpModal.png,ResetPassFTP.png,FTPNewSiteDetails.png,FTPorFTPS.png,Connect-tab.png'
 taxonomy:
     category:
         - docs
@@ -20,13 +20,12 @@ FTP connection requires a [public IP](/features/ip-addresses#using-a-public-ip-a
 ##### Step 1
 
 Open your [Enscale dashboard](https://dashboard.enscale.com) and enter your environment.
-![](horizontal_scaling_1.jpg)
 
 ##### Step 2
 
 Select the **Connect** tab on your preferred node type.
 
-![](ConectTAB.png)
+![](Connect-tab.png)
 
 ##### Step 3
 
