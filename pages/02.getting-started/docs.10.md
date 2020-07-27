@@ -19,4 +19,3 @@ In this section you will find information about the following:
 2. [Available server roles, their types and available versions](/getting-started/servers-and-technologies)
 3. [Dashboard guide - what are all the buttons and what do they do?](/getting-started/dashboard-guide)
 4. [How do you create an environment?](/getting-started/create-environment)
-5. [How can you deploy and manage your application in Enscale?](/getting-started/deployments)
