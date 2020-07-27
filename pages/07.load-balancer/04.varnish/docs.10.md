@@ -3,7 +3,7 @@ title: Varnish
 taxonomy:
     category:
         - docs
-redirect: /load-balancers/varnish/varnish-variables
+redirect: /load-balancer/varnish/varnish-variables
 visible: true
 ---
 
