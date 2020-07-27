@@ -25,6 +25,3 @@ With our intuitive dashboard, building the most complex server topologies is a b
 You have your own configuration preferences? We have you covered: with Enscale you can tune server config like postgresql.conf, httpd.conf, nginx.conf, my.cnf to your exact requirements. You can use multiple ways to deploy your applications. You can deploy via git, svn, archive, or plain SSH. You can have your entire team working on your application by sharing your environment with collaborator accounts.
 
 You can set different permission levels, share different environments and also keep track of who has done what via the logs. Enscale offers automated horizontal and vertical scaling in order to ensure that your application always has access to all the resources it needs to run, but you will never be charged for resources you don’t use.
-
-
-!!! Enscale is currently in pre-launch testing. Learn more and request launch notification by emailing support@enscale.com.
