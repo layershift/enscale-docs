@@ -1,6 +1,6 @@
 ---
 title: 'Dashboard guide'
-media_order: 'overview1.jpg,Environment-view.JPG'
+media_order: 'Main-Dashboard.JPG,Environment-screen.JPG'
 taxonomy:
     category:
         - docs
@@ -13,11 +13,11 @@ The dashboard is organised into 2 main screens:
 
 When you first log in, you are presented with the **main dashboard**; this lists the various Enscale environments that you have access to (yours and your colleagues'), and is also where you can create new environments. 
 
-![](overview1.jpg)
+![](Main-Dashboard.JPG)
 
 Each environment has an Enter button, which leads you to the **environment view** screen for the selected environment. 
 
-![](Environment-view.JPG)
+![](Environment-screen.JPG)
 
 The environment view provides detailed information about the various nodes within the environment, deploy your code (if the environment contains a runtime node), and add new nodes. 
 
