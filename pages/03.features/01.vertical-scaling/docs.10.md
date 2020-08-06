@@ -43,7 +43,7 @@ Set the desired resource limit by typing a number or using the up and down arrow
 
 Your server is automatically reconfigured to take full advantage of the available resources upon saving a new resource limit setting. The node's primary service will be restarted to apply the configuration changes, causing a few moments of downtime.
 
-!!!! The new limit will apply to all nodes that are the same type and there is a brief (few seconds) downtime during reconfiguration.
+!!The new limit will apply to all nodes that are the same type and there is a brief (few seconds) downtime during reconfiguration.
 
 **Remember, you are only billed based on the resource consumption each hour (not the total limit). Maximum performance, minimum cost.**
 
