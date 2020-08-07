@@ -1,13 +1,13 @@
 ---
 title: Collaboration
-media_order: 'yes.png,no.png,info1.png,Manage-collaborators-invite.JPG,Collaborator-permissions.png,Share-environments.png,environment-permissions.png,sharedwithme.JPG'
+media_order: 'yes.png,no.png,info1.png,Manage-collaborators-invite.JPG,sharedwithme.JPG,collab-account-permission.png,collaborator-share-environments.png,collaborator-environment-permission.png'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-With the collaboration feature in Enscale, multiple users can work on the same environments while having separate logins and access to the Enscale dashboard. There is no limit on the number of environments (or people) you can collaborate with.
+With the collaboration feature in Enscale, multiple users can work on the same environments while having separate logins and access to the Enscale dashboard. There is no limit on the number of environments you can share or people you can collaborate with.
 
 ##### Step 1 - Sending the invitation
 
@@ -21,7 +21,7 @@ The invitation is sent via email and contains a link to accept the collaboration
 
 On the account level a collaborator can either be viewer or admin. This permission defines whether the user is allowed to create environments on your behalf or not. By default all collaborators are added as viewers. To change this setting, click on the arrow to expand the dropdown. Select the desired permission to set it and click **Save**.
 
-![](Collaborator-permissions.png)
+![](collab-account-permission.png)
 
 ##### Step 3 - Sharing environments
 
@@ -29,11 +29,11 @@ Your collaborators will have access to their own Enscale dashboard, so they will
 
 To share environments with a collaborator, from the **Collaborators** menu click on **Environments** next to the collaborator.
 
-![](Share-environments.png)
+![](collaborator-share-environments.png)
 
 This will open up a list of all your environments. Use the arrow to expand and collapse permissions for any specific environment. You can change permission to multiple environments at the same time, just don't forget to **save** your changes at the end.
 
-![](environment-permissions.png)
+![](collaborator-environment-permission.png)
 
 !!!! Your collaborator will receive an email for each shared environment.
 
