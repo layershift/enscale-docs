@@ -1,6 +1,6 @@
 ---
 title: 'Add domain name'
-media_order: 'horizontal_scaling_1.jpg,manageDomain.png,enterDomainName.png,DomainNoIP-records.JPG,Manage-domains-dd.png'
+media_order: 'Enter-demo.png,Actions-manage-domains.png,Add-domain-noIP.png,NoIP-DNS-for-domain.png,Add-domain-DNS-withIP.png'
 taxonomy:
     category:
         - docs
@@ -20,17 +20,17 @@ Once you have a Public IP, here are the steps you need to follow to link your en
 ##### Step 1
 
 Enter your environment.
-![](horizontal_scaling_1.jpg)
+![](Enter-demo.png)
 
 ##### Step 2
 
 Go to **Actions** and select **Manage Domains**.
-![](Manage-domains-dd.png)
+![](Actions-manage-domains.png)
 
 ##### Step 3
 
 Create an A record in your DNS zone pointing your domain name to the Public IP address shown.
-![](manageDomain.png)
+![](Add-domain-DNS-withIP.png)
 
 ### Without Public IP
 
@@ -41,17 +41,17 @@ All you need to do is follow these 4 simple steps:
 ##### Step 1
 
 Enter your environment.
-![](horizontal_scaling_1.jpg)
 
+![](Enter-demo.png)
 ##### Step 2
 
 Go to **Actions** and select **Manage Domains**.
-![](Manage-domains-dd.png)
+![](Actions-manage-domains.png)
 
 ##### Step 3
 
 Type in your domain name and click **Add**.
-![](enterDomainName.png)
+![](Add-domain-noIP.png)
 
 !!! ‘www.’ subdomain needs to be added separately.
 
@@ -63,8 +63,10 @@ To do this you will need to enter the following DNS records:
 ```
 Domain.com                  A                          IP
 Domain.com                  A                          IP
-www.domain.com     CNAME                    environment_name.uk.enscaled.com
+www.domain.com     CNAME                         environment_URL
 ```
 To see the records you need to add, expand the menu by clicking on your domain name.
-![](DomainNoIP-records.JPG)
+
+![](NoIP-DNS-for-domain.png)
+
  
