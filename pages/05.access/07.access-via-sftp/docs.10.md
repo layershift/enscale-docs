@@ -44,13 +44,6 @@ For this you will need the connection details from the specific node you would l
 
 &nbsp;
 
-
-
-Set up your connection details
-
-
-
-
 ##### Step 3
 Load the saved site to connect.
 
