@@ -17,7 +17,7 @@ Although the Shared SSL is a quick and free solution it’s designed only for te
 
 Shared SSL is intended to be used for start-up projects, staging / development websites or in any other scenarios where the secure connections are not intended to be seen by the public. As its name suggests, this shared SSL is a free certificate provided by Enscale, available for use to all platform users.
 
-\*.uk.enscaled.com Wildcard SSL certificate is installed on our shared load balancers and it will make your environments accessible securely on their respective links only (not custom domain name) ie. https://your-environment-name.uk.enscaled.com
+Wildcard SSL certificates are installed on our shared load balancers and they will make your environments accessible securely on their respective links only (not custom domain name) ie. https://your-environment-name.sg.enscaled.com
 
 !!! Enscale Shared SSL can only be used for environments without a [public IP](/features/ip-addresses#steps-to-enable-a-public-ip-address).
 
@@ -25,11 +25,11 @@ To enable Shared SSL follow the steps below:
 
 ##### Step 1
 
-Log in to your Enscale account.
+Log in to Enscale and enter your environment.
 
 ##### Step 2
 
-Enter your environment and select **Manage SSL** from the **Actions** drop-down menu.
+Select **Manage SSL** from the **Actions** drop-down menu.
 
 ![](Actions-ManageSSL.png)
 
@@ -40,7 +40,7 @@ Click on **Enable Shared SSL**.
 
 ##### Step 4
 
-You can always remove the SSL with the button.
+You can always remove the SSL with the **Disable shared SSL** button.
 
 !!! You may now want to configure redirects to the https version of your environment if you want visitors to only use the secure connection to the site.
 
