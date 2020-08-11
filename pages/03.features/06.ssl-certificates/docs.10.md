@@ -48,7 +48,7 @@ You can always remove the SSL with the **Disable shared SSL** button.
 
 If you have a production website, we recommend that you use an SSL certificate that was issued specifically for your domain name.
 
-Custom SSL certificates are very popular as they allow you to secure your own branded URL. There are multiple certificate types, depending on the validation process, the number of domains they cover and the level of assurance they provide to customers.
+Custom SSL certificates are very popular as they allow you to secure your own branded URL. There are multiple certificate types, depending on the validation process, the number of domains they cover and the level of assurance they provide to customers. Reach out to our [SSL department](mailto:ssl@layershift.com) for more information.
 
 If you already have a Custom SSL certificate for your domain, all you need to do is follow these simple steps to install it:
 
