@@ -1,6 +1,6 @@
 ---
 title: 'SSH in Enscale'
-media_order: 'Manage-SSH-dd.png,SSH-modal-mac-public-key-connection-details.png'
+media_order: 'SSH-modal-mac-public-key-connection-details.png,Manage-ssh-select.png'
 taxonomy:
     category:
         - docs
@@ -26,7 +26,7 @@ We use an intermediary SSH Gateway to provide SSH access in Enscale, so your ind
 ### Your SSH connection settings
 
 You can find your SSH connection settings by clicking on your email address in the top right-had corner and clicking **Manage SSH keys**.
-![](Manage-SSH-dd.png)
+![](Manage-ssh-select.png)
 
 Your SSH connection settings show in the following modal in the **Public Keys** tab
 
