@@ -1,6 +1,6 @@
 ---
 title: 'Main dashboard'
-media_order: 'Collaborator environments.JPG,Help-dropdown.JPG,MD-collab-button.png,MD-sort.png,Create-environment-screen.JPG,Demo-env-overview.JPG,Running-stopped.png,MD-rename.png,MD-Account-dropdown.JPG'
+media_order: 'Collaborator environments.JPG,Help-dropdown.JPG,MD-collab-button.png,MD-sort.png,Create-environment-screen.JPG,Demo-env-overview.JPG,Running-stopped.png,MD-rename.png,MD-Account-dropdown.JPG,MD-help-dd.JPG'
 taxonomy:
     category:
         - docs
@@ -13,6 +13,13 @@ The main dashboard screen is your primary control centre. You get a good birdsey
 You can access your account information easily by clicking on your email address in the top right-hand corner. From here, you can manage SSH keys for your account, change your account password as well as your gravatar image, see billing related information etc.
 
 ![](MD-Account-dropdown.JPG)
+
+##### Support options
+
+In the **Help** dropdown menu you can find a link both to our documentation, as well as open a ticket with our technical support team. Of course you can also use the **Community Forum** to ask your peers.
+
+![](MD-help-dd.JPG)
+
 ##### Account collaborators
 
 Within the header, you can see and manage your [account collaborators](/features/collaboration): colleagues that you have granted dashboard access to for one or more of your environments.
