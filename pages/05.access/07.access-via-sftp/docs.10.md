@@ -18,7 +18,7 @@ In this example, we will be using Filezilla, however your connection details are
 ##### Step 1
 
 Set up a new connection using the connection parameters.
-![](ConnectviaSFTPStep1.png)
+![](SFTP-new.png)
 
 ##### Step 2
 
@@ -27,7 +27,7 @@ Configure the site.
 For this you will need the connection details from the specific node you would like to access. You will find this in the **Connect** tab.
 
 
-![image alt float-left](![](SSH-Node-Connect.png)?resize=300,300)
+![image alt float-left](![](SSH-Node-Connect.png?resize=300,300)
 &nbsp;
 
 &nbsp;
