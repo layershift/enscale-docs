@@ -1,6 +1,6 @@
 ---
 title: 'Add your SSH key'
-media_order: 'Manage-SSH-dd.png,SSH-add-public-key.png,SSH-add-public-key-2.png,Delete-SSH-key.png'
+media_order: 'SSH-add-public-key.png,SSH-add-public-key-2.png,Delete-SSH-key.png,Manage-ssh-select.png'
 taxonomy:
     category:
         - docs
@@ -14,7 +14,7 @@ Log in to your Enscale dashboard.
 
 ##### Step 2
 Select **Manage SSH Keys** from the drop-down menu under your account email address.
-![](Manage-SSH-dd.png)
+![](Manage-ssh-select.png)
 
 ##### Step 3
 Switch to the tab for the type of key you'd like to add *Public* or *Private* and click **Add new public key**.
