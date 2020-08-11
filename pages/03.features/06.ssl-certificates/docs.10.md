@@ -1,6 +1,6 @@
 ---
 title: 'SSL certificates'
-media_order: 'ManagSSLMenu.png,manageSSLStep3.png,manageSSL step3.JPG,ManageSSL-dd.jpg,EnableLetsEncrypt.JPG,EditLE.png'
+media_order: 'Actions-ManageSSL.png,CustomSSL.png,LESSL.png,LE-editbutton.png,LE-edit-domains.png,SharedSSL-enable.png'
 taxonomy:
     category:
         - docs
@@ -31,12 +31,12 @@ Log in to your Enscale account.
 
 Enter your environment and select **Manage SSL** from the **Actions** drop-down menu.
 
-![](ManageSSL-dd.jpg)
+![](Actions-ManageSSL.png)
 
 ##### Step 3
 
-Click on Enable Shared SSL.
-![](manageSSLStep3.png)
+Click on **Enable Shared SSL**.
+![](SharedSSL-enable.png)
 
 ##### Step 4
 
@@ -54,18 +54,18 @@ If you already have a Custom SSL certificate for your domain, all you need to do
 
 ##### Step 1
 
-Log in to your Enscale account.
+Enter your Enscale environment.
 
 ##### Step 2
 
 Enter your environment and select **Manage SSL** from the **Actions** drop-down menu.
-![](ManageSSL-dd.jpg)
+![](Actions-ManageSSL.png)
 
 ##### Step 3
 
-Copy and paste your SSL certificate parts in the appropriate sections.
-![](manageSSL%20step3.JPG)
+Go to the **Custom SSL** tab. Copy and paste your SSL certificate parts in the appropriate sections.
 
+![](CustomSSL.png)
 ! To be able to install your own custom SSL certificate you will need to add a public IP to the outward facing node of your environment (application server or load balancer). If you don’t have a public IP yet, it will be added automatically during the SSL installation, this will cause a short downtime of the affected nodes.
 
 
@@ -94,20 +94,20 @@ Log in to your Enscale account.
 ##### Step 2
 
 Enter your environment and select **Manage SSL** from the **Actions** drop-down menu.
-![](ManageSSL-dd.jpg)
+![](Actions-ManageSSL.png)
 
 ##### Step 3
 
 Select the **Let's Encrypt** tab and click **Enable Let's Encrypt**
-![](EnableLetsEncrypt.JPG)
+![](LESSL.png)
 
 !!! If your environment doesn't have an IP, enabling Let's Encrypt will automatically add one for you. 
 
 ##### Step 4
 
-Let's Encrypt is installed by default to secure your environment name. To add your own domain to the certificate, open the Manage SSL section again once Let's Encrypt is installed and click click the **Edit** icon. (Installation may take a few minutes, look out for the success notification and the email to know when it's done).
-![](EditLE.png)
+Let's Encrypt is installed by default to secure your environment name. To add your own domain to the certificate, open the Manage SSL section again once Let's Encrypt is installed and click click the **Edit** icon. (Installation takes around five minutes, look out for the success notification and the email to know when it's done).
 
+![](LE-editbutton.png)
 ##### Step 5
 
 Enter your domain name and click **Add** to add it to the list. You can add multiple domain names at the same time (www variant needs to be added separately). 
@@ -117,3 +117,5 @@ Domains can be removed by pressing **x**.
 Once your list is complete, click **Re-issue Certificate**.
 
 !!! In order for Let's Encrypt to be able to secure your custom domain, the domain already needs to point to your environment and access needs to be allowed to _root/.well-known_ folder for any domain you wish to include in the SSL.
+
+![](LE-edit-domains.png)
