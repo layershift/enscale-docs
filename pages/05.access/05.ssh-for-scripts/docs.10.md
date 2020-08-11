@@ -1,6 +1,6 @@
 ---
 title: 'SSH for scripts'
-media_order: 'Manage-SSH-dd.png,SSH-add-public-key.png,SSH-Node-Connect.png'
+media_order: 'SSH-add-public-key.png,SSH-Node-Connect.png,Manage-ssh-select.png'
 taxonomy:
     category:
         - docs
@@ -21,7 +21,7 @@ You can generate your SSH key via [PuTTYgen](/access/generate-ssh-key#for-window
 
 Add the public part of the SSH key to your key repository: your email address > **Manage SSH Keys**.
 
-![](Manage-SSH-dd.png)
+![](Manage-ssh-select.png)
 
 Use the **Add new public key** button under the Public Keys tab.
 ![](SSH-add-public-key.png)
