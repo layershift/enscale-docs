@@ -58,7 +58,7 @@ Enter your Enscale environment.
 
 ##### Step 2
 
-Enter your environment and select **Manage SSL** from the **Actions** drop-down menu.
+Select **Manage SSL** from the **Actions** drop-down menu.
 ![](Actions-ManageSSL.png)
 
 ##### Step 3
@@ -89,11 +89,11 @@ You can add a Let's Encrypt SSL by following the steps below:
 
 ##### Step 1
 
-Log in to your Enscale account.
+Log in to Enscale and enter your environment.
 
 ##### Step 2
 
-Enter your environment and select **Manage SSL** from the **Actions** drop-down menu.
+Select **Manage SSL** from the **Actions** drop-down menu.
 ![](Actions-ManageSSL.png)
 
 ##### Step 3
