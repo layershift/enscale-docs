@@ -1,6 +1,6 @@
 ---
 title: 'Main dashboard'
-media_order: 'Collaborator environments.JPG,Help-dropdown.JPG,MD-collab-button.png,MD-sort.png,Create-environment-screen.JPG,Demo-env-overview.JPG,Running-stopped.png,MD-rename.png,MD-Account-dropdown.JPG,MD-help-dd.JPG,Balance.JPG'
+media_order: 'Help-dropdown.JPG,MD-collab-button.png,MD-sort.png,Create-environment-screen.JPG,Demo-env-overview.JPG,Running-stopped.png,MD-rename.png,MD-Account-dropdown.JPG,MD-help-dd.JPG,Balance.JPG'
 taxonomy:
     category:
         - docs
@@ -84,5 +84,5 @@ The environment alias allows you to set a "human friendly" name to more easily d
 ##### Environments shared with you
 Environments that are owned by other users and shared with you are listed separately from your own, each within their own section organised by environment owner.
 
-![](Collaborator%20environments.JPG)
+![](shared-environments.png)
  
