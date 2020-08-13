@@ -1,6 +1,6 @@
 ---
 title: 'File manager'
-media_order: 'horizontal_scaling_1.jpg,fileManagerBtn.png,fileManager4.png,file manager module.png'
+media_order: 'Enter-demo.png,File-manager-button.png,FM-save-changes.png,FM-add-delete.JPG'
 taxonomy:
     category:
         - docs
@@ -15,27 +15,27 @@ Enscale makes this very easy:
 
 ##### Step 1
 Open the [Enscale dashboard](https://dashboard.enscale.com) and enter your environment.
-![](horizontal_scaling_1.jpg)
+![](Enter-demo.png)
 
 ##### Step 2
 
 Each node has its own filesystem. Find the node you wish to work with and click the **Folder** icon to launch the file manager.
 
-![](fileManagerBtn.png)
+![](File-manager-button.png)
 
 ##### Step 3
 
-On the left-hand side you will see a file tree. Navigate to the folder you need to and open the file by clicking on it.
+On the left-hand side you will see a file tree. You can chose to see the default shortcuts (folders you are likely to need to access) or the entire file system. Navigate to the folder you need to and open the file by clicking on it.
 
 ##### Step 4
 
-Make the necessary changes and click **Save**. You can **Save As** by changing the filename in the prompt. By ticking the checkbox indicated in the screenshot below, you are able to save the file/changes to all nodes of the same type.
-![](file%20manager%20module.png)
+From the right-hand dropdown you can select which action you would like to perform to the file - Save, Save as, Rename or Delete. You will also have an option to apply the change to all nodes of the same type, or just the node you are currently in.
+![](FM-save-changes.png)
 
-With the **New file** icon you will be able to add a file to the folder you are currently in.
+You can add a new file or folder by clicking on the **+** icon that appears in the file system when hovering over a file or a folder.
 
-![](fileManager4.png)
+![](FM-add-delete.JPG)
 
-Use the **Delete** icon to remove any files you no longer need.
+Use the **Delete** icon to remove any files or folders you no longer need.
 
-!!! You cannot add files to read-only folders.
+!!! Certain files and folders are restricted, so you only have view rights to them. In case you need to modify any content for these files, please reach out to our support team for assistance.
