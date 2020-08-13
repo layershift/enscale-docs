@@ -1,6 +1,6 @@
 ---
 title: 'Create your environment'
-media_order: 'addnewEnvBTn.jpg,demoenvironment-1.JPG,Select-servers.png'
+media_order: 'addnewEnvBTn.jpg,demoenvironment-1.JPG,CE-select-nodes.png'
 taxonomy:
     category:
         - docs
@@ -30,7 +30,7 @@ Click the **Add new environment** box.
 
 For each server type we offer a variety of options. Select your preferred one using the dropdown menu for each server type.
 
-![](Select-servers.png)
+![](CE-select-nodes.png)
 
 !!! A runtime is selected by default, but if you need an environment without a runtime node, you can always choose *None* from the dropdown menu.
 
@@ -49,7 +49,7 @@ For each server type we offer a variety of options. Select your preferred one us
 
 ##### Step 4 - Create your environment
 
-When all your nodes are selected, click **Create**.The new environment will be created and added to your list of environments within a few minutes. For environments that have multiple nodes, the creation may take a while, you will also receive an email when it's done.
+When all your nodes are selected, click **Create**. The new environment will be created and added to your list of environments within a few minutes. For environments that have multiple nodes, the creation may take a while, you will also receive an email when it's done.
 
 !!! For certain node types you will receive separate emails with access details upon their creation.
 
