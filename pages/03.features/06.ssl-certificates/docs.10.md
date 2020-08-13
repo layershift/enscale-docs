@@ -17,7 +17,7 @@ Although the Shared SSL is a quick and free solution it’s designed only for te
 
 Shared SSL is intended to be used for start-up projects, staging / development websites or in any other scenarios where the secure connections are not intended to be seen by the public. As its name suggests, this shared SSL is a free certificate provided by Enscale, available for use to all platform users.
 
-Wildcard SSL certificates are installed on our shared load balancers and they will make your environments accessible securely on their respective links only (not custom domain name) ie. https://your-environment-name.sg.enscaled.com
+Wildcard SSL certificates are installed on our shared load balancers and they will make your environments accessible securely on their respective links only (not custom domain name) ie. https://your-environment-name.enscaled.sg
 
 !!! Enscale Shared SSL can only be used for environments without a [public IP](/features/ip-addresses#steps-to-enable-a-public-ip-address).
 
