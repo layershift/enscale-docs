@@ -1,6 +1,6 @@
 ---
 title: Git
-media_order: 'Deploy-button.JPG,PHPGit-4.png,Select-project.png'
+media_order: 'Deploy-button.JPG,Select-project.png,Deployments-gittab.JPG'
 taxonomy:
     category:
         - docs
@@ -36,10 +36,10 @@ In case you already deployed your project, it will show here so you don't need t
 
 ![](Select-project.png)
 
-![image alt=float-right](PHPGit-4.png)
+![image alt=float-right](Deployments-gittab.JPG)!
 ##### Step 4
 
-Select the **GIT tab** from the drop-down menu to provide us with a link to your repository.
+Select the **Git tab** to provide us with a link to your repository.
 
 **URL**: the URL of your git repository
 
@@ -51,7 +51,7 @@ Select the **GIT tab** from the drop-down menu to provide us with a link to your
 * **Password**: select this to authenticate with git by username and password
 * **SSH Key**: select this if your git repo authentication is by SSH key (e.g. [GitHub deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/)). Select the key from the drop-down or add a new one. (Your key must **not** require a passphrase.)
 
-**Auto-update**: turn this on for Enscale to check your repository regularly for updates. The frequency of checks is set by you in the auto-update interval section. If any changes are detected, Enscale will also re-deploy your application. 
+**Auto-update interval**: set how often you would like Enscale to check your repository for updates. If any changes are detected, Enscale will also re-deploy your application. 
 
 **Auto-resolve conflicts**: toggle on instructs Enscale to update any contradictory files to the ones in the repository to prevent merge conflicts during re-deploy.
 
