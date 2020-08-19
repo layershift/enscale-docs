@@ -1,6 +1,6 @@
 ---
 title: 'Deploying Archives (<150MB)'
-media_order: 'Enter-env-small.png,Deploy-button-2.JPG.png,New-deployment.JPG,Deploy-to.JPG,Select-project.png,PHParchive.png,Archive-description.JPG'
+media_order: 'Deploy-existingproject.JPG,Deploy-button.png,Deploy-archivetab.png,Deploy-archive-description.JPG'
 taxonomy:
     category:
         - docs
@@ -12,48 +12,30 @@ Uploading all your files via FTP can be a tedious process, especially if you hav
 ##### Step 1
 **Enter** your environment. 
 
-![](Enter-env-small.png)
-
 ##### Step 2
-Click the **Deploy** button to get to the Deployment manager.
-![](Deploy-button-2.JPG.png)
+Click the **Deploy** button to get to the **Deployment manager**.
 
-##### Step 3*
+![](Deploy-button.png)
 
-Click **New deployment**.
-!!! \*this step is skipped on very first deployment
+##### Step 3
+If you have no deployments on this environment, you're presented with a list of deployed projects. Any archive you upload via the dashbaord will be saved and can be selected from here in future, so you don't need to upload it multiple times, just select it. To add a new archive, click **Deploy a new project**
 
-![](New-deployment.JPG)
+![](Deploy-existingproject.JPG)
 
-
-##### Step 4*
-The default setting deploys to the _ROOT_ folder, which corresponds to the default _DocumentRoot_ in the web server configuration. If you would like to deploy to a different location, just specify a directory name (new or existing) in the **Deploy to** box.
-
-!!! \*depending on your environment ROOT may be the only allowed location, if this is the case the step is skipped.
-
-![](Deploy-to.JPG)
+##### Step 4
+Select the **Archive** tab. You can find and upload your archive from your computer by clicking **Browse**, alternatively you can use an upload link in the **Remote URL** tab.
+![](Deploy-archivetab.png)
 
 ##### Step 5
-This screen presents you with a list of deployed projects, any archive you upload via the dashbaord will be saved and can be selected from here in future.
-
-To add a new archive, click **Deploy a new project**
-
-![](Select-project.png)
-
-##### Step 6
-Select the **Archive** tab. You can find and upload your archive from your computer by clicking **Browse**, alternatively you can use an upload link in the **Remote URL** tab.
-
-![](PHParchive.png)
-##### Step 7
 Once the archive us uploaded, you will be prompted to enter a **description** for your file - this comment will be attached to your project and will help you identify it in case you want to deploy the same project to several environments.
 
-![](Archive-description.JPG)
+![](Deploy-archive-description.JPG)
 
-#### Step 8
+#### Step 6
 
 Click **Deploy**.
 
-!!!! Enscale will unpack your archive so once the deployment process is complete, you should already have your project up and running.
+!!!! Enscale will unpack your archive so once the deployment process is complete and runs bundle as well as any commands specified in your [_rake_\__deploy](https://www.enscale.com/docs/10/app/rake)_ file, so you should already have your project up and running.
 
 
 
