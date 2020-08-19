@@ -35,7 +35,7 @@ Once the archive us uploaded, you will be prompted to enter a **description** fo
 
 Click **Deploy**.
 
-!!!! Enscale will unpack your archive so once the deployment process is complete and runs bundle as well as any commands specified in your [_rake_\__deploy](https://www.enscale.com/docs/10/app/rake)_ file, so you should already have your project up and running.
+!!!! Enscale will unpack your archive so once the deployment process is complete and runs bundle as well as any commands specified in your [_rake_\__deploy_](https://www.enscale.com/docs/10/app/rake) file, so you should already have your project up and running.
 
 
 
