@@ -31,7 +31,7 @@ Once the archive us uploaded, you will be prompted to enter a **description** fo
 
 ![](Deploy-archive-description.JPG)
 
-#### Step 6
+##### Step 6
 
 Click **Deploy**.
 
