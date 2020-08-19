@@ -1,5 +1,5 @@
 ---
-title: Git
+title: 'Deploy from git'
 media_order: 'Deploy-button.JPG,Select-project.png,Deployments-gittab.JPG'
 taxonomy:
     category:
@@ -11,7 +11,7 @@ visible: true
 
 With Enscale, you can deploy your Ruby application directly from your git repository, so you can link your deployments with your favourite version control system.
 
-!!! You should ensure that you have an up to date [gemfile](/ruby/deployment-guides/dependency-management) and [_rake\_deploy_](/ruby/deployment-guides/rake) file in order to make sure that your project’s gem dependencies are installed as well as all necessary commands executed by rake after deployment.
+!!! You should ensure that you have an up to date [_gemfile_](/ruby/deployment-guides/dependency-management) and [_rake\_deploy_](/ruby/deployment-guides/rake) file in order to make sure that your project’s gem dependencies are installed as well as all necessary commands executed by rake after deployment. If you would like bundler to run automatically upon deployment, you should add _gemfile.lock_ to _.gitignore_, else you can always SSH in and run _bundle_.
 
 Below you can see how to deploy your application and how to set up automatic redeployments with Enscale.
 
