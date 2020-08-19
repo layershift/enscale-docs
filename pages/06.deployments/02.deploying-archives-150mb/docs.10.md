@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-To deploy from archives larger than 150MB, generally you would need to connect to your application server via SFTP/SSH to upload and extract the files. The steps below can generally used for any node type, for Java we recommend checking the [Java specific article](/java/deployment-guides/war-or-ear-deployment#deploying-java-application-war-or-ear-larger-than-150mb) for additional options.
+To deploy from archives larger than 150MB, you need to connect to your application server via SFTP/SSH to upload and extract the files. 
 
 ##### Step 1
 Set up your SSH and SFTP connection. If you need any assistance with this, you can see our articles [Access via SSH](/access/access-via-ssh) and [Access via SFTP](/access/access-via-sftp) for detailed instructions.
@@ -18,7 +18,7 @@ Connect to your node via SFTP and upload your archive.
 [Connect](/access/connect-with-ssh) to your node via SSH.
 
 ##### Step 4
-Locate your uploaded file and extract it via the approproate command.
+Locate your uploaded file and extract it with the appropriate command.
 
 **zip archives**:`apache@node124718-cool-waterfall-59 ~/webroot/ROOT/wp $ unzip wp.zip`
 
