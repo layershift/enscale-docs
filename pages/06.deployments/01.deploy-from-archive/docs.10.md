@@ -1,6 +1,6 @@
 ---
 title: 'Deploying Archives (<150MB)'
-media_order: 'Deploy-existingproject.JPG,Deploy-button.png,Deploy-archivetab.png,Deploy-archive-description.JPG'
+media_order: 'Deploy-button.png,Deploy-archivetab.png,Deploy-archive-description.JPG,Deploy-archive-existingproject.JPG'
 taxonomy:
     category:
         - docs
@@ -20,7 +20,7 @@ Click the **Deploy** button to get to the **Deployment manager**.
 ##### Step 3
 If you have no deployments on this environment, you're presented with a list of deployed projects. Any archive you upload via the dashbaord will be saved and can be selected from here in future, so you don't need to upload it multiple times, just select it. To add a new archive, click **Deploy a new project**
 
-![](Deploy-existingproject.JPG)
+![](Deploy-archive-existingproject.JPG)
 
 ##### Step 4
 Select the **Archive** tab. You can find and upload your archive from your computer by clicking **Browse**, alternatively you can use an upload link in the **Remote URL** tab.
