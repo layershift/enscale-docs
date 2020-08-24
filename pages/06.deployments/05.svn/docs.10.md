@@ -25,10 +25,11 @@ Enter your environment and click **Deploy** to enter the Deployment manager.
 Click **Deploy a new project** to deploy your SVN project. (Only archives are saved as existing projects).
 ![](Deploy-archive-existingproject.JPG)
 
+![image alt=float-right](Deploy-SVN.png)
 
 ##### Step 3
 
-![image alt=float-right](Deploy-SVN.png)
+
 
 Select the **SVN tab** from the drop-down menu to provide us with a link to your repository.
 
