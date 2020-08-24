@@ -33,7 +33,7 @@ Click **Deploy a new project** to deploy your SVN project. (Only archives are sa
 
 Select the **SVN tab** from the drop-down menu to provide us with a link to your repository.
 
-**URL**: the URL of your git repository
+**URL**: the URL of your SVN repository
 
 **Authentication method**:
 
