@@ -1,6 +1,6 @@
 ---
 title: 'Deploy from git'
-media_order: 'Deploy-button.JPG,Select-project.png,Deployments-gittab.JPG'
+media_order: 'Deploy-button.JPG,Deployments-gittab.JPG,Deploy-archive-existingproject.JPG'
 taxonomy:
     category:
         - docs
@@ -30,11 +30,9 @@ Enter your environment and click **Deploy** to open the Deployment Manager.
 
 ##### Step 3
 
-The default context for all Ruby developments is **production**. 
+Click **Deploy a new project** to deploy your git project. (Only archives are saved as existing projects).
 
-In case you already deployed your project, it will show here so you don't need to upload it multiple times, just click **Select**. If your project is new, click **Deploy a new project**.
-
-![](Select-project.png)
+![](Deploy-archive-existingproject.JPG)
 
 ![image alt=float-right](Deployments-gittab.JPG)!
 ##### Step 4
