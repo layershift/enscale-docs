@@ -112,4 +112,4 @@ Set the minimum and maximum number of nodes you would like to scale between, and
 ##### Step 5 
 
 Once configured, you can turn this feature on and off easily within the dashboard as shown below, while preserving the settings. Click **Edit** if you wish to re-adjust the trigger settings.
-![](Scaling-set-trigger-values.JPG)
+![](Scaling-edit-triggers.JPG)
