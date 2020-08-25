@@ -1,6 +1,6 @@
 ---
 title: 'Reset password'
-media_order: 'Forgot-password.png,Forgot-password-2.png,change-password.png,change-password2.png'
+media_order: 'change-password2.png,MD-reset-pass.png,Forgot-pass.png,Forgot-pass-request.png'
 taxonomy:
     category:
         - docs
@@ -13,8 +13,8 @@ We take security seriously, user passwords are stored encrypted throughout our p
 
 ##### Step 1
 
-Click on your email address and select "Change password" from the drop-down menu.
-![](change-password.png)
+Click on your email address and select **Change password** from the drop-down menu.
+![](MD-reset-pass.png)
 
 ##### Step 2
 
@@ -25,16 +25,16 @@ Enter your current password, your new password and confirm your new password in 
 
 ##### Step 1
 
-Go to the [Enscale dashboard](https://dashboard.enscale.com) and click on "Forgot password?"
-![](Forgot-password.png)
+Go to the [Enscale dashboard](https://dashboard.enscale.com) and click on **Forgot password**?
+![](Forgot-pass.png)
 
 ##### Step 2
-Enter your email address and click "Send email".
-![](Forgot-password-2.png)
+Enter your email address and click **Send email**.
+![](Forgot-pass-request.png)
 
 ##### Step 3
 
 Check your email for the temporary password (don't forget to check your spam folder). 
 
-! The temporary password expires in 24 hours, follow the steps below to change your password once logged in!
+! The temporary password expires in 24 hours, don't forget to change your password once logged in!
 
