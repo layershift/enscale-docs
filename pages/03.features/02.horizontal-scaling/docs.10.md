@@ -1,6 +1,6 @@
 ---
 title: 'Horizontal scaling'
-media_order: 'verticalScalingModal.png,horizontal_scaling_5.png,AddnewNode.png,runtimeBtn.png,horizontal_scaling_1.jpg,scalingTab.png,editScaling.png,horizontal_scaling_2.png'
+media_order: 'AddnewNode.png,runtimeBtn.png,Enter-demo.png,Scaling-clone.png,Select-Scaling-tab.png,Scaling-add-triggers.JPG,Scaling-set-trigger-values.JPG,Scaling-edit-triggers.JPG'
 taxonomy:
     category:
         - docs
@@ -32,7 +32,7 @@ You can add multiple nodes of the same type right after you've created your envi
 !!! If you change files in the Enscale file manager, you have the option to save the changes to all nodes of the same type.
 
 ### Adding new nodes
-Adding a new node will always result in an empty node, as such we allow this for non-runtime nodes only. You will always need to make sure new nodes are configured properly.
+Adding a new node will always result in an empty node, as such we allow this for non-runtime nodes only (unless the environment doesn't have a runtime node). You will always need to make sure new nodes are configured properly.
 
 ##### Step 1
 
@@ -41,36 +41,32 @@ Add multiple nodes to your environment with the **Add New Node** button.
 
 ##### Step 2 
 
-Select the **Runtime** node.
-![](runtimeBtn.png)
+Select the type of node you would like to add.
+
 
 ##### Step 3 
 
-The same type of runtime node will be added as your existing one(s).
-
-Click **Add Node** to either create your new environment, or to create your new runtime node, depending on the case.
-
-! Add at least one load balancer node to your environment to distribute requests between multiple runtime nodes.
+Confirm your selection by clicking **Add Node**. If you already have a node of that type in your environment, the version will be the same, else you will receive the latest available version of the selected node type.
 
 ### Cloning existing nodes
 
 ##### Step 1
 
 Enter your environment.
-![](horizontal_scaling_1.jpg)
+![](Enter-demo.png)
 
 ##### Step 2
 
-Click the Clone button on your runtime node.
-![](horizontal_scaling_2.png)
+Go to the **Scaling** tab of your chosen node and click **Clone**.
+![](Scaling-clone.png)
 
 !! The node you wish to clone will be stopped during the cloning process.
 
+The **New [node type]** button is available for non-runtime nodes only and adds an empty node of the same kind.
+
 ##### Step 3
 
-Your deployed application will be available on the new node once the cloning process is completed.
-
-! Add at least one load balancer node to your environment to distribute requests between multiple runtime nodes.
+If cloning a runtime node, you should add at least one load balancer to your environment to distribute requests between the multiple runtime nodes.
 
 ### Automatic horizontal scaling
 
@@ -80,31 +76,30 @@ You will receive email notifications on each horizontal scaling event, so you ca
 
 Automatic horizontal scaling automatically adds a load balancer to your environment when scaling out if a load balancer is not already present. The load balancer is not removed when the number of runtime nodes falls to 1.
 
-!!! To avoid undesirable IP address changes during scaling, it's recommended to always keep a load balancer node (with public IP) added within your environment. This will remain a stable endpoint for application requests irrespective of the number of runtime nodes.
+!!! To avoid undesirable IP address changes during scaling, it's recommended to always keep a load balancer node (with public IP) in your environment. This will remain a stable endpoint for application requests irrespective of the number of runtime nodes.
 
 Follow the steps below to enable automatic horizontal scaling:
 
 ##### Step 1
 
 Create your environment and enter it.
-![](horizontal_scaling_1.jpg)
+![](Enter-demo.png)
 
 ##### Step 2 
 
-Click on the Scaling tab on your application node.
-![](scalingTab.png)
+Click on the **Scaling tab** on your application node.
+![](Select-Scaling-tab.png)
 
 ##### Step 3 
 
-Select the trigger you would like to set (RAM or CPU) and click **Edit**.
-![](editScaling.png)
+Select the trigger you would like to set (RAM or CPU) and click **Add**.
+![](Scaling-add-triggers.JPG)
 
 !!! For the best results, we recommend defining triggers for both CPU and RAM.
-
+![image alt=float-right](Scaling-set-trigger-values.JPG)
 ##### Step 4 
 
 Set the minimum and maximum number of nodes you would like to scale between, and the resource usage percentages you would like to trigger horizontal scaling actions at, and **Save**.
-![](verticalScalingModal.png)
 
 **Scale between x and y** - specifies the minimum **x** and the maximum **y** number of runtime nodes for your application. Horizontal scaling will never decrease the number of nodes below the minimum you set here, nor will it increase the number of nodes above the maximum number you set, even if your application is exhausting all available resources.
 
@@ -117,4 +112,4 @@ Set the minimum and maximum number of nodes you would like to scale between, and
 ##### Step 5 
 
 Once configured, you can turn this feature on and off easily within the dashboard as shown below, while preserving the settings. Click **Edit** if you wish to re-adjust the trigger settings.
-![](horizontal_scaling_5.png)
+![](Scaling-set-trigger-values.JPG)
