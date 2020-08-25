@@ -21,7 +21,7 @@ Enter the email address of the user you want to transfer to.
 
 !!! The receiving party will need to have an upgraded Enscale account, else the transfer will fail.
 
-While the request is pending, you will see a **Transferring** icon next to the environment name. You can click it to see details of your transfer request or to cancel the request.
+While the request is pending, you will see a **Transferring** icon next to the environment name. You can click it to see details of your transfer request or to cancel the request. The transfer can also be cancelled from the **Actions** drop-down.
 
 ![](Env-transferring.png)
 
