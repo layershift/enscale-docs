@@ -51,6 +51,16 @@ Every node you have will have a set of variables pre-defined, however, these are
 
 [Apache runtime](/app/apache-variables)
 [Nginx runtime](/app/nginx-variables)
-[Nginx load balancer](/load-balancer/nginx-balancer/nginx-balancer-variables)
+[Nginx load balancer](/load-balancer/nginx-balancer-variables)
+[MariaDB](/database-nodes/mariadb/mariadb-variables)
+[MySQL](/database-nodes/mysql-ce/mysql-ce-variables)
+[Redis](/database-nodes/redis/redis-variables)
+[Percona](/database-nodes/percona/percona-variables)
+[PostgreSQL](/database-nodes/postgresql/postgresql-variables)
+[Couchbase](/database-nodes/couchbase-ce/couchbase-ce-variables)
+[MongoDB](/database-nodes/mongodb/mongodb-variables)
+[Memcached](/cache-node/memcached-variables)
+
+
 
 
