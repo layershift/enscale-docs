@@ -1,6 +1,6 @@
 ---
 title: 'Environment Variables'
-media_order: 'EnterWPEnv.png,Select-config-tab.png,Open-variables.png,Add new Variable button.png,enter name and value.JPG,Save variable.png'
+media_order: 'Enter-demo.png,Node-config-tab-select.png,Variables-select.png,Variables-add.png,variables-entervariable.JPG,Variables-save.png'
 taxonomy:
     category:
         - docs
@@ -17,31 +17,31 @@ You can add your variables to any node you prefer and the changes will automatic
 
 ##### Step 1
 Enter your environment.
-![](EnterWPEnv.png)
 
+![](Enter-demo.png)
 ##### Step 2
 Got to the **Configure** tab of the node to which variables should be added.
-![](Select-config-tab.png)
 
+![](Node-config-tab-select.png)
 !!! Variables are saved to all nodes in the same layer so don't worry if you have multiple nodes of the same type in your environment.
 
 ##### Step 3
 Click on **Variables**.
-![](Open-variables.png)
+![](Variables-select.png)
 
 ##### Step 4
 Click **Add new variable**
-![](Add%20new%20Variable%20button.png)
 
+![](Variables-add.png)
 ##### Step 5
 Enter the environment variable name and value and click **Add** (repeat as necessary to add all the required variables).
-![](enter%20name%20and%20value.JPG)
+![](variables-entervariable.JPG)
 
 !!! The name of your environment variable needs to start with a letter and must contain only letters, numbers and underscores.
 
 ##### Step 6
 The variables you newly add will appear on the top of the list temporarily. Once you added all the variables you need, click **Save changes**.
-![](Save%20variable.png)
+![](Variables-save.png)
 
 !!! The nodes will be restarted to apply the changes.
 
