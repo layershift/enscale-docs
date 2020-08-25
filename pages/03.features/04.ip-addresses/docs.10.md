@@ -1,6 +1,6 @@
 ---
 title: 'IP addresses'
-media_order: 'Enter-environment.png,Connect-tab.png,Add-IP.JPG,add-ip-confirm.JPG'
+media_order: 'Enter-demo.png,Node-connect.png,Node-connect-Add-IP.png,Add-IP-confirm.JPG'
 taxonomy:
     category:
         - docs
@@ -51,11 +51,11 @@ All of your Enscale servers within the same region (including between different 
 
 ##### Recommended for:
 
-* All internal nodes (anything that does not directly receive requests from the internet)
+* All internal nodes (anything that does not directly receive requests from the internet).
 
 ##### Not suitable for:
 
-* Direct access to backend server from an external location (e.g. mobile app connecting via internet directly to a MongoDB instance)
+* Direct access to backend server from an external location (e.g. mobile app connecting via internet directly to a MongoDB instance).
 
 ### Using a Public IP address
 
@@ -81,24 +81,24 @@ It's strongly recommended to enable a public IP address for each of your externa
 ##### Step 1
 
 Create your environment and enter it.
-![](Enter-environment.png)
+![](Enter-demo.png)
 
 ##### Step 2
 
 Select the **Connect** tab on your desired node.
 
-![](Connect-tab.png)
+![](Node-connect.png)
 
 
 ##### Step 3
 
 Click **Add Public IP**.
-![](AddPubIPBtn.png)
+![](Node-connect-Add-IP.png)
 
 ##### Step 4
 
 Click **OK** to confirm that you understand network traffic will be briefly interrupted.
-![](add-ip-confirm.JPG)
+![](Add-IP-confirm.JPG)
 
 The newly assigned public IP will be shown in the **Connect** tab of your node.
 
@@ -114,11 +114,10 @@ These steps usually only take a few seconds, so the disruption should be almost 
 | Node type | Typical restart time |
 | --------- | -------------------- |
 | Load balancer | 5 seconds |
-| Java runtime | 2 - 5 minutes |
-| PHP, Ruby, Python runtime | 5 seconds |
+| Runtime | 5 seconds |
 | Database | 30 seconds |
 
-Times stated are only an approximate guide. Restart times vary depending on your particular configuration and application.
+Times stated are only an approximate guide, restart times vary depending on your particular configuration and application.
 
 If your nodes are horizontally scaled (multiple nodes of the same type) on that layer, you can normally avoid application downtime by restarting one node at a time (i.e. only adding/removing a public IP from one node at once).
 
