@@ -51,8 +51,4 @@ Every node you have will have a set of variables pre-defined, however, these are
 
 |   |   |   |   | |   |   |   |      |     |     |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[![]balancer-nginx.png)](/load-balancer/nginx-balancer-variables)|[![]Ruby-apache.png)](/app/apache-variables)|[![]ruby-nginx.png)](/app/nginx-variables)|[![](mariadb.png)](/database-nodes/mariadb/mariadb-variables)|[![](mysql.png)](/database-nodes/mysql-ce/mysql-ce-variables)|[![](percona.png)](/database-nodes/percona/percona-variables)|[![](postgresql.png)](/database-nodes/postgresql/postgresql-variables)|[![](couchbase.png)](/database-nodes/couchbase-ce/couchbase-ce-variables)|[![](mongodb.png)](/database-nodes/mongodb/mongodb-variables)|[![](redis.png)](/database-nodes/redis/redis-variables)|[![](memcached.png)](/cache-node/memcached-variables)|
-
-
-
-
+|[![](balancer-nginx.png)](/load-balancer/nginx-balancer-variables)|[![](Ruby-apache.png)](/app/apache-variables)|[![](ruby-nginx.png)](/app/nginx-variables)|[![](mariadb.png)](/database-nodes/mariadb/mariadb-variables)|[![](mysql.png)](/database-nodes/mysql-ce/mysql-ce-variables)|[![](percona.png)](/database-nodes/percona/percona-variables)|[![](postgresql.png)](/database-nodes/postgresql/postgresql-variables)|[![](couchbase.png)](/database-nodes/couchbase-ce/couchbase-ce-variables)|[![](mongodb.png)](/database-nodes/mongodb/mongodb-variables)|[![](redis.png)](/database-nodes/redis/redis-variables)|[![](memcached.png)](/cache-node/memcached-variables)|
