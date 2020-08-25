@@ -97,7 +97,7 @@ Select the trigger you would like to set (RAM or CPU) and click **Add**.
 
 !!! For the best results, we recommend defining triggers for both CPU and RAM.
 
-![image alt=float-right](Scaling-set-trigger-values.JPG?cropResize-300,300)
+![image alt=float-right](Scaling-set-trigger-values.JPG?cropResize=300,300)
 
 ##### Step 4 
 
