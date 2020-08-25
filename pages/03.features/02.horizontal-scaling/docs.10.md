@@ -1,6 +1,6 @@
 ---
 title: 'Horizontal scaling'
-media_order: 'AddnewNode.png,runtimeBtn.png,Enter-demo.png,Scaling-clone.png,Select-Scaling-tab.png,Scaling-add-triggers.JPG,Scaling-set-trigger-values.JPG,Scaling-edit-triggers.JPG'
+media_order: 'AddnewNode.png,Enter-demo.png,Scaling-clone.png,Select-Scaling-tab.png,Scaling-add-triggers.JPG,Scaling-set-trigger-values.JPG,Scaling-edit-triggers.JPG'
 taxonomy:
     category:
         - docs
@@ -18,7 +18,7 @@ There are 2 main strategies to achieve this:
 * Centralise the data to a specific shared location. E.g. you might use Memcached or Redis as a session storage location. 
 * Replicate the data across all servers, so each has its own copy.
 
-The appropriate strategy for your case, and its implementation, is outside the scope of this article, but you are welcome to contact our support team ([support@enscale.com](mailto:support@enscale.com)) for additional guidance on this issue.
+The appropriate strategy for your case, and its implementation, is outside the scope of this article, but you are welcome to contact our support team ([support@enscale.com](mailto:support@enscale.com)) for additional guidance on this topic.
 
 Enscale provides the ability to horizontally scale your application [manually](#manual-horizontal-scaling) or [automatically](#automatic-horizontal-scaling). With manual scaling, you can add multiple nodes of the same type or clone existing nodes via the Enscale dashboard. Manual scaling is useful if you expect high loads during a certain period of time and you would like to prepare your application for this in advance.
 
@@ -29,14 +29,14 @@ When using multiple runtime nodes, you should also add a load balancer to distri
 ### Manual horizontal scaling
 You can add multiple nodes of the same type right after you've created your environment, and deploy your application simultaneously to all of them at once. Alternatively you can add additional nodes later on, by [cloning](#cloning-existing-nodes) an existing node, in which case all data and configurations of the source node are replicated onto the new one as a point in time snapshot (thereafter the data / configuration is independent for each node).
 
-!!! If you change files in the Enscale file manager, you have the option to save the changes to all nodes of the same type.
+!!! If you change files in the Enscale [file manager](https://www.enscale.com/docs/10/features/file-manager), you have the option to save the changes to all nodes of the same type.
 
 ### Adding new nodes
-Adding a new node will always result in an empty node, as such we allow this for non-runtime nodes only (unless the environment doesn't have a runtime node). You will always need to make sure new nodes are configured properly.
+Adding a new node will always result in an empty node, as such we allow this for non-runtime nodes only (unless the environment doesn't have a runtime node). When using this method, you will always need to make sure new nodes are configured properly after they've been added.
 
 ##### Step 1
 
-Add multiple nodes to your environment with the **Add New Node** button. 
+Click the **Add New Node** button for a selection of available node types. 
 ![](AddnewNode.png)
 
 ##### Step 2 
@@ -47,6 +47,8 @@ Select the type of node you would like to add.
 ##### Step 3 
 
 Confirm your selection by clicking **Add Node**. If you already have a node of that type in your environment, the version will be the same, else you will receive the latest available version of the selected node type.
+
+!!! If you already have a node of that type, and you wish to add an empty one of the same type, you can use the **New [node type]** button from the **Scaling** tab.
 
 ### Cloning existing nodes
 
@@ -61,8 +63,6 @@ Go to the **Scaling** tab of your chosen node and click **Clone**.
 ![](Scaling-clone.png)
 
 !! The node you wish to clone will be stopped during the cloning process.
-
-The **New [node type]** button is available for non-runtime nodes only and adds an empty node of the same kind.
 
 ##### Step 3
 
@@ -96,7 +96,9 @@ Select the trigger you would like to set (RAM or CPU) and click **Add**.
 ![](Scaling-add-triggers.JPG)
 
 !!! For the best results, we recommend defining triggers for both CPU and RAM.
+
 ![image alt=float-right](Scaling-set-trigger-values.JPG)
+
 ##### Step 4 
 
 Set the minimum and maximum number of nodes you would like to scale between, and the resource usage percentages you would like to trigger horizontal scaling actions at, and **Save**.
