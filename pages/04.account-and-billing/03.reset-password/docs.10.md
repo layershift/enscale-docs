@@ -37,4 +37,3 @@ Enter your email address and click **Send email**.
 Check your email for the temporary password (don't forget to check your spam folder). 
 
 ! The temporary password expires in 24 hours, don't forget to change your password once logged in!
-
