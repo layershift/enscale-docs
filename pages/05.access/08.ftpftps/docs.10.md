@@ -40,7 +40,7 @@ You will receive a notification email with your username and password. You are a
 ![](FTP-reset.png)
 ##### Step 5 - Uninstall
 
-If you wish to uninstall FTP, you can do so easily by going to the Connect tab and selecting **Remove FTP**.
+If you wish to uninstall FTP, you can do so easily by going to the **Connect tab** and selecting **Remove FTP**.
 
 ![](FTP-remove.png)
 
