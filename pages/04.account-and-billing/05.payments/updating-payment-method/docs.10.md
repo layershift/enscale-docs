@@ -1,6 +1,6 @@
 ---
 title: 'Updating payment method'
-media_order: manage-payments-manage.JPG
+media_order: 'Manage-payments-button.png,Managepayments-modal-manage.JPG'
 taxonomy:
     category:
         - docs
@@ -10,9 +10,9 @@ visible: true
 In case you want to add a new card for Enscale payments, or your old card is no longer valid, you will need to [complete a new payment](/account-and-billing/payments/refill-your-balance) via the Enscale dashboard to record the details of your new card.
 
 Once payment is completed, the card will appear in the **Manage** tab of the **Manage Payments** modal.
+![](Manage-payments-button.png)
 
-
-![](manage-payments-manage.JPG)
+![](Managepayments-modal-manage.JPG)
 
 !!! Don't forget to change your [auto-refill configuration](/account-and-billing/payments/automatic-refills) if applicable. Cards for automatic refill need to be selected each time you wish to use a new card.
 
