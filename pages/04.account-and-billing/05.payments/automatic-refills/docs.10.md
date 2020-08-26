@@ -33,7 +33,7 @@ In case you have a fairly regular resource usage and you prefer to handle invoic
 
 Once you chose the preferred options, click **Apply** to save these settings.
 
-### Editing automatic refill settings
+#### Editing automatic refill settings
 
 In the **Recurring** tab of the **Manage payments** modal you will have the option to change any of your choices regarding automatic refill - amount, card and trigger. In the same place you can also disable auto-refill. 
 
