@@ -1,6 +1,7 @@
 ---
 title: Invoices
 media_order: 'MD-Account-dropdown-invoices.png,billing-history.png,Billing-history-invoice.png'
+published: true
 taxonomy:
     category:
         - docs
