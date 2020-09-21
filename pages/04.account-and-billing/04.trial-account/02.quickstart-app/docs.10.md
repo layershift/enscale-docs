@@ -52,3 +52,18 @@ Value: redis://:`[redis_password]`@`[accessURL]` - for example redis://:IOVrsn82
 Click **Add** then **Save changes**.
 
 Learn more about [environment variables](/features/environment-variables).
+
+You've successfully completed the first goal, well done!
+
+###### Step 6
+
+To secure your site with SSL in your environmnet click on **Actions** and select **Manage SSL** from the dropdown menu. In the modal click **Enable shared SSL**.
+
+Go back to your demo application and load it with https:// to complete the second goal (or you can open from the application node by clicking the globe button).
+
+You can read more about the SSL options Enscale offers here. 
+
+###### Step 7
+
+
+
