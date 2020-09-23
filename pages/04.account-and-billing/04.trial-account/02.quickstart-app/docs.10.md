@@ -1,5 +1,6 @@
 ---
 title: 'Quickstart app'
+media_order: 'Manage-ssh-select.png,SSH-Node-Connect.png,File-manager-button-appnode.png,node-restart.png'
 taxonomy:
     category:
         - docs
@@ -63,7 +64,68 @@ Go back to your demo application and load it with https:// to complete the secon
 
 You can read more about the SSL options Enscale offers [here](/features/ssl-certificates). 
 
-#### Step 7
+##### Step 7
 
+Create a public and private key pair to use for connecting to Enscale via SSH. Steps to create the key pair can be found in [this article](/access/generate-ssh-key) should you need them.
 
+##### Step 8
 
+Access the **Manabe SSH keys** modal from the dropdown and switch to the **Public Keys** tab.
+![](Manage-ssh-select.png)
+
+##### Step 9
+
+Use the connection details show to access the SSH gateway - from here you can use the interactive menu to enter the desired environment and node. Or you can connect to your node directly with the connection details on the respective node's connect tab:
+
+![](SSH-Node-Connect.png)
+
+##### Step 10
+
+Once you SSHed into your node, run the following command in the application's root directory (/var/www/webroot/ROOT).
+
+>rails secret > config/master.key.example
+
+##### Step 11
+
+Go back to the demo app in the browser and refresh to complete the third goal.
+
+##### Step 12
+
+From the Enscale dashboard go to your application node and open the **File manager**.
+![](File-manager-button-appnode.png)
+
+##### Step 13
+
+Use the file tree to open the *database.yml* file.
+
+##### Step 14
+
+Replace the file contents with the below lines and **Save**.
+
+> default: &default
+>   adapter: sqlite3
+>   pool: 5
+> 
+> production:
+>   <<: *default
+>   database: yourdbnamehere.db
+
+!!! Keep the same spacing and indentation to ensure the format remains correct for the .yml file.
+
+To see what else you can do in the **File Manager**, click [here](/features/file-manager).
+
+##### Step 15
+
+Restart your application node for the configuration changes to take effect.
+
+![](node-restart.png)
+
+##### Step 16
+
+Open your application again, or refresh the tab to complete the last goal.
+
+##### Step 17
+
+Congratulations! You've completed our Quickstart app, now all that's left is to claim your reward. Click the **Claim reward** button to receive your reward.
+
+!!!! The bonus is only awarded once per account after all the goals in the application are completed. Play fair. ;)
