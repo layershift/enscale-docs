@@ -100,7 +100,7 @@ Use the file tree to open the *database.yml* file.
 ##### Step 14
 
 Replace the file contents with the below lines and **Save**.
-```
+```yaml
 default: &default
   adapter: sqlite3
   pool: 5
