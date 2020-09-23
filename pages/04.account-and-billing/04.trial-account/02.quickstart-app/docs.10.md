@@ -128,4 +128,4 @@ Open your application again, or refresh the tab to complete the last goal.
 
 Congratulations! You've completed our Quickstart app, now all that's left is to claim your reward. Click the **Claim reward** button to receive your reward.
 
-!!!! The bonus is only awarded once per account after all the goals in the application are completed. Play fair. &#128521
+!!!! The bonus is only awarded once per account after all the goals in the application are completed. Play fair. &#128521;
