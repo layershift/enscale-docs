@@ -61,9 +61,9 @@ To secure your site with SSL in your environmnet click on **Actions** and select
 
 Go back to your demo application and load it with https:// to complete the second goal (or you can open from the application node by clicking the globe button).
 
-You can read more about the SSL options Enscale offers here. 
+You can read more about the SSL options Enscale offers [here](/features/ssl-certificates). 
 
-###### Step 7
+##### Step 7
 
 
 
