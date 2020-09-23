@@ -82,7 +82,7 @@ Use the connection details show to access the SSH gateway - from here you can us
 
 Once you SSHed into your node, run the following command in the application's root directory (/var/www/webroot/ROOT).
 
->rails secret > config/master.key.example
+`rails secret > config/master.key.example`
 
 ##### Step 11
 
