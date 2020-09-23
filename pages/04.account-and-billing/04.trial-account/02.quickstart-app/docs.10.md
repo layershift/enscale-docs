@@ -124,16 +124,16 @@ Refresh the demo app to see the third goal completed.
 
 ##### Step 15
 
-As a last goal, we're introducing you to the Enscale File manager. This powerful tool  
+As a last goal, we're introducing you to the Enscale File manager. This tool comes in handy when you want to quickly edit a config file for example.
 
 From the Enscale dashboard go to your application node and open the **File manager**.
 ![](File-manager-button-appnode.png)
 
-##### Step 13
+##### Step 16
 
 Use the file tree to open the *database.yml* file.
 
-##### Step 14
+##### Step 17
 
 Replace the file contents with the below lines and **Save**.
 ```yaml
@@ -150,18 +150,18 @@ production:
 
 To see what else you can do in the **File Manager**, click [here](/features/file-manager).
 
-##### Step 15
+##### Step 18
 
 Restart your application node for the configuration changes to take effect.
 
 ![](node-restart.png)
 
-##### Step 16
+##### Step 19
 
 Open your application again, or refresh the tab to complete the last goal.
 
-##### Step 17
+##### Step 20
 
-Congratulations! You've completed our Quickstart app, now all that's left is to claim your reward. Click the **Claim reward** button to receive your reward.
+All that remains is to reap the rewards, so go on... click the **Claim reward** button!
 
 !!!! The bonus is only awarded once per account after all the goals in the application are completed. Play fair &#128521;
