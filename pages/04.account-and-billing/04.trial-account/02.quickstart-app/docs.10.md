@@ -101,13 +101,14 @@ Use the file tree to open the *database.yml* file.
 
 Replace the file contents with the below lines and **Save**.
 
-> default: &default
->   adapter: sqlite3
->   pool: 5
-> 
-> production:
->   <<: *default
->   database: yourdbnamehere.db
+`default: &default
+  adapter: sqlite3
+  pool: 5
+
+production:
+  <<: *default
+  database: yourdbnamehere.db`
+
 
 !!! Keep the same spacing and indentation to ensure the format remains correct for the .yml file.
 
