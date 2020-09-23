@@ -1,6 +1,6 @@
 ---
 title: 'Quickstart app'
-media_order: 'Manage-ssh-select.png,SSH-Node-Connect.png,File-manager-button-appnode.png,node-restart.png'
+media_order: 'Manage-ssh-select.png,File-manager-button-appnode.png,node-restart.png'
 taxonomy:
     category:
         - docs
@@ -48,7 +48,7 @@ Add an environment variable with the database URL to your application node. This
 On your Nginx Ruby node click on the **Configure** tab and click **Variables**. Click **Add new variable** and enter the following:
 
 Name: REDIS_URL
-Value: redis://:`[redis_password]`@`[accessURL]` - for example redis://:IOVrsn82356@node23469-demoapplicationnew.uk.enscaled.com
+Value: `redis://:[redis_password]@[accessURL]` - for example redis://:IOVrsn82356@node23469-demoapplicationnew.uk.enscaled.com
 
 Click **Add** then **Save changes**.
 
@@ -76,8 +76,7 @@ Access the **Manabe SSH keys** modal from the dropdown and switch to the **Publi
 ##### Step 9
 
 Use the connection details show to access the SSH gateway - from here you can use the interactive menu to enter the desired environment and node. Or you can connect to your node directly with the connection details on the respective node's connect tab:
-
-![](SSH-Node-Connect.png)
+![](connect-connection-details.png)
 
 ##### Step 10
 
