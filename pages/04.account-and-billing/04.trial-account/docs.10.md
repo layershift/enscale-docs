@@ -16,7 +16,7 @@ When you create your first environment, you will start to be charged each our fo
 * disk space (if you use over 10GB per environment)
 * traffic (above the 2GB/h provided)
 
-While the total £30 credits you can get for your trial will last for about a month for a small application, you can prolong your trial period by stopping your environments when you're not using them. Stopped environments don't consume RAM or CPU and there is no traffic to them, hence no charges (unless you exceed the disk space allowance).
+While the total £30 credits will last for about a month for a small application, you can prolong your trial period even more by stopping your environments when you're not using them. Stopped environments don't consume RAM or CPU and there is no traffic to them, hence no charges (unless you exceed the disk space allowance).
 
 As this is a trial account, we had to impose some feature limitations mainly to prevent AUP violations - for example you will not have access to a public IP address and there is a limited number of environments you can create. While these shouldn't interfere with your ability to try out Enscale in most scenarios, if the limitations are too restrictive for you, open a support ticket and we can discuss your usecase.
 
