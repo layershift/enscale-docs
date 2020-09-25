@@ -8,7 +8,7 @@ visible: true
 
 Usually, before you sign up for a trial, you always have to check your calendar: do I have time to test this propperly this week? Perhaps next week will work  better...?  Time limited trials add extra stress to your already busy life. 
 
-With Enscale, there is no time-limit. To eliminate the pain of **having to do it now** as well as to allow you to experience the pay-as-you-go billing model fully, when you sign up for an Enscale trial, you receive a credit of £10 to use at will. We offer another £20 for completing the [Quickstart app](/account-and-billing/trial-account/quickstart-app) which will give you a quick overview of the most important Enscale features.
+With Enscale, there is no time-limit. To eliminate the pain of *"having to do it now"* as well as to allow you to experience the pay-as-you-go billing model fully, when you sign up for an Enscale trial, you receive a credit of £10 to use at will. We offer another £20 for completing the [Quickstart app](/account-and-billing/trial-account/quickstart-app) which will give you a quick overview of the most important Enscale features.
 
 When you create your first environment, you will start to be charged each our for the resources consumed by that environment, namely: 
 
