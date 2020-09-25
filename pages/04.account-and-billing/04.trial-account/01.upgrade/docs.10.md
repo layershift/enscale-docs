@@ -1,6 +1,6 @@
 ---
 title: Upgrade
-media_order: 'Upgrade button.png'
+media_order: Upgrade-button.JPG
 taxonomy:
     category:
         - docs
@@ -13,7 +13,7 @@ To upgrade you need to perform the following steps:
 
 1. Click the **Upgrade account** button 
 
-![](Upgrade%20button.png)
+![](Upgrade-button.JPG)
 
 2. You will then need to fill out a form with your account details. Please note that these details will be on invoices you receive. We require the following information:
 First and Last name
