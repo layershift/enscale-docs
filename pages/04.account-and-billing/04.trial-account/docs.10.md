@@ -21,3 +21,5 @@ While the total £30 credits will last for about a month for a small application
 As this is a trial account, we had to impose some feature limitations mainly to prevent AUP violations - for example you will not have access to a public IP address and there is a limited number of environments you can create. While these shouldn't interfere with your ability to try out Enscale in most scenarios, if the limitations are too restrictive for you, open a support ticket and we can discuss your usecase.
 
 If you're satisfied with Enscale and you want to unlock all the features, you can [upgrade your account](/account-and-billing/trial-account/upgrade) simply by completing a £5 payment. You won't lose any of the credits remaining from your trial either!
+
+Don't have a trial account yet? Go to [wwww.enscale.com](https://wwww.enscale.com) and sign up now!
