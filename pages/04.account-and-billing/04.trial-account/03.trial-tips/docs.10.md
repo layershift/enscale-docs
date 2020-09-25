@@ -1,9 +1,9 @@
 ---
 title: 'Trial tips'
+published: false
 taxonomy:
     category:
         - docs
-visible: true
 ---
 
 Getting the most out of your trial
