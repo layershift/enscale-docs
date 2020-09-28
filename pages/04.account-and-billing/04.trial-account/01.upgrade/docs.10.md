@@ -15,8 +15,14 @@ To upgrade you need to perform the following steps:
 
 ![](Upgrade-button.JPG)
 
-![image alt=float-right](Upgrade-account-details.png)
 
+![image alt=float-right](Upgrade-account-details.png)
+​
+​
+​
+​
+​
+​
 2. You will then need to fill out a form with your account details. Please note that these details will be on invoices you receive. We require the following information:
 First and Last name
 Company name / Account name* 
