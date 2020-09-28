@@ -77,6 +77,6 @@ Read and agree to our
 
 &nbsp;
 
-5. Check your emails for payment confirmation or any error messages related to the transaction, in case the trasnaction is successful, refresh the Enscale dashboard for the unlocked features to become available for your account.
+5. Check your emails for payment confirmation or any error messages related to the transaction, in case the trasnaction is successful, **refresh** the Enscale dashboard for the unlocked features to become available for your account.
 
 In case of any problems with the upgrade, please open a ticket with our [billing team](mailto:billing@enscale.com) and we'd be happy to help.
