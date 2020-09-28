@@ -54,8 +54,20 @@ Read and agree to our
 
 ![alt=float-right](Payment-sagepay.JPG?cropResize=700,500) ![alt=float-left](Payment-paypal.JPG?cropResize=400,600)
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 5. Fill out the details and complete the payment.
 
 6. Check your emails for payment confirmation or any error messages related to the transaction, in case the trasnaction is successful, refresh the Enscale dashboard for the unlocked features to become available for your account.
 
-7. In case of any problems with the upgrade, please open a ticket with our [billing team](mailto:billing@enscale.com) and we'd be happy to help.
+In case of any problems with the upgrade, please open a ticket with our [billing team](mailto:billing@enscale.com) and we'd be happy to help.
