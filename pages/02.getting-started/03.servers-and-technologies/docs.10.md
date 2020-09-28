@@ -42,10 +42,8 @@ Read more in-depth articles in the [database section](https://enscale.com/docs/1
 
 A load balancer server comes in handy when you have multiple runtime nodes - it will be set to automatically distribute requests between your servers. While load balancing can be done via other means as well (for example with DNS or a CDN solution), it is highly recommended to add a load balancer in Enscale whenever you turn automatic horizontal scaling on for app nodes so the new server can be utilized immediately for serving the incoming requests to your environment.
 
-* Apache 2.4.38, 2.4.39, 2.4.41
-* HAProxy 1.8.9, 1.8.12, 1.8.14, 1.9.3, 1.9.7, 2.0.4, 2.0.5, 2.0.8
 * Nginx 1.10.1, 1.10.3, 1.12.2, 1.14.0, 1.14.2, 1.16.0, 1.16.1
-* Varnish 4.1.5, 4.1.7, 4.1.8, 5.2.0, 5.2.1, 6.0.0, 6.1.0, 6.1.1, 6.2.0, 6.2.1, 6.3.0, 6.3.1
+
 
 You can get more familiar with the load balancers [here](https://enscale.com/docs/10/load-balancer).
 
