@@ -25,16 +25,15 @@ Now that we discussed the type of accounts, let's see their limitations:
 |Feature|Trial|Billing|Collaborator|
 |---|---|---|---|
 |Number of environments|4|1000|0|
-|Maximum nodes per environment|16|48|N/A|
-|Maximum same type nodes per environment|3|16|N/A|
+|Maximum nodes per environment|6|48|N/A|
+|Maximum same type nodes per environment|2|16|N/A|
 |Disk space per node|20GB|200GB|N/A|
-|Cloudlets per node|64|256|N/A|
+|Cloudlets per node|32|256|N/A|
 |Public IPv4|No|Yes|N/A|
-|Public IPv6|No|Yes|N/A|
 |Shared SSL|Yes|Yes|N/A|
 |Custom SSL/Let's Encrypt|No|Yes|N/A|
 |SSH access|Yes|Yes|Owner defined permission|
-|FTP access|Yes|Yes|Owner defined permission|
+|FTP access|No|Yes|Owner defined permission|
 
 
 
