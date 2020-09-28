@@ -16,7 +16,7 @@ To upgrade you need to perform the following steps:
 ![](Upgrade-button.JPG)
 
 
-![image alt=float-right](Upgrade-account-details.png?cropResize=500,300)
+![image alt=float-right](Upgrade-account-details.png?cropResize=500,800)
 
 
 &nbsp;
