@@ -52,4 +52,4 @@ Read and agree to our
 
 4. The payment gateway of your choice will be opened in a new tab - the PayPal login page for a PayPal payment, or the SagePay gateway for card payments. Fill out the details for your 
 
-![alt=float-left](Payment-sagepay.JPG?cropResize=500,300) ![alt=float-right](Payment-paypal.JPG)
+![alt=float-left](Payment-sagepay.JPG?cropResize=500,400) ![alt=float-right](Payment-paypal.JPG)
