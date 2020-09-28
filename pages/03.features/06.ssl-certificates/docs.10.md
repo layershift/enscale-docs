@@ -1,6 +1,6 @@
 ---
 title: 'SSL certificates'
-media_order: 'Actions-ManageSSL.png,CustomSSL.png,LESSL.png,LE-editbutton.png,LE-edit-domains.png,SharedSSL-enable.png'
+media_order: 'Actions-ManageSSL.png,CustomSSL.png,LESSL.png,SharedSSL-Enable2.png,SSL-LE-edit.png,SSL-LE-editingdomains.JPG'
 taxonomy:
     category:
         - docs
@@ -36,8 +36,8 @@ Select **Manage SSL** from the **Actions** drop-down menu.
 ##### Step 3
 
 Click on **Enable Shared SSL**.
-![](SharedSSL-enable.png)
 
+![](SharedSSL-Enable2.png)
 ##### Step 4
 
 You can always remove the SSL with the **Disable shared SSL** button.
@@ -105,9 +105,11 @@ Select the **Let's Encrypt** tab and click **Enable Let's Encrypt**
 
 ##### Step 4
 
-Let's Encrypt is installed by default to secure your environment name. To add your own domain to the certificate, open the Manage SSL section again once Let's Encrypt is installed and click click the **Edit** icon. (Installation takes around five minutes, look out for the success notification and the email to know when it's done).
+Let's Encrypt is installed by default to secure your environment name with a test Let's Encrypt SSL certificate. To add your own domain, open the **Manage SSL** section again once Let's Encrypt is installed and click click the **Edit** icon. (Installation takes around five minutes, look out for the success notification and the email to know when it's done).
+![](SSL-LE-edit.png)
 
-![](LE-editbutton.png)
+! In order for Let's Encrypt to be able to secure your custom domain, the domain already needs to point to your environment and access needs to be allowed to _root/.well-known_ folder for any domain you wish to include in the SSL.
+
 ##### Step 5
 
 Enter your domain name and click **Add** to add it to the list. You can add multiple domain names at the same time (www variant needs to be added separately). 
@@ -116,6 +118,6 @@ Domains can be removed by pressing **x**.
 
 Once your list is complete, click **Re-issue Certificate**.
 
-!!! In order for Let's Encrypt to be able to secure your custom domain, the domain already needs to point to your environment and access needs to be allowed to _root/.well-known_ folder for any domain you wish to include in the SSL.
+![](SSL-LE-editingdomains.JPG)
 
-![](LE-edit-domains.png)
+!!!! Once a custom domain name is added, the Let's Encrypt SSL certificate issued will be with a full trusted chain instead of the test one.
