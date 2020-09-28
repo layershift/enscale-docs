@@ -20,9 +20,9 @@ To upgrade you need to perform the following steps:
 
 &nbsp;
 
-&nbsp;
+2. You will then need to fill out a form with your account details. Please note that these details will be on invoices you receive. 
 
-2. You will then need to fill out a form with your account details. Please note that these details will be on invoices you receive. We require the following information:
+We require the following information:
 
 * First and Last name
 * Company name / Account name*  
@@ -36,6 +36,8 @@ To upgrade you need to perform the following steps:
 \*for personal accounts, you can use your name or any desired account name in this field
 
 \** this field is optional
+
+&nbsp;
 
 &nbsp;
 
