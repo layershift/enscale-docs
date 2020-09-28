@@ -17,3 +17,4 @@ As the chapter title suggests, in this section you can learn about all the diffe
 * [SSL certificate options](/features/ssl-certificates)
 * [Managing files from the dashboard](/features/file-manager)
 * [Environment variables](/features/environment-variables)
+* [Transfer environment to a different account](/features/transfer-environment-ownership)
