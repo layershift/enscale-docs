@@ -23,6 +23,12 @@ To upgrade you need to perform the following steps:
 ​
 ​
 ​
+​
+​
+​
+​
+​
+​
 2. You will then need to fill out a form with your account details. Please note that these details will be on invoices you receive. We require the following information:
 First and Last name
 Company name / Account name* 
