@@ -78,10 +78,6 @@ Read and agree to our
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
 5. Fill out the details and complete the payment.
 
 6. Check your emails for payment confirmation or any error messages related to the transaction, in case the trasnaction is successful, refresh the Enscale dashboard for the unlocked features to become available for your account.
