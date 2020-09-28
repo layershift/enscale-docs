@@ -16,12 +16,8 @@ To upgrade you need to perform the following steps:
 ![](Upgrade-button.JPG)
 
 
-![image alt=float-right](Upgrade-account-details.png)
-&nbsp;
+![image alt=float-right](Upgrade-account-details.png cropResize=300,300)
 
-&nbsp;
-
-&nbsp;
 
 &nbsp;
 
@@ -31,21 +27,14 @@ To upgrade you need to perform the following steps:
 
 2. You will then need to fill out a form with your account details. Please note that these details will be on invoices you receive. We require the following information:
 
-First and Last name
-
-Company name / Account name* 
-
-Country
-
-Address
-
-City 
-
-Postcode (or ZIP)
-
-Phone number
-
-Tax number (VAT number)**
+* First and Last name
+* Company name / Account name*  
+* Country
+* Address
+* City 
+* Postcode (or ZIP)
+* Phone number
+* Tax number (VAT number)**
 
 \*for personal accounts, you can use your name or any desired account name in this field
 
