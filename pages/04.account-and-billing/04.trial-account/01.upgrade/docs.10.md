@@ -18,10 +18,6 @@ To upgrade you need to perform the following steps:
 
 ![image alt=float-right](Upgrade-account-details.png?cropResize=500,900)
 
-
-
-&nbsp;
-
 &nbsp;
 
 2. You will then need to fill out a form with your account details. Please note that these details will be on invoices you receive. We require the following information:
@@ -38,6 +34,10 @@ To upgrade you need to perform the following steps:
 \*for personal accounts, you can use your name or any desired account name in this field
 
 \** this field is optional
+
+&nbsp;
+
+&nbsp;
 
 3. Choose your preferred payment method, card or PayPal account.
 
