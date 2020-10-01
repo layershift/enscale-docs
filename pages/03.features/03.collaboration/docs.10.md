@@ -77,7 +77,7 @@ environment creation for own account is only allowed if the user you're collabor
 | Clone environment                        |![](yes.png)|![](no.png)  |![](no.png)     |![](no.png)|
 | Restart environment nodes                |![](yes.png)|![](yes.png) |![](yes.png)    |![](no.png)|
 | Deploy code: archive (saving own archives only)      |![](yes.png)|![](yes.png) |![](yes.png)    |![](no.png)|
-| Deploy code: git/svn repo                |![](yes.png)|![](yes.png) |![](yes.png)    |![](no.png)|
+| Deploy code: git repo                |![](yes.png)|![](yes.png) |![](yes.png)    |![](no.png)|
 | FTP/FTPS access                   |![](yes.png)|![](yes.png) |![](yes.png)    |![](no.png)|
 | SSH/SFTP access            |![](yes.png)|![](yes.png) |![](no.png)     |![](no.png)|
 | Adjust cloudlet limits(vertical scaling) |![](yes.png)|![](yes.png) |![](no.png)     |![](no.png)|
