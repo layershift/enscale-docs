@@ -1,6 +1,6 @@
 ---
 title: 'Deployment Manager'
-media_order: 'Deploy-button.JPG,SVN-deploy-dropdown.JPG,DM-Git-dropdown.JPG,DM-archive-dropdown.JPG'
+media_order: 'Deploy-button.JPG,DM-Git-dropdown.JPG,DM-archive-dropdown.JPG'
 taxonomy:
     category:
         - docs
@@ -13,7 +13,6 @@ Whether your deployment is from git, SVN or you uploaded an archive, all deploym
 
 Once here, open the dropdown menu to see the available actions for each deployment type.
 * [Git deployments](/getting-started/deployments/deployment-manager#manage-git-deployments)
-* [SVN deployments](/getting-started/deployments/deployment-manager#manage-svn-deployments)
 * [Archive deployments](/getting-started/deployments/deployment-manager#manage-archive-deployments)
 
 ### Manage Git deployments
@@ -39,35 +38,6 @@ In this section you're able to change all the deployment settings:
 ##### Pull
 
 The **Pull** option initiates a `git pull` from your Git repository.
-
-##### Delete
-
-As the name suggests, this will remove your deployment completely from your environment.
-
-
-### Manage SVN deployments
-![](SVN-deploy-dropdown.JPG)
-
-##### Open in browser
-
-This is a direct link to your application. For example a deployment to *demo* subfolder would open http://your-environment.uk.enscaled.com/SAMPLE-SVN-DEPLOYMENT
-
-##### Configure
-
-In this section you're able to change all the deployment settings:
-
-**URL**: change the URL of your SVN repository
-
-**Auto-update**: toggle on or off as well as select the desired interval for checking whether there were any changes made to your repository. If changes are detected, a `svn update` is performed.
-
-**Auto-resolve conflict**: enabling this feature prevents merge conflicts (any locally made change will be discarded if it conflicts with your repository)
-
-**Deploy hooks**: set scripts to run before or after each deployment
-
-
-##### Pull
-
-The **Pull** option initiates a `svn update` from your SVN repository.
 
 ##### Delete
 
