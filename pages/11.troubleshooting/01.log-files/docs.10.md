@@ -13,7 +13,7 @@ Each node is configured with default logs as part of the server's standard confi
 1. [Where to find your log files](/troubleshooting/log-files/view-log-files)
 2. [Audit log](/troubleshooting/log-files/audit-log) - here you will find information about recent actions made on your environment, as well as their results
 3. [Cron logs](/troubleshooting/log-files/cron-logs) - logs you can set up for your cron jobs
-4. [Git/SVN deploy logs](/troubleshooting/log-files/gitsvn-logs) - logs related to your git/SVN deployment
+4. [Git deploy logs](/troubleshooting/log-files/git-logs) - logs related to your git/SVN deployment
 
 
 
