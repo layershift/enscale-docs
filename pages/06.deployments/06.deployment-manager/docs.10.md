@@ -17,6 +17,7 @@ Once here, open the dropdown menu to see the available actions for each deployme
 * [Archive deployments](/getting-started/deployments/deployment-manager#manage-archive-deployments)
 
 ### Manage Git deployments
+
 ![](DM-Git-dropdown.JPG)
 
 ##### Open in browser
@@ -27,11 +28,7 @@ This is a direct link to your application.
 
 In this section you're able to change all the deployment settings:
 
-**Login**: change username
-
-**Password**: update password
-
-**URL**: change the URL of your SVN repository
+**URL**: change the URL of your git repository
 
 **Auto-update**: toggle on or off as well as select the desired interval for checking whether there were any changes made to your repository. If changes are detected, a `svn update` is performed.
 
@@ -59,17 +56,11 @@ This is a direct link to your application. For example a deployment to *demo* su
 
 In this section you're able to change all the deployment settings:
 
-**Login**: change username
-
-**Password**: update password
-
 **URL**: change the URL of your SVN repository
 
 **Auto-update**: toggle on or off as well as select the desired interval for checking whether there were any changes made to your repository. If changes are detected, a `svn update` is performed.
 
 **Auto-resolve conflict**: enabling this feature prevents merge conflicts (any locally made change will be discarded if it conflicts with your repository)
-
-**Enable zero downtime**: toggle on to avoid downtime during deployment
 
 **Deploy hooks**: set scripts to run before or after each deployment
 
