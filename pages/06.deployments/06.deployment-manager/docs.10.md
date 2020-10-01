@@ -17,17 +17,11 @@ Once here, open the dropdown menu to see the available actions for each deployme
 * [Archive deployments](/getting-started/deployments/deployment-manager#manage-archive-deployments)
 
 ### Manage Git deployments
-![](Git-deploy-dropdown.JPG)
-
-##### Move
-
-Use the **Move** option to specify a new folder or directory to place your deployed project in. If the folder doesn't exist, it will be created.
-
-!!! You will need to update your configuration files manually with the new path.
+![](DM-Git-dropdown.JPG)
 
 ##### Open in browser
 
-This is a direct link to your application. For example a deployment to *demo* subfolder would open http://your-environment.uk.enscaled.com/SAMPLE-GIT-DEPLOYMENT
+This is a direct link to your application. 
 
 ##### Configure
 
@@ -43,10 +37,7 @@ In this section you're able to change all the deployment settings:
 
 **Auto-resolve conflict**: enabling this feature prevents merge conflicts (any locally made change will be discarded if it conflicts with your repository)
 
-**Enable zero downtime**: toggle on to avoid downtime during deployment
-
 **Deploy hooks**: set scripts to run before or after each deployment
-
 
 ##### Pull
 
@@ -59,12 +50,6 @@ As the name suggests, this will remove your deployment completely from your envi
 
 ### Manage SVN deployments
 ![](SVN-deploy-dropdown.JPG)
-
-##### Move
-
-Use the **Move** option to specify a new folder or directory to place your deployed project in. If the folder doesn't exist, it will be created.
-
-!!! You will need to update your configuration files manually with the new path.
 
 ##### Open in browser
 
@@ -102,12 +87,6 @@ As the name suggests, this will remove your deployment completely from your envi
 ![](Archive-deploy-dropdown.JPG)
 
 !!! Only archives deployed directly from the Enscale dashboard will show up here.
-
-##### Move
-
-Use the **Move** option to specify a new folder or directory to place your deployed project in. If the folder doesn't exist, it will be created.
-
-!!! You will need to update your configuration files manually with the new path.
 
 ##### Open in browser
 
