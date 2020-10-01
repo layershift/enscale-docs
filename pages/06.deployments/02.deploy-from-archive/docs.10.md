@@ -1,6 +1,6 @@
 ---
 title: 'Deploying Archives (<150MB)'
-media_order: 'Deploy-button.png,Deploy-archivetab.png,Deploy-archive-description.JPG,Deploy-archive-existingproject.JPG'
+media_order: 'Deploy-button.png,Deploy-archive-existingproject.JPG,deploy-selectarchive.png,deploy-archive-adddescription.JPG'
 taxonomy:
     category:
         - docs
@@ -23,13 +23,16 @@ If you have no deployments on this environment, you're presented with a list of 
 ![](Deploy-archive-existingproject.JPG)
 
 ##### Step 4
-Select the **Archive** tab. You can find and upload your archive from your computer by clicking **Browse**, alternatively you can use an upload link in the **Remote URL** tab.
-![](Deploy-archivetab.png)
+Select the **Archive** tab. 
+![](deploy-selectarchive.png)
 
 ##### Step 5
+
+You can find and upload your archive from your computer by clicking **Browse**, alternatively you can use an upload link in the **Remote URL** tab.
+
 Once the archive us uploaded, you will be prompted to enter a **description** for your file - this comment will be attached to your project and will help you identify it in case you want to deploy the same project to several environments.
 
-![](Deploy-archive-description.JPG)
+![](deploy-archive-adddescription.JPG)
 
 ##### Step 6
 
