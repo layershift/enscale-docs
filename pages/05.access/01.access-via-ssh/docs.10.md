@@ -11,11 +11,11 @@ visible: true
 
 Enscale does all the server admin tasks for you, but we know how a lot of times SSH access can be important.
 
-SSH access enables you to install and run your own CLI code or custom git or svn commands. Or maybe you would like to push code changes from your environment back to your repository or you need to run commands for conflict resolution. 
+SSH access enables you to install and run your own CLI code or custom git commands. Or maybe you would like to push code changes from your environment back to your repository or you need to run commands for conflict resolution. 
 
 Having SSH access also give you power to import or export large .sql databases without worrying about php script upload/timeout limitations imposed by phpMyAdmin/phpPgAdmin.
 
-One thing to keep in mind though when you’re using SSH for git and svn commands is that projects created entirely through SSH will not appear within your Enscale dashboard.
+One thing to keep in mind though when you’re using SSH for git commands is that projects created entirely through SSH will not appear within your Enscale dashboard.
 
 Enscale application servers do not have database command line clients installed so you will need to connect to the desired database server to access these commands (e.g. mysql, mongo, psql).
 
