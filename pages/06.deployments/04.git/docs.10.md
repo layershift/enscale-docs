@@ -34,7 +34,8 @@ Click **Deploy a new project** to deploy your git project. (Only archives are sa
 
 ![](Deploy-archive-existingproject.JPG)
 
-![image alt=float-right](deploy-gittab.JPG)!
+![image alt=float-right](deploy-gittab.JPG)
+
 ##### Step 4
 
 Select the **Git tab** to provide us with a link to your repository.
