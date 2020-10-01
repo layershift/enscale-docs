@@ -1,6 +1,6 @@
 ---
 title: 'Deployment Manager'
-media_order: 'Deploy-button.JPG,Git-deploy-dropdown.JPG,SVN-deploy-dropdown.JPG,Archive-deploy-dropdown.JPG'
+media_order: 'Deploy-button.JPG,SVN-deploy-dropdown.JPG,DM-Git-dropdown.JPG,DM-archive-dropdown.JPG'
 taxonomy:
     category:
         - docs
@@ -75,7 +75,7 @@ As the name suggests, this will remove your deployment completely from your envi
 
 
 ### Manage archive deployments
-![](Archive-deploy-dropdown.JPG)
+![](DM-archive-dropdown.JPG)
 
 !!! Only archives deployed directly from the Enscale dashboard will show up here.
 
