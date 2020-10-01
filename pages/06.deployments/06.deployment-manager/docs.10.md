@@ -29,7 +29,7 @@ In this section you're able to change all the deployment settings:
 
 **URL**: change the URL of your git repository
 
-**Auto-update**: toggle on or off as well as select the desired interval for checking whether there were any changes made to your repository. If changes are detected, a `svn update` is performed.
+**Auto-update**: toggle on or off as well as select the desired interval for checking whether there were any changes made to your repository. If changes are detected, a `git pull` is performed.
 
 **Auto-resolve conflict**: enabling this feature prevents merge conflicts (any locally made change will be discarded if it conflicts with your repository)
 
