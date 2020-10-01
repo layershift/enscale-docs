@@ -1,6 +1,6 @@
 ---
 title: 'Deploy from git'
-media_order: 'Deploy-button.JPG,Deployments-gittab.JPG,Deploy-archive-existingproject.JPG'
+media_order: 'Deploy-button.JPG,Deploy-archive-existingproject.JPG,deploy-gittab.JPG'
 taxonomy:
     category:
         - docs
@@ -34,7 +34,7 @@ Click **Deploy a new project** to deploy your git project. (Only archives are sa
 
 ![](Deploy-archive-existingproject.JPG)
 
-![image alt=float-right](Deployments-gittab.JPG)!
+![image alt=float-right](deploy-gittab.JPG)!
 ##### Step 4
 
 Select the **Git tab** to provide us with a link to your repository.
@@ -47,6 +47,7 @@ Select the **Git tab** to provide us with a link to your repository.
 
 * **None**: use this if your git repo does not require authentication
 * **Password**: select this to authenticate with git by username and password
+* **Personal Access Token**: select for token-based authentication
 * **SSH Key**: select this if your git repo authentication is by SSH key (e.g. [GitHub deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/)). Select the key from the drop-down or add a new one. (Your key must **not** require a passphrase.)
 
 **Auto-update interval**: set how often you would like Enscale to check your repository for updates. If any changes are detected, Enscale will also re-deploy your application. 
