@@ -1,6 +1,6 @@
 ---
 title: 'Git deploy logs'
-media_order: Deploy-button-2.JPG.png
+media_order: 'Deploy-log-vcs-update.png,Deploy-log.png,Deploy-button.png'
 taxonomy:
     category:
         - docs
@@ -12,16 +12,16 @@ You can view your Git deployment logs (vcs_update.log) files directly from the d
 ##### Step 1
 
 Open the deployment manager by clicking the **Deploy** button.
+![](Deploy-button.png)
 
-![](Deploy-button-2.JPG.png)
 ##### Step 2
 
 Click **Deploy log** in the upper right-hand side to see your deployment related log files.
+![](Deploy-log.png)
 
 ##### Step 3
 
 Select the log file of your choice to view it.
 
-![](Deploy-log.png)
+![](Deploy-log-vcs-update.png)
 
-!!! For Java environments you can find the deployment logs in the Maven build node, check [here](/java/deployment-guides/maven-build-node#logs) for further information.
