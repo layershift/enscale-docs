@@ -1,5 +1,5 @@
 ---
-title: 'Git/SVN deploy logs'
+title: 'Git deploy logs'
 media_order: Deploy-button-2.JPG.png
 taxonomy:
     category:
@@ -7,7 +7,7 @@ taxonomy:
 visible: true
 ---
 
-You can view your Git/SVN deployment logs (vcs_update.log) files directly from the deployment manager by following these steps:
+You can view your Git deployment logs (vcs_update.log) files directly from the deployment manager by following these steps:
 
 ##### Step 1
 
