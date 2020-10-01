@@ -51,7 +51,7 @@ As the name suggests, this will remove your deployment completely from your envi
 
 ##### Open in browser
 
-This is a direct link to your application. For example a deployment to *demo* subfolder would open http://your-environment.uk.enscaled.com/SAMPLE-ARCHIVE-DEPLOYMENT
+This is a direct link to your application.
 
 ##### Delete
 
