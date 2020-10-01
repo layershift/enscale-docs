@@ -7,7 +7,7 @@ taxonomy:
 visible: true
 ---
 
-Whether your deployment is from git, SVN or you uploaded an archive, all deployments made via the Enscale dashboard can be managed in your **Deployment Manager**. The deployment manager is accessible from within your environment by clicking the **Deploy** button.
+Whether your deployment is from git or you uploaded an archive, all deployments made via the Enscale dashboard can be managed in your **Deployment Manager**. The deployment manager is accessible from within your environment by clicking the **Deploy** button.
 
 ![](Deploy-button.JPG)
 
