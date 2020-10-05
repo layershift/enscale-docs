@@ -1,11 +1,13 @@
 ---
 title: 'Cost Analysis dashboard guide'
+media_order: CA-TOC.png
 taxonomy:
     category:
         - docs
 ---
 
 Once in the cost analysis screen you can use the dropdown menu to choose one of the following reports:
+![alt=float-right](CA-TOC.png)
 
 * Latest 24 hours
 * Latest 30 days
