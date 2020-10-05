@@ -10,4 +10,4 @@ Adding a cache node to your environments provides a single larger memory pool to
 
 In this section you can read more about:
 
-* [Memcahced variables](cache-node/memcached-variables)
+* [Memcahced variables](/cache-node/memcached-variables)
