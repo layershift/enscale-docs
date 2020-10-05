@@ -12,6 +12,8 @@ Once in the cost analysis screen you can use the dropdown menu to choose one of 
 * Latest 24 hours
 * Latest 30 days
 * Specific full month (ex. June, 2020)
+
+
 ​
 ​
 ​
