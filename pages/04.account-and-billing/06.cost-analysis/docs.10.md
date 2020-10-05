@@ -1,5 +1,6 @@
 ---
 title: 'Cost Analysis'
+media_order: 'acc-dropdown-cost-analysis.png,cost-analysis-main.JPG'
 taxonomy:
     category:
         - docs
@@ -14,8 +15,14 @@ There are four paid resources in Enscale:
 * Traffic 
 * Disk space
 
-In the Cost Analysis section you can see a breakdown of costs per account, environment and specific node for the last 24 hours, 30 days as well as entire months.
-
 You can access Cost Analysis from the main account dropdown:
+![](acc-dropdown-cost-analysis.png)
+
+You'll be redirected to the cost analysis screen:
+![](cost-analysis-main.JPG)
+
+
+
+
 
 
