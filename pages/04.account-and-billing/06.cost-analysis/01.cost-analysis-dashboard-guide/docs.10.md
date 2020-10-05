@@ -1,6 +1,6 @@
 ---
 title: 'Cost Analysis dashboard guide'
-media_order: 'CA-select report.JPG,CA-node-tabs.JPG'
+media_order: 'CA-select report.JPG,CA-node-tab.JPG'
 taxonomy:
     category:
         - docs
@@ -22,4 +22,4 @@ The default view shows your entire account's breakdown per environment and per r
 
 Once in the environment, you can dive deeper by selecting a specific node's tab:
 
-![](CA-node-tabs.JPG)
+![](CA-node-tab.JPG)
