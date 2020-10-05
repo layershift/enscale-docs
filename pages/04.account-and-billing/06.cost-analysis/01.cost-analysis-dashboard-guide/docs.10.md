@@ -15,7 +15,9 @@ Once in the cost analysis screen you can use the dropdown menu to choose one of 
 
 
 ​
+
 ​
+
 ​
 The default view shows your entire account's breakdown per environment and per resources used. Click on an environment from the left hand menu to open the report for that specific environment.
 
