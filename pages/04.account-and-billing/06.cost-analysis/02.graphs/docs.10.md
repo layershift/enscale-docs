@@ -1,6 +1,6 @@
 ---
 title: Graphs
-media_order: 'CA-overview-cost-per-resource.JPG,CA-overview-cost-per-env.JPG,CA-env-cost-per-node.JPG,CA-env-cost-per-resource.JPG,CA-env-cloudlet-usage.JPG'
+media_order: 'CA-overview-cost-per-resource.JPG,CA-overview-cost-per-env.JPG,CA-env-cost-per-node.JPG,CA-env-cost-per-resource.JPG,CA-env-cloudlet-usage.JPG,CA-env-IP-hours.JPG'
 taxonomy:
     category:
         - docs
@@ -24,7 +24,7 @@ This graph shows the totals paid per resource for the selected time period.
 
 When you select an environment from the left-hand side, you can see the cost breakdown for that specific environment.
 
-! All nodes will appear that belonged to the environment for the selected period, even if they are deleted currently.
+!!! All nodes will appear that belonged to the environment for the selected period, even if they are deleted currently.
 
 ##### Cost per node
 ![](CA-env-cost-per-node.JPG)
@@ -50,6 +50,8 @@ We provide 10GB of storage free per environment, if you exceed this limit, the o
 ##### Total IP hours
 
 Public IP address as everything else is charged by the hour, so in this section you'll see a table of your nodes and the number of hours there was a public IP attached to them during the queried period.
+
+![](CA-env-IP-hours.JPG)
 
 ### Node costs
 
