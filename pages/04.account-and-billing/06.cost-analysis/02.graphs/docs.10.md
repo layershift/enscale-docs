@@ -45,8 +45,8 @@ We provide 10GB of storage free per environment, if you exceed this limit, the o
 
 The free and paid amounts are averages for the queried period. For example if you query the last 24 hours where you used 5GB of disk space for 12 hours then increased it to 15GB, you will see the following calculation: 
 
-Free: (5x12 + 10x12) / 24 = 7.5 GB
-Paid: 5 x 12 / 24 = 2.5GB
+* Free: (5x12 + 10x12) / 24 = 7.5 GB
+* Paid: 5 x 12 / 24 = 2.5GB
 
 ![](CA-env-disk.JPG)
 
