@@ -81,6 +81,8 @@ Paid storage is distributed proportionally between all of your nodes, so if you'
 
 ##### Total Traffic
 
+
+
 ##### Cloudlet Usage
 A cloudlet represents 128MB RAM and 400MHz CPU.
 
