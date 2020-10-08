@@ -5,12 +5,12 @@ taxonomy:
         - docs
 ---
 
-There are four type of resources you are charged for in Enscale.
+There are four types of resources you are charged for in Enscale.
 
-* Cloudlets (RAM + CPU)
-* Public IP address
-* Traffic
-* Disk space
+* [Cloudlets (RAM + CPU)](/account-and-billing/cost-analysis/paid-resources#cloudlets)
+* [Public IP address](/account-and-billing/cost-analysis/paid-resources#public-ip-address)
+* [Traffic](/account-and-billing/cost-analysis/paid-resources#traffic)
+* [Disk space](/account-and-billing/cost-analysis/paid-resources#disk-space)
 
 ##### Cloudlets
 
