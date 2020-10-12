@@ -11,7 +11,13 @@ Here are some account-wide settings you should be aware of.
 
 ### Email address
 
-Your email address is used as your login to the Enscale dashboard as well as for communications related to your account (be those automatic like new environment creation, database password reset or from our team). To change the email address associated with your Enscale account, please [email us](mailto:support@enscale.com).
+Your email address is used as your login to the Enscale dashboard as well as for communications related to your account (be those automatic like new environment creation, database password reset or from our team). To change the email address associated with your Enscale account, please [email us](mailto:billing@enscale.com).
+
+### Account details
+
+When you upgrade your trial account, you're asked to fill out your account information (company name, address, phone number, VAT number etc). These details comprise your Enscale account details and will appear on all your invoices. If any of your account details change, send an [email to our billing department](mailto:billing@enscale.com) with the changes and we will update the account details for you.
+
+! The updated account details will be reflected in future billing documents only, old invoices will not be reissued.
 
 
 ### Gravatar image
