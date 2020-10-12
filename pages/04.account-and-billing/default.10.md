@@ -90,4 +90,5 @@ This chapter is dediated to your account settings, as well as learning about how
 * [Forgot password or need to reset it](/account-and-billing/reset-password)
 * [All you need to know about Trial accounts](/account-and-billing/trial-account)
 * [Refilling your account, handling cards and invoicing](/account-and-billing/payments)
+* [Knowing what you pay for, analyzing your costs](https://www.enscale.com/docs/10/account-and-billing/cost-analysis)
 
