@@ -34,13 +34,11 @@ For more information on public and private IP address use, read our related [art
 
 ##### Traffic
 
-Traffic to your nodes can be one of two types: internal or external.
+Every Enscale node has an internal network interface, and may optionally have an external network interface.
 
-All traffic using the internal network within a region is considered internal traffic and is free of charge. This means that when establishing a connection between a database node and an application node for example, you should use the _private IP addresses_ or host name to be considered internal traffic. 
+The internal network interface uses an RFC 1918 IP address, and can be used to communicate with other nodes inside the same region (e.g. between your application and database nodes) free of charge.
 
-Anything that ultimately uses the public IP address to reach your application (be it directly or via DNS resolution) is counted as external traffic.  This could be site visits, FTP traffic, traffic from a CDN server, traffic from your database node if you established a connection using the public IP address of your application node, traffic that comes from your environment that is in a different region etc. 
-
-For external traffic we have a free allowance of 2GB/environment/hour, anything above that is charged at £0.04/GB/hour.
+The external network interface uses a public IP address, and is used to communicate with the internet. The first 2GB per hour using the external interface is free; above that is charged at £0.04/GB.
 
 ##### Disk space
 
