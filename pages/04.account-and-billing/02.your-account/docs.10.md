@@ -1,6 +1,5 @@
 ---
 title: 'Your account'
-media_order: 'Forgot-password.png,Forgot-password-2.png,change-password.png,change-password2.png'
 taxonomy:
     category:
         - docs
