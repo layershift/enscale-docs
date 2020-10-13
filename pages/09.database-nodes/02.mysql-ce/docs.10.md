@@ -8,9 +8,9 @@ visible: true
 
 In this section you can learn more about your MySQL community edition database server in Enscale. We tried to gather some useful tips as well as Enscale-specific information you should know, so be sure to skim trhough the articles.
 
-MySQL CE comes with phpMyAdmin administration panel, which you can access by using the **Go to phpMyAdmin** button from the **Configure** tab of your database node. The login details are emailed to you. Once in the panel, you should create a new user and database, detailed steps can be found in the [User creation](/database-nodes/mariadb/user-creation) article.
+MySQL CE comes with phpMyAdmin administration panel, which you can access by using the **Go to phpMyAdmin** button from the **Configure** tab of your database node. The login details are emailed to you. Once in the panel, you should create a new user and database, detailed steps can be found in the [User creation](/database-nodes/mysql-ce/user-creation) article.
 
-To learn more about how to reference the database in your application code, read our [connection details article](/database-nodes/mariadb/connection-details).
+To learn more about how to reference the database in your application code, read our [connection details article](/database-nodes/mysql-ce/connection-details).
 
 Furhtermore, you can see the default environment [variables for a MySQL CE](/database-nodes/mysql-ce/mysql-ce-variables) node, keep in mind that these variables can be referenced in your code as well with a "_mariadb_\_" prefix.
 
