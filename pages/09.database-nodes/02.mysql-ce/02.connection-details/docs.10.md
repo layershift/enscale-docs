@@ -1,5 +1,6 @@
 ---
 title: 'Connection details'
+media_order: MySQL-connection-details.png
 taxonomy:
     category:
         - docs
@@ -9,9 +10,9 @@ When a database node is added to your environment, Enscale automatically transfe
 
 The advantage of using variables is that the values update automatically as you change your environment, so you don't have to change anything in your code.
 
-If you prefer, you can also use the hostname or private IP address of your database node. They can be found in the **Connect** and **Configure** tabs respectively.
+If you prefer, you can also use the hostname or private IP address of your database node. They can be found in the **Configure** and **Connect** tabs respectively.
 
-
+![](MySQL-connection-details.png)
 
 !!!! We recommend using the private IP address (either directly or via the variable), as it provides a direct connection vs host name where DNS resolution is also required.
 
