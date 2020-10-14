@@ -14,4 +14,4 @@ Private IP address and host name can be found in the **Connect** and **Configure
 
 !!!! We recommend using the private IP address (either directly or via the variable), as it provides a direct connection vs host name where DNS resolution is also required.
 
-We also strongly advise that for your security you should [set up a new user](/database-nodes/mongodb/user-creation) for your application with limited privileges.
+We also strongly advise that for your security you should [set up a new user](https://docs.mongodb.com/manual/tutorial/create-users/) for your application with limited privileges.
