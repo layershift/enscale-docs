@@ -7,7 +7,7 @@ taxonomy:
 visible: true
 ---
 
-You can use the hostname or private IP address of your database node. You may also set them up as variables in your application node. The advantage of the variable approach is that you can reference the variable names in your code directly so you can deploy the same app on separate environments without any change to your codebase.
+You can use the hostname or private IP address of your database node. You may also set them up as [variables](/features/environment-variables) in your application node. The advantage of the variable approach is that you can reference the variable names in your code directly so you can deploy the same app on separate environments without any change to your codebase.
 
 Host name and private IP address can be found in the **Connect** and **Configure** tabs respectively.
 
