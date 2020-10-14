@@ -7,11 +7,9 @@ taxonomy:
 visible: true
 ---
 
-When a database node is added to your environment, Enscale automatically transfers its environment variables to the application node, so the easiest is to use the `MARIADB_HOST` variable. This is the private IP address of your master MariaDB node.
+You can use the hostname or private IP address of your database node. You may also set them up as variables in your application node. The advantage of the variable approach is that you can reference the variable names in your code directly so you can deploy the same app on separate environments without any change to your codebase.
 
-The advantage of using variables is that the values update automatically as you change your environment, so you don't have to change anything in your code.
-
-If you prefer, you can also use the hostname or private IP address of your database node. They can be found in the **Connect** and **Configure** tabs respectively.
+Host name and private IP address can be found in the **Connect** and **Configure** tabs respectively.
 
 ![](DB-connection-details.png)
 
