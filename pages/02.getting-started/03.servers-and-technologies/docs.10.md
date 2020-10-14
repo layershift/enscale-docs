@@ -32,7 +32,6 @@ In a previous era, database engines were often installed together on the same no
 * PostgreSQL  9.6.13, 9.6.14, 9.6.15, 10.1, 10.3, 10.4, 10.5, 10.6, 10.7, 10.8, 10.9, 10.10, 11.0, 11.1, 11.2, 11.3, 11.4, 11.5, 12.0
 
 ##### NoSQL 
-* CouchBase 5.0.1, 5.1.1, 6.0.0 
 * MongoDB 2.6.12, 3.6.12, 3.6.13, 3.6.15, 4.0.2, 4.0.9, 4.0.10, 4.2.1
 * Redis 4.0.11, 4.0.9, 5.0.4, 5.0.5, 5.0.6
 
