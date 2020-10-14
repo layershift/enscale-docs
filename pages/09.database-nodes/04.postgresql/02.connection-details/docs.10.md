@@ -1,5 +1,6 @@
 ---
 title: 'Connection details'
+media_order: DB-PostgeSQL-connection-details.png
 taxonomy:
     category:
         - docs
@@ -9,7 +10,7 @@ You can use the hostname or private IP address of your database node. You may al
 
 Host name and private IP address can be found in the **Connect** and **Configure** tabs respectively.
 
-![](db-percona-connection-details.png)
+![](DB-PostgeSQL-connection-details.png)
 
 !!!! We recommend using the private IP address (either directly or via the variable), as it provides a direct connection vs host name where DNS resolution is also required.
 
