@@ -1,6 +1,6 @@
 ---
 title: Upgrade
-media_order: 'Upgrade-button.JPG,Upgrade-account-details.png,Upgrade-choose-payment-method.JPG,Payment-sagepay.JPG,Payment-paypal.JPG'
+media_order: 'Upgrade-button.JPG,Upgrade-choose-payment-method.JPG,Payment-sagepay.JPG,Payment-paypal.JPG,Upgrade-add-account-details.JPG'
 taxonomy:
     category:
         - docs
@@ -14,9 +14,9 @@ To upgrade you need to perform the following steps:
 1. Click the **Upgrade account** button 
 
 ![](Upgrade-button.JPG)
+![image alt=float-right](Upgrade-add-account-details.JPG?cropResize=500,900)
 
 
-![image alt=float-right](Upgrade-account-details.png?cropResize=500,900)
 
 &nbsp;
 
