@@ -38,7 +38,7 @@ Read more about [deployment options](/deployments) in general, or [git deploymen
 
 ##### Step 3
 
-After a few minutes the quickstart app will be deployed, so you can open it to see what else you can learn about. To open the application you can use the **Open in browser** option from the hamburger menu from your project or if you go back to your environment, you can click on the **Globe** icon on your node. 
+After a few minutes the quickstart app will be deployed, so you can open it to see what else you can learn about. To open the application you can use the **Open in browser** option from your project or if you go back to your environment, you can click on the **Globe** icon on your node. 
 
 For a github project the fun doesn't have to end with deployment - learn more about [managing your deployments](/deployments/deployment-manager) to learn how to automatically deploy project updates and more.
 
