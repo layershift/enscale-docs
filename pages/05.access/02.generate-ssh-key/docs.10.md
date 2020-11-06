@@ -9,7 +9,7 @@ visible: true
 
 To connect to the gateway (or to your node) via SSH, you will need a private and public SSH key.The private key will be stored on your local machine, while the public key has to be uploaded in your dashboard. When creating the SSH connection, your session loaded with your private key will generate a signature which will be authenticated by the server using the matching public key. Below you will find steps to generate your key pair based on the client you are using.
 
-* [For Windows clients](access/generate-ssh-key#for-windows-clients) 
+* [For Windows clients](/access/generate-ssh-key#for-windows-clients)
 * [For Linux / Mac OS users](/access/generate-ssh-key#for-linux-mac-os-users)
 
 !!! Key type must be RSA (DSA and Elliptic Curve keys such as ed25519 are not currently supported).
