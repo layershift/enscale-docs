@@ -4,6 +4,7 @@ media_order: 'Manage-ssh-select.png,File-manager-button-appnode.png,node-restart
 taxonomy:
     category:
         - docs
+visible: true
 ---
 
 This app was created so you can familiarize yourself with some of the basic Enscale features you are likely to need for your own application. As such, we recommend that you deploy it and go through the guided steps to get a feel for the dashboard and how things work.
@@ -29,6 +30,12 @@ Learn more about [creating environments](/getting-started/create-environment).
 Now that you have the environment, you need to deploy the Quickstart application. For this enter the environment (**Enter** button on the environment's tile), and click **Deploy**.
 
 ![](Deploy-button.png)
+
+Once on the deployment screen click **Deploy a new project**.
+
+![](Deploy-new-project.png)
+
+##### Step 2
 
 The Quickstart app is on GitHub and we've prefilled the link in the Git deployment tab in the deployment manager. As this is a public app, no authentication is required and you won't be needing to update it either, so just click **Deploy**.
 
