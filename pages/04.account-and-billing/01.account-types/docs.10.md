@@ -20,7 +20,7 @@ Billing accounts are the full-blown accounts users have with Enscale after submi
 
 These accounts are created by sending an invitation from your Enscale dashboard to people you'd like to give access to to your environments. A collaborator account is completely free, however, users with this type of account cannot create their own environments. (Collaboration is possible with billing account owners as well - in that case, the account will be still considered a billing account for all intents and purposes of this article.) To learn more about the collaboration feature, read our [feature description article](/features/collaboration).
 
-Now that we discussed the type of accounts, let's see their limitations:
+### Account limits
 
 |Feature|Trial|Billing|Collaborator|
 |---|---|---|---|
