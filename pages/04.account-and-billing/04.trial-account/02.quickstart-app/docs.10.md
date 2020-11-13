@@ -73,6 +73,7 @@ On your Nginx Ruby node click on the **Configure** tab and click **Variables**.
 In the variables modal, click **Add new variable** and enter the following:
 
 Name: REDIS_URL
+
 Value: `redis://:[redis_password]@[accessURL]` - for example redis://:IOVrsn82356@node23469-demoapplicationnew.uk.enscaled.com
 
 Click **Add** then **Save changes**.
