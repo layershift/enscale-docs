@@ -13,7 +13,7 @@ Going through the quickstart app takes about 20 minutes (wait-times included), a
 
 ### How to complete the Quickstart app?
 
-The steps provided below are specifically for the demo app, but at the end of each step there's a link to additional documentation about the features used in case you want to find out more about them.
+The steps provided below are specifically for the Quickstart app, but at the end of each step there's a link to additional documentation about the features used in case you want to find out more about them.
 
 ##### Step 1
 
@@ -96,7 +96,7 @@ In your environmnet click on **Actions** and select **Manage SSL** from the drop
 
 In the SSL modal click **Enable shared SSL**.
 
-That's it, go back to your demo application and load it with https:// to complete the second goal. Or you can open from the application node by clicking the globe button:
+That's it, go back to the Quickstart application and load it with https:// to complete the second goal. Or you can open from the application node by clicking the globe button:
 
 ![](Node-open-in-browser.png)
 
@@ -130,7 +130,7 @@ Once you SSHed into your node, run the following command in the application's ro
 
 `rails secret > config/master.key.example`
 
-Refresh the demo app to see the third goal completed.
+Refresh the Quickstart app to see the third goal completed.
 
 ##### Step 15
 
@@ -156,7 +156,7 @@ production:
   database: yourdbnamehere.db
 ```
 
-!!! We recommend copying and pasting directly from here or the demo app to ensure the YAML syntax remains valid.
+!!! We recommend copying and pasting directly from here or the Quickstart app to ensure the YAML syntax remains valid.
 
 To see what else you can do in the **File Manager**, click [here](/features/file-manager).
 
