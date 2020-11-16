@@ -1,6 +1,6 @@
 ---
 title: 'Quickstart app'
-media_order: 'Manage-ssh-select.png,File-manager-button-appnode.png,node-restart.png,connect-connection-details.png,Create-environment-screen.JPG,Deploy-button.png,Deployments-gittab.JPG,Configure-tab-variables.png,Actions-ManageSSL.png,Node-open-in-browser.png,SSH-add-public-key.png'
+media_order: 'Manage-ssh-select.png,File-manager-button-appnode.png,node-restart.png,connect-connection-details.png,Create-environment-screen.JPG,Deploy-button.png,Deployments-gittab.JPG,Configure-tab-variables.png,Actions-ManageSSL.png,Node-open-in-browser.png,SSH-add-public-key.png,Deploy-new-project.png,Project-open in browser.png'
 taxonomy:
     category:
         - docs
@@ -45,7 +45,9 @@ Read more about [deployment options](/deployments) in general, or [git deploymen
 
 ##### Step 3
 
-After a few minutes the quickstart app will be deployed, so you can open it to see what else you can learn about. To open the application you can use the **Open in browser** option from your project or if you go back to your environment, you can click on the **Globe** icon on your node. 
+After a few minutes the quickstart app will be deployed, so you can open it to see what else you can learn about. To open the application you can use the **Open in browser** option from your project's dropdown menu.
+
+![](Project-open%20in%20browser.png)
 
 For a github project the fun doesn't have to end with deployment - learn more about [managing your deployments](/deployments/deployment-manager) to learn how to automatically deploy project updates and more.
 
@@ -55,7 +57,7 @@ Your first goal is to add a Redis database to your environment.
 
 This can be done from the environment's screen (what you see once you enter your environment) by clicking **Add new node**. 
 
-Select **NoSQL** type and from there click on **Redis**. Next you will need to select the prefered version - any version should do for the purposes of this application, but we've tested with latest 6.0.6.
+Select **NoSQL** type and from there click on **Redis**. Next you will need to select the prefered version - any version should do for the purposes of this application.
 
 ##### Step 5
 
@@ -108,7 +110,7 @@ As a first step, create a public and private key pair. I bet you already know ho
 
 ##### Step 11
 
-Access the **Manabe SSH keys** modal from the account dropdown.
+Access the **Manage SSH keys** modal from the account dropdown.
 ![](Manage-ssh-select.png)
 
 ##### Step 12
