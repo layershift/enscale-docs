@@ -1,6 +1,6 @@
 ---
 title: 'Notification Preferences'
-media_order: 'Forum-notification-preferences.JPG,Forum-Save-Preferences.png,Forum-preferences.png'
+media_order: 'CF-preferences.png,CF-savepreferences.png'
 taxonomy:
     category:
         - docs
@@ -21,11 +21,11 @@ You can manage your notification settings anytime by following these steps:
 
 ##### Step 1
 Click on your Avatar in the top right-hand corner and select **Preferences** from the dropdown menu.
-![](Forum-preferences.png)
+![](CF-preferences.png)
 ##### Step 2
 Tick the checkboxes according to your preferences
-![](Forum-notification-preferences.JPG)
+
 ##### Step 3
 Click **Save Preferences**
-![](Forum-Save-Preferences.png)
 
+![](CF-savepreferences.png)
