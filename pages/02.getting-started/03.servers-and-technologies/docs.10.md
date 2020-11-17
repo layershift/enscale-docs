@@ -1,5 +1,6 @@
 ---
 title: 'Servers and technologies'
+published: true
 date: '17-11-2020 13:54'
 publish_date: '17-11-2020 13:54'
 taxonomy:
