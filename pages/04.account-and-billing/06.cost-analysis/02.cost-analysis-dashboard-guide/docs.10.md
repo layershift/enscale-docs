@@ -1,16 +1,17 @@
 ---
 title: 'Cost Analysis dashboard guide'
-media_order: 'CA-select report.JPG,CA-node-tab.JPG,acc-dropdown-cost-analysis.png,cost-analysis-main.JPG'
+media_order: 'CA-select report.JPG,CA-node-tab.JPG,acc-dropdown-cost-analysis.png'
 taxonomy:
     category:
         - docs
+visible: true
 ---
 
 You can access Cost Analysis from the main account dropdown:
 ![](acc-dropdown-cost-analysis.png)
 
 You'll be redirected to the cost analysis screen:
-![](cost-analysis-main.JPG)
+
 
 Once there you can use the dropdown menu to choose one of the following reports:
 
