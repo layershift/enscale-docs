@@ -46,9 +46,9 @@ Select the type of node you would like to add.
 
 ##### Step 3 
 
-Confirm your selection by clicking **Add Node**. If you already have a node of that type in your environment, the version will be the same, else you will receive the latest available version of the selected node type.
+Confirm your selection by clicking **Add Node**. If you already have a node of that type in your environment, the version will be the same, else you will receive the default version of the selected node type. You can [change the version](/getting-started/dashboard-guide/environment-view#configure-tab) later in the configure tab. 
 
-!!! If you already have a node of that type, and you wish to add an empty one of the same type, you can use the **New [node type]** button from the **Scaling** tab.
+!!! If you already have a node of that type, and you wish to create a new empty node of the same type, you can also use the **New [node type]** button from the **Scaling** tab.
 
 ### Cloning existing nodes
 
