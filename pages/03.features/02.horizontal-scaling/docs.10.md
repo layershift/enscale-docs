@@ -1,6 +1,6 @@
 ---
 title: 'Horizontal scaling'
-media_order: 'AddnewNode.png,Enter-demo.png,Scaling-clone.png,Select-Scaling-tab.png,Scaling-add-triggers.JPG,Scaling-set-trigger-values.JPG,Scaling-edit-triggers.JPG'
+media_order: 'AddnewNode.png,Enter-demo.png,Scaling-clone.png,Select-Scaling-tab.png,Scaling-add-triggers.JPG,Scaling-set-trigger-values.JPG,Scaling-edit-triggers.JPG,Add-node-select.png,Add-node-select-version.png,Add-node-confirm.png'
 taxonomy:
     category:
         - docs
@@ -42,11 +42,18 @@ Click the **Add New Node** button for a selection of available node types.
 ##### Step 2 
 
 Select the type of node you would like to add.
-
+![](Add-node-select.png)
 
 ##### Step 3 
 
-Confirm your selection by clicking **Add Node**. If you already have a node of that type in your environment, the version will be the same, else you will receive the default version of the selected node type. You can [change the version](/getting-started/dashboard-guide/environment-view#configure-tab) later in the configure tab. 
+If you already have a node of that type in your environment, the type version will be the same, else you will need to select the type (if multiple available) and the required version.
+
+![](Add-node-select-version.png)
+
+##### Step 4
+
+Confirm your selection, by clicking **Add node**.
+![](Add-node-confirm.png)
 
 !!! If you already have a node of that type, and you wish to create a new empty node of the same type, you can also use the **New [node type]** button from the **Scaling** tab.
 
