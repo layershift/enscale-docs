@@ -1,9 +1,10 @@
 ---
 title: Graphs
-media_order: 'CA-overview-cost-per-resource.JPG,CA-overview-cost-per-env.JPG,CA-env-cost-per-node.JPG,CA-env-cost-per-resource.JPG,CA-env-cloudlet-usage.JPG,CA-env-IP-hours.JPG,CA-env-disk.JPG,CA-node-summary.JPG,CA-node-stroage.JPG,CA-Node-IP.JPG,CA-node-cloudlet.JPG'
+media_order: 'CA-overview-cost-per-resource.JPG,CA-overview-cost-per-env.JPG,CA-env-cost-per-node.JPG,CA-env-cost-per-resource.JPG,CA-env-cloudlet-usage.JPG,CA-env-IP-hours.JPG,CA-env-disk.JPG,CA-node-summary.JPG,CA-node-stroage.JPG,CA-Node-IP.JPG,CA-node-cloudlet.JPG,CA-env-traffic.JPG,CA-node-traffic.JPG'
 taxonomy:
     category:
         - docs
+visible: true
 ---
 
 What are all those graphs and what do they mean exactly?
@@ -53,6 +54,7 @@ The free and paid amounts are averages for the queried period. For example if yo
 ##### Total traffic
 
 2GB / hour of traffic is free of cost in Enscale, so you only see traffic costs if this amount is exceeded. The Paid traffic per node graph will show the node(s) responsible for the excess traffic if the case.
+![](CA-env-traffic.JPG)
 
 ##### Total IP hours
 
@@ -81,7 +83,8 @@ Paid storage is distributed proportionally between all of your nodes, so if you'
 
 ##### Total Traffic
 
-
+Total traffic on the node level will show the amount of traffic on the node for the selected period. While we offer 2GB/h free, that is per environment, so if multiple nodes had external traffic within an hour, the free ammount will be distributed between those nodes.
+![](CA-node-traffic.JPG)
 
 ##### Cloudlet Usage
 A cloudlet represents 128MB RAM and 400MHz CPU.
