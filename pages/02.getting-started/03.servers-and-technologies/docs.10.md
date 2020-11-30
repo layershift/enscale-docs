@@ -29,10 +29,10 @@ Further articles about application nodes can be found [here](https://enscale.com
 In a previous era, database engines were often installed together on the same node as your application code. However, that's now considered a bad practice for a whole myriad of reasons, ranging from security to performance. Therefore we provide your preferred database as its own separate server. Doing so, the server can be specifically optimized for database operations and offers you granular control over your environment. We have a variety of SQL and NoSQL databases you can choose from.
 
 ##### SQL
-* MariaDB 5.5.66, 5.5.67, 5.5.68, 10.1.20, 10.1.22, 10.1.24, 10.2.7, 10.2.12, 10.2.15, 10.3.24, 10.3.25, 10.3.26, 10.4.14, 10.4.15, 10.4.16 
+* MariaDB 5.5.66, 5.5.67, 5.5.68, 10.1.20, 10.1.22, 10.1.24, 10.2.7, 10.2.12, 10.2.15, 10.3.25, 10.3.26, 10.3.27, 10.4.15, 10.4.16, 10.4.17
 * MySQL CE  5.6.47, 5.6.48, 5.6.50, 5.7.30, 5.7.31, 5.7.32, 8.0.20, 8.0.21, 8.0.22
 * PerconaDB 5.6.45, 5.6.48, 5.6.49, 5.7.27, 5.7.29, 5.7.31, 8.0.18, 8.0.19, 8.0.20
-* PostgreSQL  9.6.17, 9.6.18, 9.6.19, 10.10, 10.11, 10.12, 10.13, 10.14, 11.5, 11.6, 11.7, 11.8, 11.9, 12.0, 12.1, 12.2, 12.3, 12.4
+* PostgreSQL  9.6.18, 9.6.19, 9.6.20, 10.10, 10.11, 10.12, 10.13, 10.14, 10.15, 11.5, 11.6, 11.7, 11.8, 11.9, 12.0, 12.1, 12.2, 12.3, 12.4, 12.5, 13.1
 
 ##### NoSQL 
 * MongoDB 3.6.14, 3.6.15, 3.6.17, 4.0.9, 4.0.10, 4.2.8, 4.2.9, 4.2.10
