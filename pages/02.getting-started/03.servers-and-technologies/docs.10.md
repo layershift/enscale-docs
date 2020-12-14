@@ -35,7 +35,7 @@ In a previous era, database engines were often installed together on the same no
 * PostgreSQL  9.6.18, 9.6.19, 9.6.20, 10.10, 10.11, 10.12, 10.13, 10.14, 10.15, 11.5, 11.6, 11.7, 11.8, 11.9, 12.0, 12.1, 12.2, 12.3, 12.4, 12.5, 13.1
 
 ##### NoSQL 
-* MongoDB 3.6.14, 3.6.15, 3.6.17, 4.0.9, 4.0.10, 4.2.8, 4.2.9, 4.2.10
+* MongoDB 3.6.14, 3.6.15, 3.6.17, 4.0.9, 4.0.10, 4.2.9, 4.2.10, 4.2.11
 * Redis 4.0.11, 4.0.9, 5.0.5, 5.0.6, 5.0.7, 6.0.7, 6.0.8, 6.0.9
 
 Read more in-depth articles in the [database section](https://enscale.com/docs/10/database-nodes).
@@ -53,6 +53,6 @@ You can get more familiar with the load balancers [here](https://enscale.com/doc
 
 Adding a cache node to your environments provides a single larger memory pool to be used by all your servers within the environment for storing and retrieving data. We offer Memcached, which is an open-source, high-performance distributed memory cache service which can also be used for session replication.
 
-Memcached 1.4.24, 1.5.20, 1.5.21, 1.5.22, 1.6.6, 1.6.7, 1.6.8
+Memcached 1.4.24, 1.5.20, 1.5.21, 1.5.22, 1.6.7, 1.6.8, 1.6.9
 
 Memcached also has it's dedicated section of articles, which you can find [here](https://enscale.com/docs/10/cache-node).
