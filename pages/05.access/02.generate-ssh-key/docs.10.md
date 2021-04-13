@@ -44,7 +44,6 @@ Click the **Generate** button.
 ##### Step 4
 
 Move your mouse randomly within the empty area to generate your key until the progress bar fills up.
-![](GenerateSSHKey-2.png)
 
 ##### Step 5
 
