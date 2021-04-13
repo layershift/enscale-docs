@@ -1,12 +1,12 @@
 ---
-title: 'User creation'
+title: 'MySQL user creation'
 media_order: 'MySQL-go-to-phpMyAdmin.png,add-user-phpmyadmin.jpg,add-user-phpmyadmin-2.jpg'
 taxonomy:
     category:
         - docs
 ---
 
-While you receive the superuser (_root_) login details when your database node is created, this user isn't recommended to be used directly by your application. For your security, you should create a new user with limited permissions in phpMyAdmin.
+While you receive the superuser (_root_) login details when your MySQL database node is created, this user isn't recommended to be used directly by your application. For your security, you should create a new user with limited permissions in phpMyAdmin.
 
 Use the **Go to phpMyAdmin** button from the dashboard to access the admin panel and log in with the credentials you received via email.
 
