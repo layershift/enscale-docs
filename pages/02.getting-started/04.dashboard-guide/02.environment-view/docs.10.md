@@ -62,7 +62,7 @@ Here you can view the node’s private IP address as well as add a public IP. [L
 
 **SSH/SFTP**
 
-[SSH](/access/access-via-ssh) and [SFTP](access/access-via-sftp) connection details for direct connection to the node. The connect button will launch your SSH client (for Linux and Mac users). The manage SSH keys button provides a shortcut to your [SSH key management](/access/add-ssh-key) area.
+[SSH](/access/access-via-ssh) and [SFTP](/access/access-via-sftp) connection details for direct connection to the node. The connect button will launch your SSH client (for Linux and Mac users). The manage SSH keys button provides a shortcut to your [SSH key management](/access/add-ssh-key) area.
 
 SSH keys must be managed separately per Enscale dashboard user; collaborators access nodes via their own keys managed from their own Enscale dashboard.
 
