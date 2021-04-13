@@ -12,8 +12,8 @@ Whether your deployment is from git or you uploaded an archive, all deployments 
 ![](Deploy-button.JPG)
 
 Once here, open the dropdown menu to see the available actions for each deployment type.
-* [Git deployments](/getting-started/deployments/deployment-manager#manage-git-deployments)
-* [Archive deployments](/getting-started/deployments/deployment-manager#manage-archive-deployments)
+* [Git deployments](/deployments/deployment-manager#manage-git-deployments)
+* [Archive deployments](/deployments/deployment-manager#manage-archive-deployments)
 
 ### Manage Git deployments
 
