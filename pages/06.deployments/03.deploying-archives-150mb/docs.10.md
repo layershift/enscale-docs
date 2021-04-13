@@ -1,5 +1,5 @@
 ---
-title: 'Deploying Archives (>150MB)'
+title: 'Deploying Archives (over 150MB)'
 taxonomy:
     category:
         - docs
