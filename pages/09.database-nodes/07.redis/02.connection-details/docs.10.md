@@ -4,6 +4,8 @@ media_order: db-redis-connection-details.png
 taxonomy:
     category:
         - docs
+routes:
+    canonical: 'https://www.enscale.com/docs/database-nodes/mariadb/connection-details'
 ---
 
 You can use the hostname or private IP address of your Redis database node. You may also set them up as [variables](/features/environment-variables) in your application node. The advantage of the variable approach is that you can reference the variable names in your code directly so you can deploy the same app on separate environments without any change to your codebase.
