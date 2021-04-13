@@ -24,7 +24,7 @@ Go to the **Filesystem** and navigate to */var/log*.
 ##### Step 3
 
 Click on any log file to view it.
-![](FilemanagerLog.png)
+
 
 ### Access from the **Deployment manager**
 
