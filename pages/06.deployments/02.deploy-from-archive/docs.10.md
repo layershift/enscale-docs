@@ -1,5 +1,5 @@
 ---
-title: 'Deploying Archives (<150MB)'
+title: 'Deploying Archives (under 150MB)'
 media_order: 'Deploy-button.png,Deploy-archive-existingproject.JPG,deploy-selectarchive.png,deploy-archive-adddescription.JPG'
 taxonomy:
     category:
