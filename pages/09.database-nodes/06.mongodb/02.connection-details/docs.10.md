@@ -1,5 +1,5 @@
 ---
-title: 'Connection details'
+title: 'MongoDB connection details'
 media_order: db-mongo-connection-details.png
 taxonomy:
     category:
