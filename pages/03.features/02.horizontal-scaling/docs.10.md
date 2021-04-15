@@ -29,7 +29,7 @@ When using multiple runtime nodes, you should also add a load balancer to distri
 ### Manual horizontal scaling
 You can add multiple nodes of the same type right after you've created your environment, and deploy your application simultaneously to all of them at once. Alternatively you can add additional nodes later on, by [cloning](#cloning-existing-nodes) an existing node, in which case all data and configurations of the source node are replicated onto the new one as a point in time snapshot (thereafter the data / configuration is independent for each node).
 
-!!! If you change files in the Enscale [file manager](https://www.enscale.com/docs/10/features/file-manager), you have the option to save the changes to all nodes of the same type.
+!!! If you change files in the Enscale [file manager](/features/file-manager), you have the option to save the changes to all nodes of the same type.
 
 ### Adding new nodes
 Adding a new node will always result in an empty node, as such we allow this for non-runtime nodes only (unless the environment doesn't have a runtime node). When using this method, you will always need to make sure new nodes are configured properly after they've been added.
