@@ -1,6 +1,8 @@
 ---
 title: 'SSL certificates'
 media_order: 'Actions-ManageSSL.png,CustomSSL.png,LESSL.png,SharedSSL-Enable2.png,SSL-LE-edit.png,SSL-LE-editingdomains.JPG'
+metadata:
+    description: 'For the safety of your app all environments can be covered by our shared SSL by default. You have a choice between adding your custom SSL or add a free Let''s Encrypt SSL certificate for production use as well. See how.'
 taxonomy:
     category:
         - docs
