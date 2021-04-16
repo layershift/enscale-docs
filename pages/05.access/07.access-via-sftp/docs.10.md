@@ -1,6 +1,8 @@
 ---
 title: 'Access via SFTP'
 media_order: 'SSH-Node-Connect.png,SFTP-new.png'
+metadata:
+    description: 'Connecting to your Enscale node via SFTP.'
 taxonomy:
     category:
         - docs
