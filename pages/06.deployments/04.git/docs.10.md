@@ -1,6 +1,8 @@
 ---
 title: 'Deploy from git'
 media_order: 'Deploy-button.JPG,Deploy-archive-existingproject.JPG,deploy-gittab.JPG'
+metadata:
+    description: 'With Enscale, you can deploy your Ruby application directly from your git repository, so you can link your deployments with your favourite version control system.'
 taxonomy:
     category:
         - docs
