@@ -1,6 +1,8 @@
 ---
 title: 'User creation for PostgreSQL'
 media_order: 'db-pgadmin-login.JPG,db-pgadmin-create-role1.png'
+metadata:
+    description: 'Step-by-step guide to creating a new user for PostgreSQL.'
 taxonomy:
     category:
         - docs
