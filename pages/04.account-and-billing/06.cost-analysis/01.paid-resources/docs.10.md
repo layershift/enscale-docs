@@ -1,5 +1,7 @@
 ---
 title: 'Paid resources'
+metadata:
+    description: 'What are the resources you are being charged for with Enscale hosting and how much do they cost?'
 taxonomy:
     category:
         - docs
