@@ -1,6 +1,8 @@
 ---
 title: 'MySQL connection details'
 media_order: MySQL-connection-details.png
+metadata:
+    description: 'How to connect to your MySQL database node in Enscale?'
 taxonomy:
     category:
         - docs
