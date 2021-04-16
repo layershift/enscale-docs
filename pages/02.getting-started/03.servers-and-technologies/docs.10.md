@@ -18,11 +18,11 @@ When setting up your environment you can choose the best [app](/getting-started/
 
 ### Runtime (Application) node:
 
-This is the server that forms the base of your deployments, in essence consider it as the "home" of your application. Runtime nodes are pre-configured with your option of application server and Ruby and version. While the version can be changed later on, the selected server type is permament.
+This is the server that forms the base of your deployments, in essence consider it as the "home" of your application. Runtime nodes are pre-configured with your option of web server and latest available Ruby version. While the version can be changed later on, the selected web server type is permament.
 
 Supported Ruby versions: 2.4.10, 2.4.6, 2.4.9, 2.5.5, 2.5.7, 2.5.8, 2.6.3, 2.6.5, 2.6.6, 2.7.0, 2.7.1, 2.7.2
 
-Apache 2.4.41, 2.4.43 or Nginx 1.14.2, 1.16.0, 1.16.1 and 1.18.00 servers can be selected. By default both are configured to use Passenger, however Nginx can be easily changed to work with Puma or Unicorn as well.
+Apache 2.4.41, 2.4.43 or Nginx 1.14.2, 1.16.0, 1.16.1 and 1.18.00 web servers can be selected. By default both are configured to use Passenger as the Ruby app server, however Nginx can be easily changed to work with Puma or Unicorn as well.
 
 Further articles about application nodes can be found [here](https://enscale.com/docs/10/app).
 
