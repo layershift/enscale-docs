@@ -1,6 +1,8 @@
 ---
 title: 'SSH in Enscale'
 media_order: 'SSH-modal-mac-public-key-connection-details.png,Manage-ssh-select.png'
+metadata:
+    description: 'SSH access in Enscale explained.'
 taxonomy:
     category:
         - docs
