@@ -1,5 +1,7 @@
 ---
 title: 'Deploying Archives (over 150MB)'
+metadata:
+    description: 'To deploy to Enscale from archives larger than 150MB, you need to connect to your application server via SFTP/SSH to upload and extract the files. Here''s a step-by-step guide to do it.'
 taxonomy:
     category:
         - docs
