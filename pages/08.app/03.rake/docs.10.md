@@ -1,5 +1,7 @@
 ---
 title: Rake
+metadata:
+    description: 'In Enscale, you can create a list of commands to be executed by rake immediately after deployment or after a server restart. Learn more about the rake_deploy file.'
 taxonomy:
     category:
         - docs
