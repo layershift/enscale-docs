@@ -1,5 +1,7 @@
 ---
 title: Redis
+metadata:
+    description: 'this section you can learn more about your Redis database server in Enscale. We tried to gather some useful tips as well as Enscale-specific information you should know.'
 taxonomy:
     category:
         - docs
