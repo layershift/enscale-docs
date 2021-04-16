@@ -1,5 +1,7 @@
 ---
 title: 'Trial Account'
+metadata:
+    description: 'With Enscale trials there is no time-limit. To eliminate the pain of "having to do it now" as well as to allow you to experience the pay-as-you-go billing model fully, when you sign up for an Enscale trial, you receive a credit of £10 to use at will.'
 taxonomy:
     category:
         - docs
