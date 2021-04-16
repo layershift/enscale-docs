@@ -1,13 +1,15 @@
 ---
 title: 'Main dashboard'
 media_order: 'Help-dropdown.JPG,MD-collab-button.png,MD-sort.png,Create-environment-screen.JPG,Demo-env-overview.JPG,Running-stopped.png,MD-rename.png,MD-Account-dropdown.JPG,MD-help-dd.JPG,Balance.JPG'
+metadata:
+    description: 'What does this button do? See what options you have from Enscale''s main dashboard for managing your Ruby hosting..'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-The main dashboard screen is your primary control centre. You get a good birdseye view of your environments, their state (running, stopped), and their composition (which nodes are inside). Let's walk through the main features of this screen:
+The main dashboard screen is your primary control centre for your Ruby hosting PaaS. You get a good birdseye view of your environments, their state (running, stopped), and their composition (which nodes are inside). Let's walk through the main features of this screen:
 
 ##### Balance and payment options
 You can always see at a glance how much funds you have remaining in your Enscale account right in the main header. You can use the **Manage payments** button to [top up](/account-and-billing/payments/refill-your-balance), set [auto-refill](/account-and-billing/payments/automatic-refills) or [change the payment methods](/account-and-billing/payments/updating-payment-method) you have on file.
