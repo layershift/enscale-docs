@@ -1,5 +1,7 @@
 ---
 title: Troubleshooting
+metadata:
+    description: 'Something went wrong in Enscale? In this section you can find articles on most common issues and how to troubleshoot them.'
 taxonomy:
     category:
         - docs
