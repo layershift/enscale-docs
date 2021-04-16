@@ -1,5 +1,7 @@
 ---
 title: Deployments
+metadata:
+    description: 'Enscale is all about helping you get your app online quickly, here are the ways you can deploy your Ruby application to our PaaS.'
 taxonomy:
     category:
         - docs
