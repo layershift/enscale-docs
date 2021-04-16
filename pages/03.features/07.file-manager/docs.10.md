@@ -1,6 +1,8 @@
 ---
 title: 'File manager'
 media_order: 'Enter-demo.png,File-manager-button.png,FM-save-changes.png,FM-add-delete.JPG'
+metadata:
+    description: 'Dashboard integrated file manager and editor offers the possibility to edit your files on the fly directly from your browser.'
 taxonomy:
     category:
         - docs
@@ -9,7 +11,7 @@ visible: true
 
 ### MANAGE YOUR APPLICATION’S FILES IN THE DASHBOARD
 
-We strongly recommend using **[SSH](/access/access-via-ssh)** and **[SFTP](/access/access-via-sftp)** to make file additions / edits, but sometimes it can be more convenient to make a simple change directly from the comfort of your browser. For example if you're installing Wordpress, you need to rename / edit the _wp-config-sample.php_ to _wp-config.php_ for the application to work.
+We strongly recommend using **[SSH](/access/access-via-ssh)** and **[SFTP](/access/access-via-sftp)** to make file additions / edits, but sometimes it can be more convenient to make a simple change directly from the comfort of your browser.
 
 Enscale makes this very easy:
 
