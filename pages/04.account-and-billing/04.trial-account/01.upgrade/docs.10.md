@@ -1,6 +1,8 @@
 ---
 title: Upgrade
 media_order: 'Upgrade-button.JPG,Upgrade-choose-payment-method.JPG,Payment-sagepay.JPG,Payment-paypal.JPG,Upgrade-add-account-details.JPG'
+metadata:
+    description: 'Steps to upgrade your Enscale account and take advantage of our full set of features.'
 taxonomy:
     category:
         - docs
