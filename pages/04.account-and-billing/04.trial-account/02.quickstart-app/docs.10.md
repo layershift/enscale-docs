@@ -1,6 +1,8 @@
 ---
 title: 'Quickstart app'
 media_order: 'Manage-ssh-select.png,File-manager-button-appnode.png,node-restart.png,connect-connection-details.png,Create-environment-screen.JPG,Deploy-button.png,Deployments-gittab.JPG,Configure-tab-variables.png,Actions-ManageSSL.png,Node-open-in-browser.png,SSH-add-public-key.png,Deploy-new-project.png,Project-open in browser.png'
+metadata:
+    description: 'This app was created so you can familiarize yourself with some of the basic Enscale features you are likely to need for your own application. As such, we recommend that you deploy it and go through the guided steps to get a feel for the dashboard and how things work.'
 taxonomy:
     category:
         - docs
