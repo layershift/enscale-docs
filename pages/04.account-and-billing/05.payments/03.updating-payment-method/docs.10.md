@@ -1,6 +1,8 @@
 ---
 title: 'Updating payment method'
 media_order: 'Manage-payments-button.png,Managepayments-modal-manage.JPG'
+metadata:
+    description: 'How to update the card associated with your Enscale account.'
 taxonomy:
     category:
         - docs
