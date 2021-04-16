@@ -1,6 +1,8 @@
 ---
 title: 'Git deploy logs'
 media_order: 'Deploy-log-vcs-update.png,Deploy-log.png,Deploy-button.png'
+metadata:
+    description: 'Where can you find the git deploy logs in Enscale?'
 taxonomy:
     category:
         - docs
