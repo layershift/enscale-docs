@@ -1,5 +1,7 @@
 ---
 title: 'Memcached variables'
+metadata:
+    description: 'Here is a list of pre-defined environment variables on Memcached nodes.'
 taxonomy:
     category:
         - docs
