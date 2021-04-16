@@ -1,6 +1,8 @@
 ---
 title: 'Redis Connection details'
 media_order: db-redis-connection-details.png
+metadata:
+    description: 'How to connect to your Redis database node in Enscale?'
 taxonomy:
     category:
         - docs
