@@ -1,6 +1,8 @@
 ---
 title: 'Refill your balance'
 media_order: 'Manage-payments-button.png,managepayments-new-payment-modal.JPG'
+metadata:
+    description: 'How to refill your Enscale balance.'
 taxonomy:
     category:
         - docs
