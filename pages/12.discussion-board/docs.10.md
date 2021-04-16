@@ -1,7 +1,7 @@
 ---
 title: 'Discussion Board'
 metadata:
-    description: 'e at Enscale hold our users in the highest regard and would like to do everything possible to have their voices heard. In this section of the docs you can find articles related to the forum options.'
+    description: 'We at Enscale hold our users in the highest regard and would like to do everything possible to have their voices heard. In this section of the docs you can find articles related to the forum options.'
 taxonomy:
     category:
         - docs
