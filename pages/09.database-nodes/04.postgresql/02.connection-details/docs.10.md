@@ -1,6 +1,8 @@
 ---
 title: 'PostgreSQL Connection details'
 media_order: DB-PostgeSQL-connection-details.png
+metadata:
+    description: 'How to connect to your PostgreSQL database node in Enscale?'
 taxonomy:
     category:
         - docs
