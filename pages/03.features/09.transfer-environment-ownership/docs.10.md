@@ -1,6 +1,8 @@
 ---
 title: 'Transfer environment ownership'
 media_order: 'Env-actions-transfer.png,Env-transfer-modal.JPG,Env-transferring.png'
+metadata:
+    description: 'Enscale allows for the possibility of environments to be transferred between paid Enscale accounts. This feature comes in most handy if you''re a developer and you need a simple and easy way to hand off a final project to your client so they can continue paying for it.'
 taxonomy:
     category:
         - docs
