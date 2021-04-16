@@ -1,5 +1,7 @@
 ---
 title: Percona
+metadata:
+    description: 'In this section you can learn more about your Percona database server in Enscale. We tried to gather some useful tips as well as Enscale-specific information you should know.'
 taxonomy:
     category:
         - docs
