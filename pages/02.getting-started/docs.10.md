@@ -1,6 +1,8 @@
 ---
 title: 'Getting started'
 published: true
+metadata:
+    description: 'As the title indicates, in this section you will find articles related to the basic concepts of Enscale and tips to get your Ruby app up and running.'
 taxonomy:
     category:
         - docs
