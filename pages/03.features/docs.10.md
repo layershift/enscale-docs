@@ -8,7 +8,7 @@ taxonomy:
 visible: true
 ---
 
-As the chapter title suggests, in this section you can learn about all the different features Enscale offers. You can find out not only how to use them, but we're trying to answer the "why" as well as well as some tips and recommendations so you can make the most of them.
+As the chapter title suggests, in this section you can learn about all the different features Enscale offers. You can find out not only how to use them, but we're trying to answer the "why" as well as well as some tips and recommendations so you can make the most of them and save your time and effort to developing your Ruby applications.
 
 
 * [Vertical scaling](/features/vertical-scaling)
