@@ -1,5 +1,7 @@
 ---
 title: 'Dependency management'
+metadata:
+    description: 'Dependency management in Enscale is easy, simply place your Gemfile into the root of your project prior to deployment, and Enscale will pass it to Bundler for processing during application deployment.'
 taxonomy:
     category:
         - docs
