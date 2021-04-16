@@ -1,6 +1,8 @@
 ---
 title: 'MongoDB connection details'
 media_order: db-mongo-connection-details.png
+metadata:
+    description: 'How to connect to your MongoDB database node in Enscale?'
 taxonomy:
     category:
         - docs
