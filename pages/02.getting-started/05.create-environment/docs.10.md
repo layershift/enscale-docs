@@ -1,13 +1,15 @@
 ---
 title: 'Create your environment'
 media_order: 'addnewEnvBTn.jpg,demoenvironment-1.JPG,CE-select-nodes.png'
+metadata:
+    description: 'Here''s how you can create an environment for hosting your Ruby application on Enscale.'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-An environment is a logical group of nodes working together to server your application. 
+An environment is a logical group of nodes working together to server your Ruby application. 
 
 ##### Step 1 - Open the environment creation wizzard
 
