@@ -1,13 +1,15 @@
 ---
 title: 'Deploying Archives (under 150MB)'
 media_order: 'Deploy-button.png,Deploy-archive-existingproject.JPG,deploy-selectarchive.png,deploy-archive-adddescription.JPG'
+metadata:
+    description: 'With Enscale we made things easy for you, you can deploy directly from an archive. The below method will work for archives up to 150MB.'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-Uploading all your files via FTP can be a tedious process, especially if you have lots of tiny files. With Enscale we made things easy for you, you can deploy directly from an archive. The below method will work for archives up to 150MB, for larger archives, please see here.
+Uploading all your files via FTP can be a tedious process, especially if you have lots of tiny files. With Enscale we made things easy for you, you can deploy directly from an archive. The below method will work for archives up to 150MB, for larger archives, please see [here](/deployments/deploying-archives-150mb).
 
 ##### Step 1
 **Enter** your environment. 
