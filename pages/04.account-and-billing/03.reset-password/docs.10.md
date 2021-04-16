@@ -1,6 +1,8 @@
 ---
 title: 'Reset password'
 media_order: 'change-password2.png,MD-reset-pass.png,Forgot-pass.png,Forgot-pass-request.png'
+metadata:
+    description: 'Forgot your Enscale password or need to set a new one? This article shows you how to do it.'
 taxonomy:
     category:
         - docs
