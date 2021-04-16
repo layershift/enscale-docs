@@ -1,6 +1,8 @@
 ---
 title: 'Environment Variables'
 media_order: 'Enter-demo.png,Node-config-tab-select.png,Variables-select.png,Variables-add.png,variables-entervariable.JPG,Variables-save.png,mariadb.png,mongodb.png,mysql.png,percona.png,couchbase.png,postgresql.png,redis.png,balancer-nginx.png,Ruby-apache.png,ruby-nginx.png,memcached.png'
+metadata:
+    dashboard: 'By using the variables feature in Enscale, you can avoid having to include sensitive information in your code, upload them to version control and so on where they could be more easily accessed.'
 taxonomy:
     category:
         - docs
