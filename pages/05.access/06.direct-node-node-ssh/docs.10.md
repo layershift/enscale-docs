@@ -1,6 +1,8 @@
 ---
 title: 'Direct node - node SSH'
 media_order: PrivateIP.JPG
+metadata:
+    description: 'How to create SSH connection between two separate nodes in Enscale.'
 taxonomy:
     category:
         - docs
