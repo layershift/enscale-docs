@@ -1,5 +1,7 @@
 ---
 title: Payments
+metadata:
+    description: 'Learn all you need to know about keeping your Enscale account topped up and your Ruby applications running.'
 taxonomy:
     category:
         - docs
