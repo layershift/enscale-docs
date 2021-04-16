@@ -1,6 +1,8 @@
 ---
 title: 'View log files'
 media_order: 'Deploy-button.png,File-manager-button-appnode.png,File-manager-filesystem.png,Deploy-log.png,Deploy-log-vcs-update.png'
+metadata:
+    description: 'Enscale gives you easy access to your logs in the same way as your other files, using the dashboard file manager or the deployment manager. See where.'
 taxonomy:
     category:
         - docs
