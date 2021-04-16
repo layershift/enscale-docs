@@ -1,5 +1,7 @@
 ---
 title: 'Key terms'
+metadata:
+    description: 'Here are some key terms used in Enscale Ruby hosting PaaS.'
 taxonomy:
     category:
         - docs
