@@ -1,6 +1,8 @@
 ---
 title: FTP/FTPS
 media_order: 'FTPNewSite.png,FTPNewSiteDetails.png,FTPorFTPS.png,Connect-tab-selected.png,FTP-confirm.JPG,FTP-remove.png,FTP-reset.png'
+metadata:
+    description: 'FTP/FTPS access to your nodes in Enscale.'
 taxonomy:
     category:
         - docs
