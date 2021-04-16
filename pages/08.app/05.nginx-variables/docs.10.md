@@ -1,5 +1,7 @@
 ---
 title: 'Nginx variables'
+metadata:
+    description: 'Here is a list of pre-defined environment variables on nginx runtime (web server) nodes in Enscale.'
 taxonomy:
     category:
         - docs
