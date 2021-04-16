@@ -1,5 +1,7 @@
 ---
 title: 'MariaDB variables'
+metadata:
+    description: 'Here is a list of pre-defined environment variables on MariaDB database nodes.'
 taxonomy:
     category:
         - docs
