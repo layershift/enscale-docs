@@ -1,6 +1,8 @@
 ---
 title: 'Add your SSH key'
 media_order: 'SSH-add-public-key.png,SSH-add-public-key-2.png,Delete-SSH-key.png,Manage-ssh-select.png'
+metadata:
+    description: 'How to add your SSH key to Enscale - public keys.'
 taxonomy:
     category:
         - docs
