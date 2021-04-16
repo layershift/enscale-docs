@@ -1,6 +1,8 @@
 ---
 title: 'Dashboard guide'
 media_order: 'Main-Dashboard.JPG,Environment-screen.JPG'
+metadata:
+    description: 'Article presenting the Enscale dashboard and its components.'
 taxonomy:
     category:
         - docs
