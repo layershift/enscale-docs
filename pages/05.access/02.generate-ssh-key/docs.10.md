@@ -1,6 +1,8 @@
 ---
 title: 'Generate SSH Key'
 media_order: 'GenerateSSHKeygeneratedkey.png,GenerateSSHKey-1.png,GenerateSSHKeystep3.png,GenerateSSHKeyLoad-1.png,GenerateSSHKeyLoad-2.png,GenerateSSHKey-2.png'
+metadata:
+    description: 'How to generate an SSH key pair on Mac, Windows and Linux.'
 taxonomy:
     category:
         - docs
