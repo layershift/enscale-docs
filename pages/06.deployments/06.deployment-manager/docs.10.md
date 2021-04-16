@@ -1,6 +1,8 @@
 ---
 title: 'Deployment Manager'
 media_order: 'Deploy-button.JPG,DM-Git-dropdown.JPG,DM-archive-dropdown.JPG'
+metadata:
+    description: 'Whether your deployment is from git or you uploaded an archive, all deployments made via the Enscale dashboard can be managed in your Deployment Manager. See this article for the options it offers.'
 taxonomy:
     category:
         - docs
