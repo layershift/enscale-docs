@@ -1,6 +1,8 @@
 ---
 title: 'Audit log'
 media_order: 'Env-Actions-Audit log.png'
+metadata:
+    description: 'In the audit log you can check past actions (performed by you or your collaborators) for each environment from the environment view.'
 taxonomy:
     category:
         - docs
