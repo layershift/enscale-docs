@@ -1,5 +1,7 @@
 ---
 title: 'Introduction to Enscale'
+metadata:
+    description: 'Enscale was carefully crafted by our expert engineers to bring you a fully scalable, powerful and flexible solution to host your Ruby applications in the Cloud.'
 taxonomy:
     category:
         - docs
