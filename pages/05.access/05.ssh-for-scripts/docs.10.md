@@ -1,6 +1,8 @@
 ---
 title: 'SSH for scripts'
 media_order: 'SSH-add-public-key.png,SSH-Node-Connect.png,Manage-ssh-select.png'
+metadata:
+    description: 'Providing SSH access to your CI tools, and other scripts using scp, rsync, or SFTP in Enscale'
 taxonomy:
     category:
         - docs
