@@ -1,6 +1,8 @@
 ---
 title: 'MySQL user creation'
 media_order: 'MySQL-go-to-phpMyAdmin.png,add-user-phpmyadmin.jpg,add-user-phpmyadmin-2.jpg'
+metadata:
+    description: 'Step-by-step guide to creating a new user for MySQL.'
 taxonomy:
     category:
         - docs
