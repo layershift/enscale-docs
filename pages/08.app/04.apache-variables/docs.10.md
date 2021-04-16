@@ -1,12 +1,14 @@
 ---
 title: 'Apache variables'
+metadata:
+    description: 'List of pre-defined environment variables on apache runtime (web server) nodes in Enscale.'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-Here is a list of pre-defined environment variables on apache application nodes. Most of these are informational only, meaning that editing them will not change your environment's configuration. 
+Here is a list of pre-defined environment variables on apache runtime (web server) nodes. Most of these are informational only, meaning that editing them will not change your environment's configuration. 
 
 In the tables below you can find the pre-defined environment variables as well as see which are the informational ones.
 
