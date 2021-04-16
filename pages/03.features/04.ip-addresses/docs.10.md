@@ -1,6 +1,8 @@
 ---
 title: 'IP addresses'
 media_order: 'Enter-demo.png,Node-connect.png,Node-connect-Add-IP.png,Add-IP-confirm.JPG'
+metadata:
+    descriptions: 'You can choose between using a private (RFC 1918) IP address (default) or a publicly routed IP address on any of the nodes within your Enscale environments. This article explains the differences and use cases for each.'
 taxonomy:
     category:
         - docs
