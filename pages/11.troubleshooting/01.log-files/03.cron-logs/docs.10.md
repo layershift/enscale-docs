@@ -1,5 +1,7 @@
 ---
 title: 'Cron logs'
+metadata:
+    description: 'Here is how you can create your own cron log files for your tasks to use on Enscale.'
 taxonomy:
     category:
         - docs
