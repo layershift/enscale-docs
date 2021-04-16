@@ -1,6 +1,8 @@
 ---
 title: 'MariaDB connection details'
 media_order: DB-connection-details.png
+metadata:
+    description: 'How to connect to your MariaDB database node in Enscale?'
 taxonomy:
     category:
         - docs
