@@ -1,6 +1,8 @@
 ---
 title: 'Environment view'
 media_order: 'env-header.JPG,Env-actions.png,Node-view-main.JPG,Node-overview-actions.JPG,Node-usage-stats.png,Node-connect.png,Node-scaling-tab.JPG,Node-configure-tab.JPG'
+metadata:
+    description: 'What does this button do? Check out the options for managing your Ruby app''s hosting environment.'
 taxonomy:
     category:
         - docs
