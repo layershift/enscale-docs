@@ -1,5 +1,7 @@
 ---
 title: 'Accessing environments'
+metadata:
+    description: 'How can you access your Enscale environment outside of the Enscale dashboard?'
 taxonomy:
     category:
         - docs
