@@ -1,6 +1,8 @@
 ---
 title: Graphs
 media_order: 'CA-overview-cost-per-resource.JPG,CA-overview-cost-per-env.JPG,CA-env-cost-per-node.JPG,CA-env-cost-per-resource.JPG,CA-env-cloudlet-usage.JPG,CA-env-IP-hours.JPG,CA-env-disk.JPG,CA-node-summary.JPG,CA-node-stroage.JPG,CA-Node-IP.JPG,CA-node-cloudlet.JPG,CA-env-traffic.JPG,CA-node-traffic.JPG'
+metadata:
+    description: 'Enscale''s detailed cost analysis dashboard shows a granular breakdown of your charges per environment, node all down to the specific resource. This article describes each graph in detail.'
 taxonomy:
     category:
         - docs
