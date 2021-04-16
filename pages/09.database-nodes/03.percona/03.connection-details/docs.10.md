@@ -1,6 +1,8 @@
 ---
 title: 'Percona connection details'
 media_order: db-percona-connection-details.png
+metadata:
+    description: 'How to connect to your Percona database node in Enscale?'
 taxonomy:
     category:
         - docs
