@@ -1,6 +1,8 @@
 ---
 title: Collaboration
 media_order: 'yes.png,no.png,info1.png,Manage-collaborators-invite.JPG,sharedwithme.JPG,collab-account-permission.png,collaborator-share-environments.png,collaborator-environment-permission.png'
+metadata:
+    description: 'Enscale''s collaboration feature allows you to share your environments with an unlimited number of teammates with different permission levels.'
 taxonomy:
     category:
         - docs
