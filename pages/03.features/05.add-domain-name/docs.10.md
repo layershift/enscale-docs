@@ -1,6 +1,8 @@
 ---
 title: 'Add domain name'
 media_order: 'Enter-demo.png,Actions-manage-domains.png,Add-domain-noIP.png,NoIP-DNS-for-domain.png,Add-domain-DNS-withIP.png'
+metadata:
+    description: 'How you can assign a domain name to your Enscale environment - with and without public IP address.'
 taxonomy:
     category:
         - docs
