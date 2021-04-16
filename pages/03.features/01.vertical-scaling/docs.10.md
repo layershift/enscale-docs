@@ -1,6 +1,8 @@
 ---
 title: 'Vertical scaling'
 media_order: 'Enter-demo.png,Select-Scaling-tab.png,Vertical-scaling-arrows.png,Vertical-scaling-save-changes.png'
+metadata:
+    description: 'Find out how vertical scaling at Enscale can save you in hosting costs while keeping your Ruby application capable of serving users.'
 taxonomy:
     category:
         - docs
@@ -11,11 +13,11 @@ Vertical scaling is the process of adjusting the amount of hardware resources (R
 
 Unlike [horizontal scaling](/features/horizontal-scaling) (splitting the load across multiple servers), there are no limitations or special requirements for your application code. This makes it the easiest way to scale your application.
 
-Vertical scaling at Enscale is a bit different to what you may be used to elsewhere. Instead of setting triggers to resize your instance at certain times or conditions, you only need to set a maximum instance size (vertical scaling resource limit).
+Vertical scaling at Enscale is a bit different to what you may be used to with other Ruby hosting providers. Instead of setting triggers to resize your instance at certain times or conditions, you only need to set a maximum instance size (vertical scaling resource limit).
 
 Then, instead of charging based on the instance size, we measure and charge based on the amount of resources your application is actually using each hour. This way you achieve **maximum performance at minimum cost** - automatically. There's no need to guess the perfect instance size up front, and no need to form any complex rules.
 
-This also means you avoid performance lag or downtime typical of vertical scaling operations on other platforms!
+This also means you avoid performance lag or downtime typical of vertical scaling operations on other Ruby hosting platforms!
 
 We recommend setting a high vertical scaling resource limit, as this gives you maximum flexibility. However, you will receive an email notification if we detect that your application is becoming resource limited by this setting.
 
