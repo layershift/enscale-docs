@@ -1,6 +1,8 @@
 ---
 title: 'Cost Analysis'
 media_order: 'acc-dropdown-cost-analysis.png,cost-analysis-main.JPG'
+metadata:
+    description: 'With Enscale you pay for the resources you use each hour so we provide you with a detailed cost analysis section where you can keep an eye on what you use and how much you pay for it. '
 taxonomy:
     category:
         - docs
