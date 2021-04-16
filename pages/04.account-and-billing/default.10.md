@@ -1,5 +1,7 @@
 ---
 title: 'Account & Billing'
+metadata:
+    description: 'How do Enscale payments work, how can you keep control of your costs and what are the account and payment management options we offer. All that and more can be found in this chapter.'
 taxonomy:
     category:
         - docs
