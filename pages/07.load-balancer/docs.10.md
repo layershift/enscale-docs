@@ -1,5 +1,7 @@
 ---
 title: 'Load balancer'
+metadata:
+    description: 'A load balancer server comes in handy when you have multiple runtime nodes. Here is what you need to know about the options offered in Enscale.'
 taxonomy:
     category:
         - docs
