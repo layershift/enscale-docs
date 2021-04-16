@@ -1,6 +1,8 @@
 ---
 title: 'Automatic refills'
 media_order: 'Manage-payments-button.png,Managepayments-modal-recurring.JPG'
+metadata:
+    description: 'Configure a card to refill your Enscale account automatically based on your selected triggers.'
 taxonomy:
     category:
         - docs
