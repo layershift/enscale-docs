@@ -1,6 +1,8 @@
 ---
 title: 'Database nodes'
 media_order: 'mariadb.png,redis.png,couchbase.png,mongodb.png,mysql.png,percona.png,postgresql.png'
+metadata:
+    description: 'Enscale offers a variety of database nodes (servers) you can easily install from the dashboard when creating your environment or anytime after.'
 taxonomy:
     category:
         - docs
