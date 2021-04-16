@@ -1,5 +1,7 @@
 ---
 title: 'Account types'
+metadata:
+    description: 'Enscale offers trial, billing and collaborator accounts - see the permissions and limitations for each.'
 taxonomy:
     category:
         - docs
