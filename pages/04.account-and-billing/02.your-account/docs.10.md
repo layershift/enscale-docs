@@ -1,5 +1,7 @@
 ---
 title: 'Your account'
+metadata:
+    description: 'All you need to know about managing your Enscale account.'
 taxonomy:
     category:
         - docs
