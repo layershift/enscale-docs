@@ -1,5 +1,7 @@
 ---
 title: 'Log files'
+metadata:
+    description: 'Log files contain important information about what happened in your environments. They should be your first step when troubleshooting, because often an application code or configuration error is logged very clearly, allowing you to resolve the issue in no time.'
 taxonomy:
     category:
         - docs
