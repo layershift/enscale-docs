@@ -3,6 +3,8 @@ title: 'Servers and technologies'
 published: true
 date: '17-11-2020 13:54'
 publish_date: '17-11-2020 13:54'
+metadata:
+    description: 'Type of servers offered by Enscale for building the perfect server stack for your Ruby application hosting.'
 taxonomy:
     category:
         - docs
@@ -12,7 +14,7 @@ visible: true
 
 **In Enscale you are able to select separate nodes that work together in the same environment.**
 
-When setting up your environment you can choose the best [app](/getting-started/servers-and-technologies#runtime-application-node), [database](/getting-started/servers-and-technologies#databases), [load balancer](/getting-started/servers-and-technologies#load-balancer) and [cache](/getting-started/servers-and-technologies#cache) servers to set up the perfect software stack for your application.
+When setting up your environment you can choose the best [app](/getting-started/servers-and-technologies#runtime-application-node), [database](/getting-started/servers-and-technologies#databases), [load balancer](/getting-started/servers-and-technologies#load-balancer) and [cache](/getting-started/servers-and-technologies#cache) servers to set up the perfect hosting stack for your Ruby application.
 
 ### Runtime (Application) node:
 
