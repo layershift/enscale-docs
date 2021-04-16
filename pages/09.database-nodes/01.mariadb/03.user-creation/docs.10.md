@@ -1,6 +1,8 @@
 ---
 title: 'MariaDB user creation'
 media_order: 'add-user-phpmyadmin.JPG,add-user-phpmyadmin-2.JPG'
+metadata:
+    description: 'Step-by-step guide to creating a new user for MariaDB.'
 taxonomy:
     category:
         - docs
