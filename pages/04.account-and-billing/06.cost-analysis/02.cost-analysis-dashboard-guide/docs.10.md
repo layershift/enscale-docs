@@ -1,6 +1,8 @@
 ---
 title: 'Cost Analysis dashboard guide'
 media_order: 'CA-select report.JPG,CA-node-tab.JPG,acc-dropdown-cost-analysis.png,cost-analysis-main-screen.jpg'
+metadata:
+    description: 'What can you see in the cost analysis section of the Enscale dashboard?'
 taxonomy:
     category:
         - docs
