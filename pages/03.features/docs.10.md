@@ -1,5 +1,7 @@
 ---
 title: Features
+metadata:
+    description: 'What are the key features of Enscale and how do they help you stay focused on developing your Ruby application instead of ops tasks?'
 taxonomy:
     category:
         - docs
