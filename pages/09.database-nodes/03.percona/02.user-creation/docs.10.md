@@ -1,6 +1,8 @@
 ---
 title: 'Percona user creation'
 media_order: 'add-user-phpmyadmin.jpg,add-user-phpmyadmin-2.jpg'
+metadata:
+    description: 'Step-by-step guide to creating a new user for Percona database.'
 taxonomy:
     category:
         - docs
