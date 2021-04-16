@@ -1,6 +1,8 @@
 ---
 title: 'Connect with SSH'
 media_order: 'SSH-modal-mac-public-key-connection-details.png,SSH-Node-Connect.png'
+metadata:
+    description: 'Step-by-step guide for connecting to your Enscale environment via SSH.'
 taxonomy:
     category:
         - docs
