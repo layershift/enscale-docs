@@ -1,5 +1,7 @@
 ---
 title: 'MongoDB variables'
+metadata:
+    description: 'Here is a list of pre-defined environment variables on MongoDB database nodes in Enscale.'
 taxonomy:
     category:
         - docs
