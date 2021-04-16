@@ -1,6 +1,8 @@
 ---
 title: 'Notification Preferences'
 media_order: 'CF-preferences.png,CF-savepreferences.png'
+metadata:
+    description: 'Guide to setting notification preferences for the Enscale discussion board.'
 taxonomy:
     category:
         - docs
