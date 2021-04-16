@@ -1,5 +1,7 @@
 ---
 title: 'MySQL CE variables'
+metadata:
+    description: 'Here is a list of pre-defined environment variables on MySQL CE database nodes in Enscale.'
 taxonomy:
     category:
         - docs
