@@ -27,7 +27,7 @@ Yes, we have Gravatar integration! You can use this for fun, or in case you coll
 
 ### SSH keys
 
-These are keys that give you access to your account and environments over SSH, or keys that give your Enscale account access to other platforms (such as Git). We have an entire section dedicated to SSH, start [here](/access/access-via-ssh) to learn more.
+These are keys that give you access to your account and environments over SSH, or keys that give your Enscale account access to other platforms (such as Git). We have an entire section [dedicated to SSH access in Enscale](/access/access-via-ssh).
 
 ### Collaborators
 
