@@ -6,6 +6,8 @@ metadata:
 taxonomy:
     category:
         - docs
+external_links:
+    no_follow: false
 routes:
     canonical: 'https://www.enscale.com/docs/database-nodes/mariadb/connection-details'
 ---
