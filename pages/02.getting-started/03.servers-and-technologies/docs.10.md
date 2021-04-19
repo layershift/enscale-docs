@@ -24,7 +24,7 @@ Supported Ruby versions: 2.4.10, 2.4.6, 2.4.9, 2.5.5, 2.5.7, 2.5.8, 2.6.3, 2.6.5
 
 Apache 2.4.41, 2.4.43 or Nginx 1.14.2, 1.16.0, 1.16.1 and 1.18.00 web servers can be selected. By default both are configured to use Passenger as the Ruby app server, however Nginx can be easily changed to work with Puma or Unicorn as well.
 
-Further articles about application nodes can be found [here](https://enscale.com/docs/10/app).
+Further articles about application nodes can be found [here](/app).
 
 ### Databases
 
@@ -40,7 +40,7 @@ In a previous era, database engines were often installed together on the same no
 * MongoDB 3.6.14, 3.6.15, 3.6.17, 4.0.9, 4.0.10, 4.2.9, 4.2.10, 4.2.11
 * Redis 4.0.11, 4.0.9, 5.0.5, 5.0.6, 5.0.7, 6.0.7, 6.0.8, 6.0.9
 
-Read more in-depth articles in the [database section](https://enscale.com/docs/10/database-nodes).
+Read more in-depth articles in the [database section](/database-nodes).
 
 ###  Load Balancer
 
@@ -49,7 +49,7 @@ A load balancer server comes in handy when you have multiple runtime nodes - it 
 * Nginx 1.12.2, 1.14.0, 1.14.2, 1.16.0, 1.16.1, 1.18.0
 
 
-You can get more familiar with the load balancers [here](https://enscale.com/docs/10/load-balancer).
+You can get more familiar with the load balancers [here](/load-balancer).
 
 ###  Cache
 
@@ -57,4 +57,4 @@ Adding a cache node to your environments provides a single larger memory pool to
 
 Memcached 1.4.24, 1.5.20, 1.5.21, 1.5.22, 1.6.7, 1.6.8, 1.6.9
 
-Memcached also has it's dedicated section of articles, which you can find [here](https://enscale.com/docs/10/cache-node).
+Memcached also has it's dedicated section of articles, which you can find [here](/cache-node).
