@@ -6,6 +6,8 @@ metadata:
 taxonomy:
     category:
         - docs
+external_links:
+    no_follow: false
 ---
 
 You can use the hostname or private IP address of your MongoDB node to connect to it. You may also set them up as [variables](/features/environment-variables) in your application node. The advantage of the variable approach is that you can reference the variable names in your code directly so you can deploy the same app on separate environments without any change to your codebase.
