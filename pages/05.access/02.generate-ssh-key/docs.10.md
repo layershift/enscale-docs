@@ -25,7 +25,7 @@ We will use **PuTTYgen** to show you how to generate the SSH key pairs (public a
 
 ##### Download PuTTYgen
 
-Simply download and save the PuTTYgen executable (.exe) file from this [link](https://www.puttygen.com/download-putty). Since it’s a standalone application, you will not need to perform any installation steps for it.
+Simply [download PuTTYgen](https://www.puttygen.com/download-putty) executable (.exe) file and save it. Since it’s a standalone application, you will not need to perform any installation steps for it.
 
 ##### Generate SSH Key
 
