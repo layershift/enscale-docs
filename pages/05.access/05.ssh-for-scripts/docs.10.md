@@ -11,7 +11,7 @@ visible: true
 
 ### NON-INTERACTIVE SSH ACCESS
 
-SSH access is a great thing as it enables you to use CLI tools and other commands. If you would like to manually access SSH to perform some simple one-time task, you can see the following [article](/access/connect-with-ssh) on detailed steps you need to take.
+SSH access is a great thing as it enables you to use CLI tools and other commands. If you would like to manually access SSH to perform some simple one-time task, you can see the [Connect with SSH article](/access/connect-with-ssh) on detailed steps you need to take.
 
 Some tasks, however, are better automated via scripts. Scripts don't care for niceties like our interactive menu system. They require a slightly different approach. Enscale has a solution for this too, so you can easily provide SSH access to your CI tools, and other scripts using scp, rsync, or SFTP.
 
