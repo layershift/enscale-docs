@@ -21,7 +21,7 @@ The actions menu provides details for how to [add a custom domain name](/feature
 ![](Env-actions.png)
  
 ##### Deployment
-Enscale provides several ways to to deploy your application, available from the Deployment manager, available by clicking on **Deploy**. Detailed articles on the available deployment types are available [here](/deployments).
+Enscale provides several ways to to deploy your application, available from the Deployment manager, available by clicking on **Deploy**. Detailed articles on the [possible deployment types](/deployments) are also available.
 
 ### Node specific information
 The environment view shows additional information about each of your nodes.
