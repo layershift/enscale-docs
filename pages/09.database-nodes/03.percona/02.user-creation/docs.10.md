@@ -6,6 +6,8 @@ metadata:
 taxonomy:
     category:
         - docs
+external_links:
+    no_follow: false
 ---
 
 While you receive the superuser (_root_) login details when your Percona database node is created, this user isn't recommended to be used directly by your application. For your security, you should create a new user with limited permissions in phpMyAdmin.
