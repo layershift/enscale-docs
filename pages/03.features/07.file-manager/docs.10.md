@@ -6,6 +6,8 @@ metadata:
 taxonomy:
     category:
         - docs
+external_links:
+    no_follow: false
 visible: true
 ---
 
