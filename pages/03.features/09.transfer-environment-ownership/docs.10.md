@@ -37,4 +37,4 @@ If someone wants to transfer an environment to your account, you will receive an
 
 Once you accept the request, the environment will immediately be transferred to your account in the same state (stopped/started) and without any configuration changes.
 
-For security reasons the environment will not have any collaborators regardless of collaboration permissions on the original account, so please make sure to [share the environment](https://enscale.com/docs/10/features/collaboration#step-3-sharing-environments) with the appropriate collaborators.
+For security reasons the environment will not have any collaborators regardless of collaboration permissions on the original account, so please make sure to [share the environment](/features/collaboration#step-3-sharing-environments) with the appropriate collaborators.
