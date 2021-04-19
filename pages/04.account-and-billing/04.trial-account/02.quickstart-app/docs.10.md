@@ -102,13 +102,13 @@ That's it, go back to the Quickstart application and load it with https:// to co
 
 ![](Node-open-in-browser.png)
 
-You can read more about the SSL options Enscale offers [here](/features/ssl-certificates). 
+We also have an article dedicated to [SSL options](/features/ssl-certificates). 
 
 ##### Step 10
 
 Albeit all the features in the Enscale dashboard, programmers just prefer doing things the "hard" way with an SSH connection, so this next goal is aimed at helping you set this up.
 
-As a first step, create a public and private key pair. I bet you already know how to do this, but [this article](/access/generate-ssh-key) has detailed inscructions, just in case.
+As a first step, create a public and private key pair. I bet you already know how to do this, but [this SSH article](/access/generate-ssh-key) has detailed inscructions, just in case.
 
 ##### Step 11
 
@@ -160,7 +160,7 @@ production:
 
 !!! We recommend copying and pasting directly from here or the Quickstart app to ensure the YAML syntax remains valid.
 
-To see what else you can do in the **File Manager**, click [here](/features/file-manager).
+To see what else you can do here, read the [File Manager](/features/file-manager) feature description article.
 
 ##### Step 18
 
