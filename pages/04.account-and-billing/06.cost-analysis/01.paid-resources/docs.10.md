@@ -32,7 +32,7 @@ Cloudlets are charged at a rate of £0.0049/hour.
 
 Public IP addresses are recommended to be added to the outward facing node (app node or load balancer) of live projects and cost £0.00274/hour (approximately £2/month).
 
-For more information on public and private IP address use, read our related [article](/features/ip-addresses).
+More information on [public and private IP address use](/features/ip-addresses) can be found in the linked article.
 
 ##### Traffic
 
