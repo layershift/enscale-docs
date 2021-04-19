@@ -7,7 +7,7 @@ taxonomy:
     category:
         - docs
 external_links:
-    no_follow: false
+    no_follow: true
 visible: true
 ---
 
