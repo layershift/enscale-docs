@@ -41,7 +41,7 @@ Click **Create** when you're finished, and the new environment will be created a
 
 ![](Create-environment-screen.JPG)
 
-Detailed steps and additional explanations can be found [here](/getting-started/create-environment).
+Detailed steps for [environment creation](/getting-started/create-environment) and additional explanations can be found in the linked article.
 
 
 ##### The environment list
