@@ -14,7 +14,7 @@ visible: true
 
 **In Enscale you are able to select separate nodes that work together in the same environment.**
 
-When setting up your environment you can choose the best [app](/getting-started/servers-and-technologies#runtime-application-node), [database](/getting-started/servers-and-technologies#databases), [load balancer](/getting-started/servers-and-technologies#load-balancer) and [cache](/getting-started/servers-and-technologies#cache) servers to set up the perfect hosting stack for your Ruby application.
+When setting up your environment you can choose the best [runtime node](/getting-started/servers-and-technologies#runtime-application-node), [database](/getting-started/servers-and-technologies#databases), [load balancer](/getting-started/servers-and-technologies#load-balancer) and [cache](/getting-started/servers-and-technologies#cache) servers to set up the perfect hosting stack for your Ruby application.
 
 ### Runtime (Application) node:
 
@@ -24,7 +24,7 @@ Supported Ruby versions: 2.4.10, 2.4.6, 2.4.9, 2.5.5, 2.5.7, 2.5.8, 2.6.3, 2.6.5
 
 Apache 2.4.41, 2.4.43 or Nginx 1.14.2, 1.16.0, 1.16.1 and 1.18.00 web servers can be selected. By default both are configured to use Passenger as the Ruby app server, however Nginx can be easily changed to work with Puma or Unicorn as well.
 
-Further articles about application nodes can be found [here](/app).
+Further articles about [application nodes](/app).
 
 ### Databases
 
@@ -49,7 +49,7 @@ A load balancer server comes in handy when you have multiple runtime nodes - it 
 * Nginx 1.12.2, 1.14.0, 1.14.2, 1.16.0, 1.16.1, 1.18.0
 
 
-You can get more familiar with the load balancers [here](/load-balancer).
+You can get more familiar with the [load balancers here](/load-balancer).
 
 ###  Cache
 
@@ -57,4 +57,4 @@ Adding a cache node to your environments provides a single larger memory pool to
 
 Memcached 1.4.24, 1.5.20, 1.5.21, 1.5.22, 1.6.7, 1.6.8, 1.6.9
 
-Memcached also has it's dedicated section of articles, which you can find [here](/cache-node).
+There is also a dedicated section for [Memcached articles](/cache-node).
