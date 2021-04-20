@@ -23,26 +23,22 @@ FTP connection requires a [public IP](/features/ip-addresses#using-a-public-ip-a
 
 ##### Step 1
 
-Open your [Enscale dashboard](https://dashboard.enscale.com) and enter your environment.
-
-##### Step 2
-
 Select the **Connect** tab on your preferred node type.
 
 ![](Connect-tab-selected.png)
 
-##### Step 3
+##### Step 2
 
 Click **Add FTP**. If some nodes of the type you selected do not have a public IP enabled, you will need to confirm that you understand that network traffic will be interrupted and wish to add the required IP addresses by clicking **Install**.
 
 ![](FTP-confirm.JPG)
 
-##### Step 4
+##### Step 3
 
 You will receive a notification email with your username and password. You are able to reset your password anytime by clicking **Reset password**
 
 ![](FTP-reset.png)
-##### Step 5 - Uninstall
+##### Step 4 - Uninstall
 
 If you wish to uninstall FTP, you can do so easily by going to the **Connect tab** and selecting **Remove FTP**.
 
@@ -66,7 +62,7 @@ Get your FTP connection details from the Enscale dashboard > Environment > Node 
 Enter the connection details into the **General** tab of the **New Site** connection details and click **Connect**.
 ![](FTPNewSiteDetails.png)
 
-You can choose between **FTP** or **FTPS** connection by selecting the appropriate **Encryption** setting.
+You can choose between **FTP** or **FTPS** connection by selecting the appropriate Encryption setting.
 ![](FTPorFTPS.png)
 
 !!! We recommend using FTPS connection for higher security.
