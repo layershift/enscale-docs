@@ -20,9 +20,9 @@ When setting up your environment you can choose the best [runtime node](/getting
 
 This is the server that forms the base of your deployments, in essence consider it as the "home" of your application. Runtime nodes are pre-configured with your option of web server and latest available Ruby version. While the version can be changed later on, the selected web server type is permament.
 
-Supported Ruby versions: 2.4.10, 2.4.6, 2.4.9, 2.5.5, 2.5.7, 2.5.8, 2.6.3, 2.6.5, 2.6.6, 2.7.0, 2.7.1, 2.7.2
+Supported Ruby versions: 2.5.3, 2.5.4, 2.5.5, 2.5.7, 2.5.8, 2.6.0, 2.6.1, 2.6.3, 2.6.5, 2.6.6,, 2.6.7, 2.7.1, 2.7.2, 2.7.3, 3.0.1
 
-Apache 2.4.41, 2.4.43 or Nginx 1.14.2, 1.16.0, 1.16.1 and 1.18.00 web servers can be selected. By default both are configured to use Passenger as the Ruby app server, however Nginx can be easily changed to work with Puma or Unicorn as well.
+Nginx 1.14.2, 1.16.0, 1.16.1 and 1.18.00 web server can be selected, which is configured to use Passenger by default as the Ruby app server. This can be easily changed to work with Puma or Unicorn as well from the config file.
 
 Further articles about [application nodes](/app).
 
