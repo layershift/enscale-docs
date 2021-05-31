@@ -21,7 +21,7 @@ Click the **Add new environment** box.
 
 **Create envrionment for** - this specifies the owner of the environment (if you are a [collaborator](/features/collaboration) on other accounts and you have admin permissions for them, you can create environments for those Enscale users)
 
-**Region** - select the location for your server(s). Available locations are Machester (UK), Singapore (SG) and Phoenix (USA).
+**Region** - select the location for your server(s). Available locations are Machester (UK), Singapore (SG), Chicago (USA) and Phoenix (USA).
 
 **Type your environment name** - enter a name for your environment. This will form part of the URL to access your application and servers.
 
