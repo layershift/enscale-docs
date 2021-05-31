@@ -36,7 +36,7 @@ For each server type we offer a variety of options. Select your preferred one us
 
 !!! A runtime is selected by default, but if you need an environment without a runtime node, you can always choose *None* from the dropdown menu.
 
-**Runtime** - This is the server that forms the base of your deployments, in essence consider it as the "home" of your application. Runtime nodes are pre-configured with your option of language pack and version. While the version can be changed later on, the selected language is permament.
+**Runtime** - This is the server that forms the base of your deployments, in essence consider it as the "home" of your application.
 
 **Load balancer** - A load balancer server comes in handy when you have multiple runtime nodes - it will be set to automatically distribute requests between your servers.
 
