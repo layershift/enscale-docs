@@ -1,6 +1,6 @@
 ---
 title: 'Reset password'
-media_order: 'change-password2.png,MD-reset-pass.png,Forgot-pass.png,Forgot-pass-request.png'
+media_order: 'Manage-accounts-dropdown.png,MA-change-password.png,MA-change-password-selected.png,Forgot-pass.png,Forgot-pass-request.png,confirm-password-reset.png'
 metadata:
     description: 'Forgot your Enscale password or need to set a new one? This article shows you how to do it.'
 taxonomy:
@@ -17,13 +17,16 @@ We take security seriously, user passwords are stored encrypted throughout our p
 
 ##### Step 1
 
-Click on your email address and select **Change password** from the drop-down menu.
-![](MD-reset-pass.png)
+Click on your email address and select **Manage account** from the drop-down menu.
+![](Manage-accounts-dropdown.png)
 
 ##### Step 2
+Select the **Change Password** option from the navigation menu on the left.
+![](MA-change-password.png)
+##### Step 3
 
 Enter your current password, your new password and confirm your new password in the corresponding fields then click **Save**.
-![](change-password2.png)
+![](MA-change-password.png)
 
 ### Forgot password
 
@@ -38,6 +41,8 @@ Enter your email address and click **Send email**.
 
 ##### Step 3
 
-Check your email for the temporary password (don't forget to check your spam folder). 
+Check your inbox for the password reset email and click the reset password link within to take you to a password reset page. Enter your new password and confirmation for it, then press **Confirm Reset**.
 
-! The temporary password expires in 24 hours, don't forget to change your password once logged in!
+![](confirm-password-reset.png)
+
+!!! The link from the email can only be used once and is valid for 72 hours.
