@@ -26,7 +26,7 @@ Select the **Change Password** option from the navigation menu on the left.
 ##### Step 3
 
 Enter your current password, your new password and confirm your new password in the corresponding fields then click **Save**.
-![](MA-change-password.png)
+![](MA-change-password-selected.png)
 
 ### Forgot password
 
