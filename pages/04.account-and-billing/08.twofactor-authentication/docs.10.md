@@ -2,6 +2,8 @@
 title: 'Two-Factor Authentication'
 media_order: 'MA-2fa-select.png,2fa-password.png,2FA-QR-code.png'
 published: true
+metadata:
+    description: 'How to enable two-factor authentication for your Enscale account.'
 taxonomy:
     category:
         - docs
