@@ -31,3 +31,6 @@ We strongly recommend that you create a copy of your backup codes in a secure lo
 
 To disable two-factor authentication, simply return to the Two-Factor Authentication menu, enter your password for confirmation and click **Deactivate 2FA**.
 
+### Cannot log in
+
+In case your two-factor authentication device is unavailable and you have no valid backup codes, contact our support team for assistance. Due to the nature of the request, a rigorous validation process will need to be completed prior to providing access to your Enscale account.
