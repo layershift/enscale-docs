@@ -1,6 +1,6 @@
 ---
 title: Invoices
-media_order: 'MD-Account-dropdown-invoices.png,billing-history.png,Billing-history-invoice.png'
+media_order: 'billing-history.png,Billing-history-invoice.png,Manage-accounts-dropdown.png,MA-invoices.png'
 published: true
 metadata:
     description: 'Where to find your Enscale invoices.'
@@ -10,11 +10,14 @@ taxonomy:
 visible: true
 ---
 
-All invoices are sent to you via email as soon as a payment is completed, but you can also download them from Enscale by clicking on **View invoices** from your account dropdown menu.
+All invoices are sent to you via email as soon as a payment is completed, but you can also download them from Enscale by clicking on **Manage account** from your account dropdown menu.
 
-![](MD-Account-dropdown-invoices.png)
+![](Manage-accounts-dropdown.png)
 
-This will open a new tab where you can find all documents about your payments as well as their corresponding invoices.
+Here go to **Invoices**.
+![](MA-invoices.png)
+
+You can find all documents about your payments as well as their corresponding invoices.
 
 ![](billing-history.png)
 
