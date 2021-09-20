@@ -1,7 +1,7 @@
 ---
 title: 'Two-Factor Authentication'
 media_order: 'MA-2fa-select.png,2fa-password.png,2FA-QR-code.png'
-published: false
+published: true
 taxonomy:
     category:
         - docs
