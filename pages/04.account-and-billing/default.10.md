@@ -87,10 +87,12 @@ presentation:
 
 This chapter is dediated to your account settings, as well as learning about how billing and payments work in Enscale.
 
-* [Trial, Billing and Collaborator accounts](/account-and-billing/account-types)
+* [Account management dashboard](/account-and-billing/manage-account)
 * [Account wide-settings that are good to know](/account-and-billing/your-account)
 * [Forgot password or need to reset it](/account-and-billing/reset-password)
+* [Increase account security with Two-Factor authentication](/account-and-billing/twofactor-authentication)
+* [Trial, Billing and Collaborator accounts](/account-and-billing/account-types)
 * [All you need to know about Trial accounts](/account-and-billing/trial-account)
 * [Refilling your account, handling cards and invoicing](/account-and-billing/payments)
-* [Knowing what you pay for, analyzing your costs](/account-and-billing/cost-analysis)
+* [Know what you pay for by analyzing your costs](/account-and-billing/cost-analysis)
 
