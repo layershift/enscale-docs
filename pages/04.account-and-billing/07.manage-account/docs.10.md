@@ -1,7 +1,9 @@
 ---
 title: 'Manage Account'
 media_order: 'Manage-accounts-dropdown.png,Manage account dashboard.PNG'
-published: false
+published: true
+metadata:
+    description: 'Easily manage security and billing options for your Enscale account from the Manage Account dashboard.'
 taxonomy:
     category:
         - docs
