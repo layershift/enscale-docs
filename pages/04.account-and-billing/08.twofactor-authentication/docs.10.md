@@ -6,4 +6,3 @@ taxonomy:
         - docs
 ---
 
-Your page content goes here.
